@@ -1,0 +1,760 @@
+{
+  "name": "rag 2",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {
+          "responseMode": "lastNode"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -480,
+        288
+      ],
+      "id": "f16c358f-f40c-4e89-b8c8-97e12e360eb7",
+      "name": "message etudiant",
+      "webhookId": "20a8b159-c612-4428-b2d5-f0fac5f16860"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const input = $json;\n\nconst message =\n  input.chatInput ??\n  input.message ??\n  input.text ??\n  \"\";\n\nconst sessionId =\n  input.sessionId ??\n  input.session_id ??\n  `session-${Date.now()}`;\n\nif (!message || !String(message).trim()) {\n  throw new Error(\"Le message de l'étudiant est vide.\");\n}\n\nreturn {\n  session_id: String(sessionId),\n  user_id: String(input.userId ?? input.user_id ?? sessionId),\n  language: String(input.language ?? \"fr\"),\n  message: String(message).trim(),\n  received_at: new Date().toISOString()\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -272,
+        144
+      ],
+      "id": "44a6e8c7-5d75-4483-97d4-25ca420112ee",
+      "name": "Préparer la requête"
+    },
+    {
+      "parameters": {
+        "operation": "get",
+        "dataTableId": {
+          "__rl": true,
+          "value": "TG62meBuECK01ZWE",
+          "mode": "list",
+          "cachedResultName": "student_orientation_memory",
+          "cachedResultUrl": "/projects/3DXYHELDyBhSFxbK/datatables/TG62meBuECK01ZWE"
+        },
+        "matchType": "allConditions",
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "session_id",
+              "keyValue": "={{ $('Préparer la requête').item.json.session_id }}"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        -48,
+        288
+      ],
+      "id": "3b5abcff-b450-47a2-a4c7-a68cbb1d02fb",
+      "name": "Charger mémoire étudiant ",
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "const request = $('Préparer la requête').first().json;\nconst storedRow = $input.first()?.json ?? {};\n\nfunction parseJson(value, fallback) {\n  if (value === null || value === undefined || value === '') {\n    return fallback;\n  }\n\n  if (typeof value === 'object') {\n    return value;\n  }\n\n  try {\n    return JSON.parse(value);\n  } catch {\n    return fallback;\n  }\n}\n\nconst defaultProfile = {\n  bac_type: null,\n  score: null,\n  score_fg: null,\n  annee_bac: 2026,\n  gouvernorat_residence: null,\n  regions_preferees: [],\n  domaines_preferes: [],\n  matieres_preferees: [],\n  matieres_a_eviter: [],\n  types_etablissement: [],\n  mobilite_nationale: null,\n  internat_requis: null,\n  objectifs_professionnels: [],\n  contraintes: [],\n  langue_preferee: request.language\n};\n\nconst studentProfile = parseJson(\n  storedRow.student_profile,\n  defaultProfile\n);\n\nconst searchResults = parseJson(\n  storedRow.search_results,\n  {\n    status: 'not_started',\n    recommended_programs: [],\n    excluded_programs: []\n  }\n);\n\nconst comparisonResults = parseJson(\n  storedRow.comparison_results,\n  {\n    status: 'not_started',\n    final_recommendations: []\n  }\n);\n\nreturn [\n  {\n    json: {\n      memory_exists: Boolean(storedRow.session_id),\n      memory_row_id: storedRow.id ?? null,\n\n      session_id: request.session_id,\n      user_id: request.user_id,\n      language: request.language,\n      current_message: request.message,\n\n      current_stage: storedRow.current_stage ?? 'profiling',\n\n      student_profile: studentProfile,\n      search_results: searchResults,\n      comparison_results: comparisonResults,\n\n      updated_at: new Date().toISOString()\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        160,
+        144
+      ],
+      "id": "66ad18f2-8e44-4bfd-9cc9-4535fcaef35a",
+      "name": "Initialiser ou restaurer mémoire"
+    },
+    {
+      "parameters": {
+        "jsCode": "const state = $json;\n\nconst systemPrompt = `\nTu es l'Agent 1 de profilage d'un assistant d'orientation universitaire tunisienne.\n\nMISSION\nTu dois extraire les informations du nouveau message et les fusionner avec le profil actuel.\n\nTu ne dois pas :\n- rechercher des formations ;\n- recommander des établissements ;\n- inventer des valeurs ;\n- supprimer une ancienne information si le nouveau message ne la modifie pas ;\n- écrire du texte en dehors du JSON.\n\nINFORMATIONS ESSENTIELLES\n- bac_type ;\n- score ou score_fg ;\n- domaines_preferes ;\n- regions_preferees ou mobilite_nationale.\n\nINFORMATIONS FACULTATIVES\n- gouvernorat_residence ;\n- matieres_preferees ;\n- matieres_a_eviter ;\n- types_etablissement ;\n- internat_requis ;\n- objectifs_professionnels ;\n- contraintes.\n\nREGLES\n1. Fusionne le nouveau message avec le profil actuel.\n2. Si l'étudiant change une information, utilise la nouvelle valeur.\n3. Une information inconnue doit rester null ou [].\n4. Toutes les listes doivent être des tableaux JSON.\n5. Pose au maximum trois questions.\n6. Utilise la langue indiquée.\n7. Retourne uniquement un objet JSON valide.\n8. N'utilise pas de bloc Markdown.\n\nFORMAT EXACT\n{\n  \"status\": \"complete ou incomplete\",\n  \"profile_changed\": true,\n  \"changed_fields\": [],\n  \"missing_fields\": [],\n  \"student_profile\": {\n    \"bac_type\": null,\n    \"score\": null,\n    \"score_fg\": null,\n    \"annee_bac\": 2026,\n    \"gouvernorat_residence\": null,\n    \"regions_preferees\": [],\n    \"domaines_preferes\": [],\n    \"matieres_preferees\": [],\n    \"matieres_a_eviter\": [],\n    \"types_etablissement\": [],\n    \"mobilite_nationale\": null,\n    \"internat_requis\": null,\n    \"objectifs_professionnels\": [],\n    \"contraintes\": [],\n    \"langue_preferee\": null\n  },\n  \"profile_summary\": \"\",\n  \"next_questions\": []\n}\n`;\n\nconst userPrompt = `\nLANGUE DE L'ETUDIANT\n${state.language}\n\nPROFIL ACTUEL\n${JSON.stringify(state.student_profile, null, 2)}\n\nNOUVEAU MESSAGE\n${state.current_message}\n\nMets le profil à jour et retourne uniquement le JSON demandé.\n`;\n\nreturn {\n  ...state,\n\n  openwebui_body: {\n    model: \"gemma4:e4b\",\n    stream: false,\n    temperature: 0.1,\n    messages: [\n      {\n        role: \"system\",\n        content: systemPrompt.trim()\n      },\n      {\n        role: \"user\",\n        content: userPrompt.trim()\n      }\n    ]\n  }\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        384,
+        288
+      ],
+      "id": "e37adb02-c92a-4321-b2c0-8170abfa97ce",
+      "name": "Préparer Agent 1 - Profilage"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8080/api/chat/completions",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $('Préparer Agent 1 - Profilage').item.json.openwebui_body }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        608,
+        144
+      ],
+      "id": "e8e1bf75-5957-41ed-aef9-be22d768c154",
+      "name": "Open WebUI - Agent 1",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "0qZ33UpzrCiiOD5o",
+          "name": "Header Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "/*\n * N8N CODE NODE\n * Nom : Parser Agent 1\n * Mode : Run Once for Each Item\n *\n * Entrée :\n * Réponse du nœud HTTP Request \"Open WebUI - Agent 1\"\n *\n * Sortie :\n * État complet de la session avec :\n * - student_profile\n * - profile_complete\n * - missing_fields\n * - next_questions\n * - mémoire de recherche et comparaison réinitialisée si nécessaire\n */\n\n// ============================================================\n// 1. Récupérer la réponse Open WebUI et l'état précédent\n// ============================================================\n\nconst response = $json;\n\nconst state = $('Préparer Agent 1 - Profilage').item.json;\n\n\n// ============================================================\n// 2. Chercher le contenu produit par le modèle\n// ============================================================\n\n// Le premier chemin correspond au format OpenAI/Open WebUI standard.\n// Les chemins supplémentaires rendent le parser compatible avec\n// plusieurs variantes de réponses.\nlet content =\n  response.choices?.[0]?.message?.content ??\n  response.choices?.[0]?.text ??\n  response.message?.content ??\n  response.response ??\n  response.content ??\n  response.text ??\n  response.data?.choices?.[0]?.message?.content ??\n  response.body?.choices?.[0]?.message?.content ??\n  null;\n\nif (content === null || content === undefined || content === '') {\n  throw new Error(\n    \"Open WebUI n'a retourné aucun contenu exploitable pour l'Agent 1.\\n\" +\n    \"Réponse complète reçue :\\n\" +\n    JSON.stringify(response, null, 2)\n  );\n}\n\n\n// ============================================================\n// 3. Convertir le contenu en texte si nécessaire\n// ============================================================\n\nif (typeof content === 'object') {\n  content = JSON.stringify(content);\n}\n\ncontent = String(content).trim();\n\n\n// ============================================================\n// 4. Nettoyer les blocs Markdown éventuels\n// ============================================================\n\nfunction removeMarkdownCodeBlock(text) {\n  return String(text)\n    .trim()\n    .replace(/^```json\\s*/i, '')\n    .replace(/^```javascript\\s*/i, '')\n    .replace(/^```\\s*/i, '')\n    .replace(/\\s*```$/i, '')\n    .trim();\n}\n\n\n// ============================================================\n// 5. Extraire le premier objet JSON équilibré\n// ============================================================\n\nfunction findFirstCompleteJsonObject(text) {\n  const source = String(text);\n\n  let startIndex = -1;\n  let depth = 0;\n  let insideString = false;\n  let escaped = false;\n\n  for (let index = 0; index < source.length; index++) {\n    const character = source[index];\n\n    if (startIndex === -1) {\n      if (character === '{') {\n        startIndex = index;\n        depth = 1;\n      }\n\n      continue;\n    }\n\n    if (insideString) {\n      if (escaped) {\n        escaped = false;\n        continue;\n      }\n\n      if (character === '\\\\') {\n        escaped = true;\n        continue;\n      }\n\n      if (character === '\"') {\n        insideString = false;\n      }\n\n      continue;\n    }\n\n    if (character === '\"') {\n      insideString = true;\n      continue;\n    }\n\n    if (character === '{') {\n      depth++;\n      continue;\n    }\n\n    if (character === '}') {\n      depth--;\n\n      if (depth === 0) {\n        return source.slice(startIndex, index + 1);\n      }\n    }\n  }\n\n  return null;\n}\n\n\n// ============================================================\n// 6. Réparer quelques erreurs JSON fréquentes des modèles locaux\n// ============================================================\n\nfunction repairCommonJsonErrors(text) {\n  return String(text)\n    // Supprimer les virgules avant une fermeture d'objet ou de tableau.\n    .replace(/,\\s*}/g, '}')\n    .replace(/,\\s*]/g, ']')\n\n    // Remplacer les valeurs Python fréquentes hors chaînes.\n    .replace(/:\\s*None(?=\\s*[,}])/g, ': null')\n    .replace(/:\\s*True(?=\\s*[,}])/g, ': true')\n    .replace(/:\\s*False(?=\\s*[,}])/g, ': false')\n\n    // Supprimer les caractères invisibles problématiques.\n    .replace(/^\\uFEFF/, '')\n    .trim();\n}\n\n\n// ============================================================\n// 7. Parser proprement le JSON Agent 1\n// ============================================================\n\nfunction parseAgentJson(rawContent) {\n  const cleaned = removeMarkdownCodeBlock(rawContent);\n\n  // Première tentative : tout le contenu est déjà un JSON valide.\n  try {\n    const parsed = JSON.parse(cleaned);\n\n    // Certains modèles retournent un JSON encodé dans une chaîne.\n    if (typeof parsed === 'string') {\n      return JSON.parse(removeMarkdownCodeBlock(parsed));\n    }\n\n    return parsed;\n  } catch (firstError) {\n    // Continuer vers l'extraction de l'objet JSON.\n  }\n\n  const extracted = findFirstCompleteJsonObject(cleaned);\n\n  if (!extracted) {\n    throw new Error(\n      \"Aucun objet JSON complet n'a été trouvé dans la réponse de l'Agent 1.\\n\" +\n      \"Contenu reçu :\\n\" +\n      cleaned\n    );\n  }\n\n  // Deuxième tentative : parser uniquement l'objet extrait.\n  try {\n    return JSON.parse(extracted);\n  } catch (secondError) {\n    // Continuer vers une réparation minimale.\n  }\n\n  const repaired = repairCommonJsonErrors(extracted);\n\n  try {\n    return JSON.parse(repaired);\n  } catch (thirdError) {\n    throw new Error(\n      \"Le JSON retourné par l'Agent 1 est invalide.\\n\" +\n      \"Erreur JSON : \" +\n      thirdError.message +\n      \"\\n\\nJSON extrait :\\n\" +\n      extracted +\n      \"\\n\\nJSON après réparation :\\n\" +\n      repaired\n    );\n  }\n}\n\nconst result = parseAgentJson(content);\n\n\n// ============================================================\n// 8. Vérifier que la racine est un objet JSON\n// ============================================================\n\nif (\n  !result ||\n  typeof result !== 'object' ||\n  Array.isArray(result)\n) {\n  throw new Error(\n    \"La réponse de l'Agent 1 doit être un objet JSON et non un tableau ou un texte.\\n\" +\n    \"Valeur reçue :\\n\" +\n    JSON.stringify(result, null, 2)\n  );\n}\n\n\n// ============================================================\n// 9. Fonctions de normalisation\n// ============================================================\n\nfunction ensureArray(value) {\n  if (Array.isArray(value)) {\n    return value\n      .map(item => {\n        if (typeof item === 'string') {\n          return item.trim();\n        }\n\n        return item;\n      })\n      .filter(item => {\n        if (item === null || item === undefined || item === '') {\n          return false;\n        }\n\n        return true;\n      });\n  }\n\n  if (value === null || value === undefined || value === '') {\n    return [];\n  }\n\n  if (typeof value === 'string') {\n    const cleanedValue = value.trim();\n\n    if (!cleanedValue) {\n      return [];\n    }\n\n    return cleanedValue\n      .split(/[,;|]/)\n      .map(item => item.trim())\n      .filter(Boolean);\n  }\n\n  return [value];\n}\n\nfunction ensureNullableString(value) {\n  if (value === null || value === undefined || value === '') {\n    return null;\n  }\n\n  const stringValue = String(value).trim();\n\n  return stringValue || null;\n}\n\nfunction ensureNullableBoolean(value) {\n  if (value === null || value === undefined || value === '') {\n    return null;\n  }\n\n  if (typeof value === 'boolean') {\n    return value;\n  }\n\n  const normalized = String(value).trim().toLowerCase();\n\n  if (\n    normalized === 'true' ||\n    normalized === 'oui' ||\n    normalized === 'yes' ||\n    normalized === '1'\n  ) {\n    return true;\n  }\n\n  if (\n    normalized === 'false' ||\n    normalized === 'non' ||\n    normalized === 'no' ||\n    normalized === '0'\n  ) {\n    return false;\n  }\n\n  return null;\n}\n\nfunction ensureNullableNumber(value) {\n  if (value === null || value === undefined || value === '') {\n    return null;\n  }\n\n  if (typeof value === 'number') {\n    return Number.isFinite(value) ? value : null;\n  }\n\n  let normalized = String(value)\n    .trim()\n    .replace(/\\s/g, '')\n    .replace(',', '.');\n\n  // Extraire un nombre si le modèle retourne par exemple \"142 points\".\n  const match = normalized.match(/-?\\d+(?:\\.\\d+)?/);\n\n  if (!match) {\n    return null;\n  }\n\n  const numberValue = Number(match[0]);\n\n  return Number.isFinite(numberValue)\n    ? numberValue\n    : null;\n}\n\nfunction normalizeTextList(value) {\n  return ensureArray(value)\n    .map(item => String(item).trim())\n    .filter(Boolean);\n}\n\n\n// ============================================================\n// 10. Récupérer et normaliser le profil\n// ============================================================\n\nif (\n  !result.student_profile ||\n  typeof result.student_profile !== 'object' ||\n  Array.isArray(result.student_profile)\n) {\n  throw new Error(\n    \"Le champ student_profile est absent ou invalide dans la réponse de l'Agent 1.\\n\" +\n    \"Réponse parsée :\\n\" +\n    JSON.stringify(result, null, 2)\n  );\n}\n\nconst rawProfile = result.student_profile;\n\nconst previousProfile =\n  state.student_profile &&\n  typeof state.student_profile === 'object'\n    ? state.student_profile\n    : {};\n\n// Fusionner le profil précédent et le nouveau profil.\n// Les anciennes propriétés non renvoyées par le modèle sont conservées.\nconst mergedProfile = {\n  ...previousProfile,\n  ...rawProfile\n};\n\nconst studentProfile = {\n  bac_type: ensureNullableString(\n    mergedProfile.bac_type\n  ),\n\n  score: ensureNullableNumber(\n    mergedProfile.score\n  ),\n\n  score_fg: ensureNullableNumber(\n    mergedProfile.score_fg\n  ),\n\n  annee_bac:\n    ensureNullableNumber(mergedProfile.annee_bac) ??\n    ensureNullableNumber(previousProfile.annee_bac) ??\n    2026,\n\n  gouvernorat_residence: ensureNullableString(\n    mergedProfile.gouvernorat_residence ??\n    mergedProfile.gouvernorat\n  ),\n\n  regions_preferees: normalizeTextList(\n    mergedProfile.regions_preferees\n  ),\n\n  domaines_preferes: normalizeTextList(\n    mergedProfile.domaines_preferes\n  ),\n\n  matieres_preferees: normalizeTextList(\n    mergedProfile.matieres_preferees\n  ),\n\n  matieres_a_eviter: normalizeTextList(\n    mergedProfile.matieres_a_eviter\n  ),\n\n  types_etablissement: normalizeTextList(\n    mergedProfile.types_etablissement ??\n    mergedProfile.type_etablissement\n  ),\n\n  mobilite_nationale: ensureNullableBoolean(\n    mergedProfile.mobilite_nationale ??\n    mergedProfile.mobilite\n  ),\n\n  internat_requis: ensureNullableBoolean(\n    mergedProfile.internat_requis\n  ),\n\n  objectifs_professionnels: normalizeTextList(\n    mergedProfile.objectifs_professionnels\n  ),\n\n  contraintes: normalizeTextList(\n    mergedProfile.contraintes\n  ),\n\n  langue_preferee:\n    ensureNullableString(\n      mergedProfile.langue_preferee\n    ) ??\n    ensureNullableString(state.language) ??\n    'fr'\n};\n\n// Conserver des champs personnalisés éventuels renvoyés par le modèle.\nconst normalizedStudentProfile = {\n  ...mergedProfile,\n  ...studentProfile\n};\n\n\n// ============================================================\n// 11. Normaliser les métadonnées Agent 1\n// ============================================================\n\nconst changedFields = normalizeTextList(\n  result.changed_fields\n);\n\nconst missingFieldsFromAgent = normalizeTextList(\n  result.missing_fields\n);\n\nconst nextQuestions = normalizeTextList(\n  result.next_questions\n);\n\nconst agentStatus = String(\n  result.status ?? ''\n).trim().toLowerCase();\n\nconst profileChanged =\n  typeof result.profile_changed === 'boolean'\n    ? result.profile_changed\n    : changedFields.length > 0;\n\n\n// ============================================================\n// 12. Vérification déterministe des champs essentiels\n// ============================================================\n\n// Le profil est considéré comme complet si :\n// - le type de bac est présent ;\n// - score ou score_fg est présent ;\n// - au moins un domaine est présent ;\n// - au moins une région est présente,\n//   OU la mobilité nationale est explicitement true.\n\nconst deterministicMissingFields = [];\n\nif (!normalizedStudentProfile.bac_type) {\n  deterministicMissingFields.push('bac_type');\n}\n\nif (\n  normalizedStudentProfile.score === null &&\n  normalizedStudentProfile.score_fg === null\n) {\n  deterministicMissingFields.push('score');\n}\n\nif (\n  !Array.isArray(normalizedStudentProfile.domaines_preferes) ||\n  normalizedStudentProfile.domaines_preferes.length === 0\n) {\n  deterministicMissingFields.push('domaines_preferes');\n}\n\nconst hasPreferredRegions =\n  Array.isArray(normalizedStudentProfile.regions_preferees) &&\n  normalizedStudentProfile.regions_preferees.length > 0;\n\nconst acceptsNationalMobility =\n  normalizedStudentProfile.mobilite_nationale === true;\n\nif (!hasPreferredRegions && !acceptsNationalMobility) {\n  deterministicMissingFields.push(\n    'regions_preferees_ou_mobilite_nationale'\n  );\n}\n\n\n// ============================================================\n// 13. Fusionner les champs manquants sans doublons\n// ============================================================\n\nconst finalMissingFields = [\n  ...new Set([\n    ...missingFieldsFromAgent,\n    ...deterministicMissingFields\n  ])\n];\n\nconst profileComplete =\n  agentStatus === 'complete' &&\n  finalMissingFields.length === 0;\n\n\n// ============================================================\n// 14. Créer des questions de secours\n// ============================================================\n\nconst fallbackQuestionMap = {\n  bac_type:\n    \"Quel est ton type de baccalauréat ?\",\n\n  score:\n    \"Quel est ton score d'orientation ou ton score FG ?\",\n\n  domaines_preferes:\n    \"Quels domaines ou quelles filières souhaites-tu étudier ?\",\n\n  regions_preferees:\n    \"Dans quelles régions souhaites-tu étudier ?\",\n\n  regions_preferees_ou_mobilite_nationale:\n    \"Dans quelles régions souhaites-tu étudier, ou acceptes-tu d'étudier partout en Tunisie ?\",\n\n  mobilite_nationale:\n    \"Acceptes-tu d'étudier dans une autre région ?\"\n};\n\nconst finalQuestions = [...nextQuestions];\n\nfor (const missingField of finalMissingFields) {\n  if (finalQuestions.length >= 3) {\n    break;\n  }\n\n  const fallbackQuestion =\n    fallbackQuestionMap[missingField];\n\n  if (\n    fallbackQuestion &&\n    !finalQuestions.includes(fallbackQuestion)\n  ) {\n    finalQuestions.push(fallbackQuestion);\n  }\n}\n\n\n// ============================================================\n// 15. Créer une synthèse si le modèle ne l'a pas fournie\n// ============================================================\n\nfunction buildFallbackSummary(profile) {\n  const parts = [];\n\n  if (profile.bac_type) {\n    parts.push(`bac ${profile.bac_type}`);\n  }\n\n  const availableScore =\n    profile.score ?? profile.score_fg;\n\n  if (availableScore !== null) {\n    parts.push(`score ${availableScore}`);\n  }\n\n  if (profile.domaines_preferes.length > 0) {\n    parts.push(\n      `domaines souhaités : ${profile.domaines_preferes.join(', ')}`\n    );\n  }\n\n  if (profile.regions_preferees.length > 0) {\n    parts.push(\n      `régions préférées : ${profile.regions_preferees.join(', ')}`\n    );\n  } else if (profile.mobilite_nationale === true) {\n    parts.push('mobilité nationale acceptée');\n  }\n\n  if (parts.length === 0) {\n    return 'Le profil étudiant est encore vide.';\n  }\n\n  return `Profil étudiant : ${parts.join('; ')}.`;\n}\n\nconst profileSummary =\n  ensureNullableString(result.profile_summary) ??\n  buildFallbackSummary(normalizedStudentProfile);\n\n\n// ============================================================\n// 16. Gérer la mémoire des agents suivants\n// ============================================================\n\n// Dès que le profil change, les anciennes recherches et comparaisons\n// ne doivent plus être considérées comme valides.\n\nconst searchResults = profileChanged\n  ? {\n      status: 'not_started',\n      search_status: 'not_started',\n      recommended_programs: [],\n      excluded_programs: [],\n      invalidated_reason: 'student_profile_changed'\n    }\n  : (\n      state.search_results ?? {\n        status: 'not_started',\n        search_status: 'not_started',\n        recommended_programs: [],\n        excluded_programs: []\n      }\n    );\n\nconst comparisonResults = profileChanged\n  ? {\n      status: 'not_started',\n      comparison_status: 'not_started',\n      final_recommendations: [],\n      invalidated_reason: 'student_profile_changed'\n    }\n  : (\n      state.comparison_results ?? {\n        status: 'not_started',\n        comparison_status: 'not_started',\n        final_recommendations: []\n      }\n    );\n\n\n// ============================================================\n// 17. Retourner l'état complet\n// ============================================================\n\nreturn {\n  ...state,\n\n  current_stage:\n    profileComplete\n      ? 'search'\n      : 'profiling',\n\n  student_profile:\n    normalizedStudentProfile,\n\n  profile_summary:\n    profileSummary,\n\n  profile_complete:\n    profileComplete,\n\n  profile_changed:\n    profileChanged,\n\n  changed_fields:\n    changedFields,\n\n  missing_fields:\n    finalMissingFields,\n\n  next_questions:\n    finalQuestions.slice(0, 3),\n\n  search_results:\n    searchResults,\n\n  comparison_results:\n    comparisonResults,\n\n  agent1_metadata: {\n    parsed_successfully: true,\n    reported_status:\n      agentStatus || 'unknown',\n    calculated_status:\n      profileComplete\n        ? 'complete'\n        : 'incomplete',\n    raw_content:\n      content,\n    parsed_at:\n      new Date().toISOString()\n  },\n\n  updated_at:\n    new Date().toISOString()\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        832,
+        288
+      ],
+      "id": "9671c547-e56d-4bf8-9ace-7a312362f712",
+      "name": "Parsing"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "96dc84f4-e332-4234-bbee-f80be1d43636",
+              "leftValue": "={{ $json.profile_complete }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        1056,
+        208
+      ],
+      "id": "7e4f0e36-a835-46fc-8258-1d51d6286503",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "/*\n * Nœud : Préparer réponse profil incomplet\n * Mode : Run Once for Each Item\n *\n * Ce nœud :\n * 1. récupère les questions produites par Agent 1 ;\n * 2. élimine les doublons éventuels ;\n * 3. limite le nombre de questions à 3 ;\n * 4. génère une réponse lisible pour l'étudiant ;\n * 5. prépare les valeurs à sauvegarder.\n */\n\nconst state = $json;\n\n\n// ============================================================\n// 1. Normaliser les questions\n// ============================================================\n\nconst rawQuestions = Array.isArray(state.next_questions)\n  ? state.next_questions\n  : [];\n\nconst questions = [\n  ...new Set(\n    rawQuestions\n      .map(question => String(question).trim())\n      .filter(Boolean)\n  )\n].slice(0, 3);\n\n\n// ============================================================\n// 2. Créer des questions de secours si nécessaire\n// ============================================================\n\nconst fallbackQuestionMap = {\n  bac_type:\n    \"Quel est ton type de baccalauréat ?\",\n\n  score:\n    \"Quel est ton score d'orientation ou ton score FG ?\",\n\n  score_fg:\n    \"Quel est ton score d'orientation ou ton score FG ?\",\n\n  domaines_preferes:\n    \"Quels domaines ou quelles filières souhaites-tu étudier ?\",\n\n  regions_preferees:\n    \"Dans quelles régions souhaites-tu étudier ?\",\n\n  regions_preferees_ou_mobilite_nationale:\n    \"Dans quelles régions souhaites-tu étudier, ou acceptes-tu d'étudier partout en Tunisie ?\",\n\n  mobilite_nationale:\n    \"Acceptes-tu d'étudier dans une autre région ?\"\n};\n\nconst missingFields = Array.isArray(state.missing_fields)\n  ? state.missing_fields\n  : [];\n\nfor (const field of missingFields) {\n  if (questions.length >= 3) {\n    break;\n  }\n\n  const fallbackQuestion = fallbackQuestionMap[field];\n\n  if (\n    fallbackQuestion &&\n    !questions.includes(fallbackQuestion)\n  ) {\n    questions.push(fallbackQuestion);\n  }\n}\n\n\n// ============================================================\n// 3. Construire le message de réponse\n// ============================================================\n\nlet output;\n\nif (state.current_message.trim().toLowerCase() === \"hey\") {\n  output =\n    \"Bonjour ! Je vais t'aider à identifier les formations universitaires \" +\n    \"qui correspondent à ton profil.\\n\\n\";\n} else {\n  output =\n    \"J'ai enregistré les informations de ton profil. \" +\n    \"Pour continuer, j'ai besoin de quelques précisions.\\n\\n\";\n}\n\nif (questions.length > 0) {\n  output += questions\n    .map((question, index) => `${index + 1}. ${question}`)\n    .join(\"\\n\");\n} else {\n  output +=\n    \"Indique-moi ton type de bac, ton score, les domaines qui \" +\n    \"t'intéressent et les régions dans lesquelles tu souhaites étudier.\";\n}\n\n\n// ============================================================\n// 4. Retourner l'état complet\n// ============================================================\n\nreturn {\n  ...state,\n\n  current_stage: \"profiling\",\n\n  next_questions: questions,\n\n  output,\n\n  updated_at: new Date().toISOString(),\n\n  memory_payload: {\n    session_id: state.session_id,\n    user_id: state.user_id,\n    language: state.language,\n    current_stage: \"profiling\",\n    student_profile: JSON.stringify(\n      state.student_profile\n    ),\n    search_results: JSON.stringify(\n      state.search_results\n    ),\n    comparison_results: JSON.stringify(\n      state.comparison_results\n    ),\n    updated_at: new Date().toISOString()\n  }\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1280,
+        384
+      ],
+      "id": "adfac14b-0cb2-488e-be01-edc10457e942",
+      "name": "Préparer réponse profil incomplet"
+    },
+    {
+      "parameters": {
+        "operation": "upsert",
+        "dataTableId": {
+          "__rl": true,
+          "value": "TG62meBuECK01ZWE",
+          "mode": "list",
+          "cachedResultName": "student_orientation_memory",
+          "cachedResultUrl": "/projects/3DXYHELDyBhSFxbK/datatables/TG62meBuECK01ZWE"
+        },
+        "matchType": "allConditions",
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "session_id",
+              "keyValue": "={{ $json.memory_payload.session_id }}"
+            }
+          ]
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "session_id": "={{ $json.memory_payload.session_id }}",
+            "user_id": "={{ $json.memory_payload.user_id }}",
+            "language": "={{ $json.memory_payload.language }}",
+            "current_stage": "={{ $json.memory_payload.current_stage }}",
+            "student_profile": "={{ $json.memory_payload.student_profile }}",
+            "search_results": "={{ $json.memory_payload.search_results }}",
+            "comparison_results": "={{ $json.memory_payload.comparison_results }}",
+            "updated_at": "={{ $json.memory_payload.updated_at }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "session_id",
+              "displayName": "session_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "user_id",
+              "displayName": "user_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "language",
+              "displayName": "language",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "current_stage",
+              "displayName": "current_stage",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "student_profile",
+              "displayName": "student_profile",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "search_results",
+              "displayName": "search_results",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "comparison_results",
+              "displayName": "comparison_results",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "updated_at",
+              "displayName": "updated_at",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "dateTime",
+              "readOnly": false,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        1504,
+        528
+      ],
+      "id": "ad798964-89e4-4b74-b359-b18cb491ce11",
+      "name": "Upsert row(s)"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "7e7d70c3-acdf-4549-b58e-64008b601861",
+              "name": "output",
+              "value": "={{ $('Préparer réponse profil incomplet').item.json.output }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        1728,
+        384
+      ],
+      "id": "f03a07bd-9d0b-475a-98b2-b998d8a6e686",
+      "name": "retourner les questions"
+    },
+    {
+      "parameters": {
+        "jsCode": "/*\n * Nœud : Construire requête RAG\n * Mode : Run Once for Each Item\n *\n * Entrée :\n * Profil complet obtenu depuis Parser Agent 1.\n *\n * Sortie :\n * Une requête textuelle optimisée pour rechercher\n * des formations dans Pinecone.\n */\n\nconst state = $json;\nconst profile = state.student_profile ?? {};\n\n\n// ============================================================\n// 1. Fonctions utilitaires\n// ============================================================\n\nfunction cleanArray(value) {\n  if (!Array.isArray(value)) {\n    return [];\n  }\n\n  return value\n    .map(item => String(item).trim())\n    .filter(Boolean);\n}\n\nfunction displayList(value, fallback) {\n  const items = cleanArray(value);\n\n  return items.length > 0\n    ? items.join(\", \")\n    : fallback;\n}\n\n\n// ============================================================\n// 2. Récupérer les informations importantes\n// ============================================================\n\nconst bacType =\n  profile.bac_type ?? \"non précisé\";\n\nconst score =\n  profile.score ??\n  profile.score_fg ??\n  \"non précisé\";\n\nconst domains = displayList(\n  profile.domaines_preferes,\n  \"domaines compatibles avec le profil\"\n);\n\nconst regions = displayList(\n  profile.regions_preferees,\n  profile.mobilite_nationale === true\n    ? \"toutes les régions de Tunisie\"\n    : \"région non précisée\"\n);\n\nconst preferredSubjects = displayList(\n  profile.matieres_preferees,\n  \"non précisées\"\n);\n\nconst avoidedSubjects = displayList(\n  profile.matieres_a_eviter,\n  \"aucune\"\n);\n\nconst institutionTypes = displayList(\n  profile.types_etablissement,\n  \"tous les établissements publics compatibles\"\n);\n\nconst careerObjectives = displayList(\n  profile.objectifs_professionnels,\n  \"objectifs professionnels non précisés\"\n);\n\nconst constraints = displayList(\n  profile.contraintes,\n  \"aucune contrainte particulière\"\n);\n\n\n// ============================================================\n// 3. Construire la requête principale\n// ============================================================\n\nconst searchQuery = [\n  \"Formations universitaires tunisiennes et choix d'orientation\",\n  `pour un étudiant titulaire d'un bac ${bacType}`,\n  `avec un score d'orientation de ${score}.`,\n  `Domaines et filières souhaités : ${domains}.`,\n  `Régions préférées : ${regions}.`,\n  `Types d'établissements : ${institutionTypes}.`,\n  `Matières préférées : ${preferredSubjects}.`,\n  `Matières à éviter : ${avoidedSubjects}.`,\n  `Objectifs professionnels : ${careerObjectives}.`,\n  `Contraintes : ${constraints}.`,\n  \"Rechercher les formations compatibles avec le type de bac,\",\n  \"les codes de formation, les établissements, les universités,\",\n  \"les gouvernorats, les conditions d'accès, les formules de calcul,\",\n  \"les scores historiques, les capacités et les débouchés.\"\n].join(\" \");\n\n\n// ============================================================\n// 4. Construire plusieurs variantes de recherche\n// ============================================================\n\nconst searchQueries = [\n  {\n    query_type: \"exact_preferences\",\n    query: [\n      `Formations en ${domains}`,\n      `pour bac ${bacType}`,\n      `score ${score}`,\n      `dans ${regions}`\n    ].join(\", \")\n  },\n  {\n    query_type: \"bac_compatibility\",\n    query: [\n      `Formations autorisées pour bac ${bacType}`,\n      `score historique proche de ${score}`,\n      `codes et établissements universitaires tunisiens`\n    ].join(\", \")\n  },\n  {\n    query_type: \"domain_search\",\n    query: [\n      `Filières universitaires en ${domains}`,\n      `débouchés et établissements`,\n      `Tunisie`\n    ].join(\", \")\n  },\n  {\n    query_type: \"alternative_search\",\n    query: [\n      `Alternatives proches de ${domains}`,\n      `compatibles avec bac ${bacType}`,\n      `score ${score}`\n    ].join(\", \")\n  }\n];\n\n\n// ============================================================\n// 5. Retourner l'état complet\n// ============================================================\n\nreturn {\n  ...state,\n\n  current_stage: \"search\",\n\n  search_query: searchQuery,\n\n  search_queries: searchQueries,\n\n  search_context: {\n    bac_type: bacType,\n    student_score: score,\n    preferred_domains: cleanArray(\n      profile.domaines_preferes\n    ),\n    preferred_regions: cleanArray(\n      profile.regions_preferees\n    ),\n    national_mobility:\n      profile.mobilite_nationale === true,\n    generated_at: new Date().toISOString()\n  },\n\n  updated_at: new Date().toISOString()\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1328,
+        112
+      ],
+      "id": "c11abc82-6f67-4697-a2f1-bc619ca7ee15",
+      "name": "Construire requête RAG"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8080/api/v1/chat/completions",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"n8n\",\n  \"stream\": false,\n  \"temperature\": 0.1,\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"={{ $('Construire requête RAG').item.json.search_query }}\"\n    }\n  ],\n  \"files\": [\n    {\n      \"type\": \"collection\",\n      \"id\": \"{{ $json.items[0].id }}\"\n    }\n  ]\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        1824,
+        112
+      ],
+      "id": "b887924e-7af8-4eaa-9356-2ade5c5088bc",
+      "name": "Open WebUI - Agent 2",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "0qZ33UpzrCiiOD5o",
+          "name": "Header Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:8080/api/v1/knowledge/",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        1568,
+        -16
+      ],
+      "id": "6695c195-352a-4643-909e-d2dd30cf55a0",
+      "name": "HTTP Request1",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "0qZ33UpzrCiiOD5o",
+          "name": "Header Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const content = $json.choices[0].message.content;\n\nreturn [{\n  formations: JSON.parse(content).formations_trouvees\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2048,
+        -16
+      ],
+      "id": "a5c93230-0363-452c-86c1-dea54e60383e",
+      "name": "extraire json"
+    },
+    {
+      "parameters": {
+        "operation": "get",
+        "dataTableId": {
+          "__rl": true,
+          "value": "TG62meBuECK01ZWE",
+          "mode": "list",
+          "cachedResultName": "student_orientation_memory",
+          "cachedResultUrl": "/projects/3DXYHELDyBhSFxbK/datatables/TG62meBuECK01ZWE"
+        }
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        2272,
+        112
+      ],
+      "id": "81680da7-658e-4954-aba8-2af6c3ebed62",
+      "name": "Get row(s)"
+    },
+    {
+      "parameters": {
+        "jsCode": "const profile = JSON.parse($json.student_profile);\n\nreturn [{\n  profile\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2496,
+        -32
+      ],
+      "id": "194f012d-d4b8-4669-85a5-27072e183d3e",
+      "name": "parse result"
+    },
+    {
+      "parameters": {
+        "jsCode": "const profil =\n$items(\"parse result\")[0].json.profile;\n\nconst formations =\n$items(\"extraire json\")[0].json.formations;\n\nreturn [{\n  profil,\n  formations\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2720,
+        112
+      ],
+      "id": "a631fabe-ca89-4eb5-a62b-e7c5c6a16bba",
+      "name": "fusion"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=PROFIL :\n\n{{ JSON.stringify($json.profil) }}\n\nFORMATIONS :\n\n{{ JSON.stringify($json.formations) }}",
+        "options": {
+          "systemMessage": "Tu es un agent de comparaison et de synthèse universitaire tunisienne.\n\nTu reçois :\n\n1. Le profil complet de l'étudiant.\n2. Une liste de formations trouvées.\n\nTa mission :\n\n- Comparer chaque formation avec le profil.\n- Identifier les correspondances :\n  - domaine\n  - objectifs professionnels\n  - matières préférées\n  - région\n  - type de bac\n\n- Attribuer un score de compatibilité de 0 à 100.\n\n- Trier les formations par pertinence décroissante.\n\n- Ne jamais inventer de données.\n\n- Utiliser uniquement les données reçues.\n\nRetour obligatoire en JSON valide."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        2944,
+        112
+      ],
+      "id": "6c752f7f-d382-4f21-bc48-5c16a6d1cfec",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": "gemma4:e4b",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [
+        2848,
+        288
+      ],
+      "id": "65a518ed-3bdb-4067-8c20-ccb98743f830",
+      "name": "Ollama Chat Model",
+      "credentials": {
+        "ollamaApi": {
+          "id": "7r9pwrA0mcNu4ZaV",
+          "name": "Ollama account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "let output = $json.output;\n\noutput = output\n  .replace(\"```json\", \"\")\n  .replace(\"```\", \"\")\n  .trim();\n\nreturn [{\n  comparison_results: JSON.parse(output)\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3312,
+        256
+      ],
+      "id": "8acb97ae-a2e6-49ed-b05e-178b09340ad8",
+      "name": "parse result agent 3"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "message etudiant": {
+      "main": [
+        [
+          {
+            "node": "Préparer la requête",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Préparer la requête": {
+      "main": [
+        [
+          {
+            "node": "Charger mémoire étudiant ",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Charger mémoire étudiant ": {
+      "main": [
+        [
+          {
+            "node": "Initialiser ou restaurer mémoire",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Initialiser ou restaurer mémoire": {
+      "main": [
+        [
+          {
+            "node": "Préparer Agent 1 - Profilage",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Préparer Agent 1 - Profilage": {
+      "main": [
+        [
+          {
+            "node": "Open WebUI - Agent 1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Open WebUI - Agent 1": {
+      "main": [
+        [
+          {
+            "node": "Parsing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parsing": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Construire requête RAG",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Préparer réponse profil incomplet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Préparer réponse profil incomplet": {
+      "main": [
+        [
+          {
+            "node": "Upsert row(s)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upsert row(s)": {
+      "main": [
+        [
+          {
+            "node": "retourner les questions",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Construire requête RAG": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Open WebUI - Agent 2": {
+      "main": [
+        [
+          {
+            "node": "extraire json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        [
+          {
+            "node": "Open WebUI - Agent 2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "extraire json": {
+      "main": [
+        [
+          {
+            "node": "Get row(s)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s)": {
+      "main": [
+        [
+          {
+            "node": "parse result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "parse result": {
+      "main": [
+        [
+          {
+            "node": "fusion",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "fusion": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "parse result agent 3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "6e818b65-896d-4baa-83c9-bf0b9691b5d4",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "2d9793093d9e09781bf0163ab0fc42e6416e24fb33a4a1d955d648e4b70b4976"
+  },
+  "nodeGroups": [],
+  "id": "L1GurEbkgg99iYhq",
+  "tags": []
+}
