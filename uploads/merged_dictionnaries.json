@@ -1,0 +1,3780 @@
+{
+  "masterDict": {
+    "الآداب واللغات والمراحل التحضيرية الأدبية": {
+      "en": "Arts, Languages, and Literary Preparatory Stages",
+      "fr": "Arts, Langues et Études Préparatoires Littéraires"
+    },
+    "الإجازة في العربية\n3سنوات(أمد)": {
+      "en": "Licence in Arabic (3 years period)",
+      "fr": "Licence en Arabe (période de 3 ans)"
+    },
+    "كلية العلوم الإنسانية والإجتماعية\nبتونس(جامعة تونس)": {
+      "en": "Faculty of Human and Social Sciences in Tunis (University of Tunis)",
+      "fr": "Faculté des Sciences Humaines et Sociales à Tunis (Université de Tunis)"
+    },
+    "اللغة والآداب والحضارة العربية": {
+      "en": "Arabic Language, Literature, and Civilization",
+      "fr": "Langue, Littérature et Civilisation Arabes"
+    },
+    "آداب": {
+      "en": "Arts",
+      "fr": "Arts"
+    },
+    "رياضيات": {
+      "en": "Mathematics",
+      "fr": "Mathématiques"
+    },
+    "علوم تجريبية": {
+      "en": "Experimental Sciences",
+      "fr": "Sciences expérimentales"
+    },
+    "إقتصاد وتصرف": {
+      "en": "Economics and Management",
+      "fr": "Économie et Gestion"
+    },
+    "علوم الإعلامية": {
+      "en": "Computer Science",
+      "fr": "Informatique"
+    },
+    "كلية الآداب والفنون والإنسانيات\nبمنوبة(جامعة منوبة)": {
+      "en": "Faculty of Arts, Fine Arts, and Humanities in Manouba (Manouba University)",
+      "fr": "Faculté des Arts, Beaux-Arts et Sciences Humaines de Manouba (Université de Manouba)"
+    },
+    "المعهد العالي للعلوم الإنسانية\nبتونس(جامعة تونس المنار)": {
+      "en": "Higher Institute of Human Sciences in Tunis (University of Tunis El Manar)",
+      "fr": "Institut supérieur des sciences humaines à Tunis (Université de Tunis El Manar)"
+    },
+    "المعهد العالي للغات بتونس(جامعة\nقرطاج)": {
+      "en": "Higher Institute of Languages in Tunis (University of Carthage)",
+      "fr": "Institut supérieur des langues à Tunis (Université de Carthage)"
+    },
+    "المعهد العالي للغات بنابل(جامعة\nقرطاج)": {
+      "en": "Higher Institute of Languages in Nabeul (University of Carthage)",
+      "fr": "Institut supérieur des langues à Nabeul (Université de Carthage)"
+    },
+    "كلية الآداب والعلوم الإنسانية\nبسوسة(جامعة سوسة)": {
+      "en": "Faculty of Arts and Human Sciences in Sousse (Sousse University)",
+      "fr": "Faculté des lettres et sciences humaines à Sousse (Université de Sousse)"
+    },
+    "كلية الآداب والعلوم الإنسانية\nبصفاقس(جامعة صفاقس)": {
+      "en": "Faculty of Arts and Human Sciences in Sfax (Sfax University)",
+      "fr": "Faculté des lettres et sciences humaines à Sfax (Université de Sfax)"
+    },
+    "المعهد العالي للغات بقابس(جامعة\nقابس)": {
+      "en": "Higher Institute of Languages in Gabes (Gabes University)",
+      "fr": "Institut supérieur des langues à Gabès (Université de Gabès)"
+    },
+    "المعهد العالي للعلوم الإنسانية\nبمدنين(جامعة قابس)": {
+      "en": "Higher Institute of Human Sciences in Medenine (Kébili University)",
+      "fr": "Institut supérieur des sciences humaines à Médenine (Université de Kébili)"
+    },
+    "المعهد العالي للدراسات التطبيقية في\nالانسانيات بقفصة(جامعة قفصة)": {
+      "en": "Higher Institute of Applied Studies in Humanities in Gafsa (Gafsa University)",
+      "fr": "Institut supérieur d'études appliquées en humanités à Gafsa (Université de Gafsa)"
+    },
+    "كلية الآداب والعلوم الإنسانية\nبالقيروان(جامعة القيروان)": {
+      "en": "Faculty of Arts and Human Sciences in Kairouan (Kairouan University)",
+      "fr": "Faculté des lettres et sciences humaines à Kairouan (Université de Kairouan)"
+    },
+    "الإجازة في الإنقليزية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in English 3 years (Duration)",
+      "fr": "Licence en anglais 3 ans (Durée)"
+    },
+    "اللغة والآداب والحضارة الإنقليزية": {
+      "en": "English Language and Literature and Civilization",
+      "fr": "Anglais, littérature et civilisation"
+    },
+    "العلوم التقنية": {
+      "en": "Technical Sciences",
+      "fr": "Sciences techniques"
+    },
+    "رياضة": {
+      "en": "Sports",
+      "fr": "Sports"
+    },
+    "الإنقليزية و العلاقات الدولية": {
+      "en": "English and International Relations",
+      "fr": "Anglais et relations internationales"
+    },
+    "المعهد العالي للغات بالمكنين(جامعة\nالمنستير)": {
+      "en": "Higher Institute of Languages in Benguérir (University of Manastir)",
+      "fr": "Institut supérieur des langues à Benguérir (Université de Monastir)"
+    },
+    "أنقليزية الأعمال": {
+      "en": "Business English",
+      "fr": "Anglais des affaires"
+    },
+    "الانقليزية للتواصل في مجال الأعمال": {
+      "en": "English for Communication in the Business Field",
+      "fr": "Anglais pour la communication dans le domaine des affaires"
+    },
+    "المعهد العالي للدراسات التطبيقية في\nالانسانيات بسبيطلة(جامعة القيروان)": {
+      "en": "Higher Institute of Applied Studies in Humanities in Sbeitla (University of Kairouan)",
+      "fr": "Institut supérieur des études appliquées en sciences humaines à Sbeitla (Université de Kairouan)"
+    },
+    "المعهد العالي للعلوم الإنسانية\nبجندوبة(جامعة جندوبة)": {
+      "en": "Higher Institute of Human Sciences in Jendouba (University of Jendouba)",
+      "fr": "Institut supérieur des sciences humaines à Jendouba (Université de Jendouba)"
+    },
+    "المعهد العالي للدراسات التطبيقية في\nالإنسانيات بالكاف(جامعة جندوبة)": {
+      "en": "Higher Institute of Applied Studies in Humanities in Kairouan (University of Jendouba)",
+      "fr": "Institut supérieur des études appliquées en sciences humaines à Kairouan (Université de Jendouba)"
+    },
+    "المعهد العالي للغات التطبيقية و\nالاعلامية بباجة(جامعة جندوبة)": {
+      "en": "Higher Institute of Applied Languages and Media in Bajah (Jendouba University)",
+      "fr": "Institut supérieur des langues appliquées et des médias à Bajah (Université de Jendouba)"
+    },
+    "الإجازة في الفرنسية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in French 3 Years (Duration)",
+      "fr": "Licence en français 3 ans (Durée)"
+    },
+    "الوساطة الثقافية": {
+      "en": "Cultural Mediation",
+      "fr": "Médiation culturelle"
+    },
+    "اللغة والآداب والحضارة الفرنسية": {
+      "en": "French Language, Literature and Civilization",
+      "fr": "Langue, littérature et civilisation françaises"
+    },
+    "اللغة و وال؟داب و الحضارة الفرنسية": {
+      "en": "Language, Literature and French Civilization",
+      "fr": "Langue, littérature et civilisation françaises"
+    },
+    "والفرنكوفونية": {
+      "en": "And Francophonie",
+      "fr": "Et la francophonie"
+    },
+    "مهن الثقافة": {
+      "en": "Culture Professions",
+      "fr": "Métiers de la culture"
+    },
+    "اللغة والآداب والترجمة": {
+      "en": "Language, Literature and Translation",
+      "fr": "Langue, littérature et traduction"
+    },
+    "اللغة والآداب والتواصل": {
+      "en": "Language, Literature and Communication",
+      "fr": "Langue, littérature et communication"
+    },
+    "اللغة والآداب والثقافة": {
+      "en": "Language, Literature and Culture",
+      "fr": "Langue, littérature et culture"
+    },
+    "اللغات والآداب والدراسات الثقافية": {
+      "en": "Languages, Literature and Cultural Studies",
+      "fr": "Langues, littérature et études culturelles"
+    },
+    "تعليم اللغة الفرنسية كلغة أجنبية،": {
+      "en": "Teaching French as a Foreign Language,",
+      "fr": "Enseignement du français langue étrangère,"
+    },
+    "الوساطة الثقافية والرقمية": {
+      "en": "Cultural and Digital Mediation",
+      "fr": "Médiation culturelle et numérique"
+    },
+    "المعهد العالي للدراسات التطبيقية في\nالإنسانيات بتوزر(جامعة قفصة)": {
+      "en": "Higher Institute of Applied Studies in Humanities in Tozeur (Gafsa University)",
+      "fr": "Institut supérieur des études appliquées en sciences humaines de Tozeur (Université de Gafsa)"
+    },
+    "الفرنسية و السياحة": {
+      "en": "French and Tourism",
+      "fr": "Français et tourisme"
+    },
+    "اللغة والآداب والملتميديا": {
+      "en": "Language, Literature and Multimedia",
+      "fr": "Langue, littérature et multimédia"
+    },
+    "الثقافة والتواصل": {
+      "en": "Culture and Communication",
+      "fr": "Culture et communication"
+    },
+    "الإجازة في الإسبانية\n3سنوات(أمد)\nإسبانية إجبارية": {
+      "en": "Bachelor's Degree in Spanish 3 Years (Period) Mandatory Spanish",
+      "fr": "Licence en espagnol 3 ans (période) espagnol obligatoire"
+    },
+    "اللغة و الآداب و الحضارة الاسبانية": {
+      "en": "Language, Literature and Spanish Civilization",
+      "fr": "Langue, littérature et civilisation espagnole"
+    },
+    "إدارة أعمال و تجارة دولية": {
+      "en": "Business Administration and International Trade",
+      "fr": "Gestion des entreprises et commerce international"
+    },
+    "اللغة، والآداب، والوساطة بين الثقافات": {
+      "en": "Language, Literature, and Intercultural Mediation",
+      "fr": "Langue, Littérature et Médiation interculturelle"
+    },
+    "آداب، ترجمة، سياحة وأعمال": {
+      "en": "Literature, Translation, Tourism, and Business",
+      "fr": "Littérature, Traduction, Tourisme et Commerce"
+    },
+    "اللغة والآداب والحضارة الإسبانية": {
+      "en": "The Spanish Language, Literature, and Civilization",
+      "fr": "La langue, la littérature et la civilisation espagnoles"
+    },
+    "الإجازة في الإيطالية\n3سنوات(أمد)\nإيطالية إجبارية": {
+      "en": "Bachelor's Degree in Italian\\n3 years (duration)\\nMandatory Italian",
+      "fr": "Licence en italien\\n3 ans (durée)\\nItalien obligatoire"
+    },
+    "اللغة والآداب والحضارة الإيطالية": {
+      "en": "The Language, Literature, and Civilization of Italy",
+      "fr": "Langue, littérature et civilisation italiennes"
+    },
+    "التواصل والحضارة الإيطالية": {
+      "en": "Communication and Italian Civilization",
+      "fr": "Communication et civilisation italiennes"
+    },
+    "الإجازة في الألمانية\n3سنوات(أمد)\nألمانية إجبارية": {
+      "en": "Bachelor's Degree in German\\n3 years (duration)\\nMandatory German",
+      "fr": "Licence en allemand\\n3 ans (durée)\\nAllemand obligatoire"
+    },
+    "اللغة والآداب والحضارة الألمانية": {
+      "en": "The Language, Literature, and Civilization of Germany",
+      "fr": "Langue, littérature et civilisation allemandes"
+    },
+    "إدارة أعمال وتجارة دولية": {
+      "en": "Business Administration and International Trade",
+      "fr": "Gestion des affaires et commerce international"
+    },
+    "التواصل بين الثقافات": {
+      "en": "Intercultural Communication",
+      "fr": "Communication interculturelle"
+    },
+    "الإجازة في الروسية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Russian, 3 years (duration)",
+      "fr": "Licence en russe, 3 ans (durée)"
+    },
+    "اللغة و الترجمة والتواصل بين الثقافات": {
+      "en": "Language, Translation, and Intercultural Communication",
+      "fr": "Langue, traduction et communication interculturelle"
+    },
+    "الإجازة في الصينية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Chinese, 3 years (duration)",
+      "fr": "Licence en chinois, 3 ans (durée)"
+    },
+    "اللغة والآداب والحضارة الصينية": {
+      "en": "Chinese Language, Literature, and Civilization",
+      "fr": "Langue, littérature et civilisation chinoises"
+    },
+    "الإجازة في لغة الإشارات\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Sign Language, 3 years (duration)",
+      "fr": "Licence en langue des signes, 3 ans (durée)"
+    },
+    "لغة الإشارات": {
+      "en": "Sign Language",
+      "fr": "Langue des signes"
+    },
+    "الإجازة في الترجمة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Translation, 3 years (duration)",
+      "fr": "Licence de traduction, 3 ans (durée)"
+    },
+    "العربية /الفرنسية-الإنقليزية": {
+      "en": "Arabic / French-English",
+      "fr": "Arabe / Français-Anglais"
+    },
+    "المرحلة التحضيرية للغات\nوالآداب:عربية\nسنتان\nسن أقل من 20 سنة في غرة سبتمبر": {
+      "en": "Preparatory Stage for Languages and Humanities: Arabic, 2 years, age less than 20 on September 1st",
+      "fr": "Cycle préparatoire aux langues et lettres : Arabe, 2 ans, âge inférieur à 20 ans au 1er septembre"
+    },
+    "المعهد التحضيري للدراسات الأدبية\nوالعلوم الإنسانية بتونس(جامعة\nتونس)": {
+      "en": "Preparatory Institute for Literary Studies and Human Sciences in Tunis (University of Tunis)",
+      "fr": "Institut préparatoire d'études littéraires et des sciences humaines à Tunis (Université de Tunis)"
+    },
+    "عربية": {
+      "en": "Arabic",
+      "fr": "Arabe"
+    },
+    "المرحلة التحضيرية للغات\nوالآداب:فرنسية\nسنتان\nسن أقل من 20 سنة في غرة سبتمبر": {
+      "en": "Preparatory cycle for languages and literature: French, two years, age less than 20 on September 1st.",
+      "fr": "Cycle préparatoire aux langues et littératures : français, deux ans, âge inférieur à 20 ans au 1er septembre."
+    },
+    "فرنسية": {
+      "en": "French",
+      "fr": "Français"
+    },
+    "المرحلة التحضيرية للغات\nوالآداب:انقليزية\nسنتان\nسن أقل من 20 سنة في غرة سبتمبر": {
+      "en": "Preparatory cycle for languages and literature: English, two years, age less than 20 on September 1st.",
+      "fr": "Cycle préparatoire aux langues et littératures : anglais, deux ans, âge inférieur à 20 ans au 1er septembre."
+    },
+    "إنقليزية": {
+      "en": "English",
+      "fr": "Anglais"
+    },
+    "المرحلة التحضيرية للعلوم\nالإنسانية:تاريخ\nسنتان\nسن أقل من 20 سنة في غرة سبتمبر": {
+      "en": "Preparatory cycle for human sciences: History, two years, age less than 20 on September 1st.",
+      "fr": "Cycle préparatoire aux sciences humaines : histoire, deux ans, âge inférieur à 20 ans au 1er septembre."
+    },
+    "تاريخ": {
+      "en": "History",
+      "fr": "Histoire"
+    },
+    "المرحلة التحضيرية للعلوم\nالإنسانية:جغرافيا\nسنتان\nسن أقل من 20 سنة في غرة سبتمبر": {
+      "en": "Preparatory cycle for human sciences: Geography, two years, age less than 20 on September 1st.",
+      "fr": "Cycle préparatoire aux sciences humaines : géographie, deux ans, âge inférieur à 20 ans au 1er septembre."
+    },
+    "جغرافيا": {
+      "en": "Geography",
+      "fr": "Géographie"
+    },
+    "المرحلة التحضيرية للعلوم\nالإنسانية:فلسفة\nسنتان": {
+      "en": "Preparatory cycle for human sciences: Philosophy, two years.",
+      "fr": "Cycle préparatoire aux sciences humaines : philosophie, deux ans."
+    },
+    "فلسفة": {
+      "en": "Philosophy",
+      "fr": "Philosophie"
+    },
+    "العلوم الإنسانية والإجتماعية والدينية والتربية": {
+      "en": "Human, Social, Religious, and Educational Sciences",
+      "fr": "Sciences humaines, sociales, religieuses et éducatives"
+    },
+    "الإجازة في الأنتروبولوجيا\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Anthropology\\n3 years (full-time)",
+      "fr": "Licence en anthropologie\\n3 ans (temps plein)"
+    },
+    "الأنثروبولوجيا الاجتماعية والثقافية": {
+      "en": "Social and Cultural Anthropology",
+      "fr": "Anthropologie sociale et culturelle"
+    },
+    "الأنتروبولوجيا": {
+      "en": "Anthropology",
+      "fr": "Anthropologie"
+    },
+    "المعهد العالي للفنون و الحرف\nبتطاوين(جامعة قابس)": {
+      "en": "Higher Institute of Arts and Crafts\\nTataouine (Gabes University)",
+      "fr": "Institut supérieur des arts et métiers\\nTataouine (Université de Gabès)"
+    },
+    "الإجازة في عـلــم الاجتماع\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Sociology\\n3 years (full-time)",
+      "fr": "Licence en sociologie\\n3 ans (temps plein)"
+    },
+    "الديمغرافيا،التنمية المستدامة": {
+      "en": "Demography, Sustainable Development",
+      "fr": "Démographie, développement durable"
+    },
+    "والسياسات العمومية": {
+      "en": "And Public Policies",
+      "fr": "Et politiques publiques"
+    },
+    "الوساطة، المؤسسات، والتدخل": {
+      "en": "Mediation, Institutions, and Intervention",
+      "fr": "Médiation, institutions et intervention"
+    },
+    "السوسيولوجي": {
+      "en": "Sociological",
+      "fr": "Sociologique"
+    },
+    "علم اجتماع التربية والأسرة والدمج": {
+      "en": "Sociology of Education, Family, and Inclusion",
+      "fr": "Sociologie de l'éducation, de la famille et de l'inclusion"
+    },
+    "الاجتماعي": {
+      "en": "Social",
+      "fr": "Social"
+    },
+    "السوسيولوجيا الثقافية والاتصال": {
+      "en": "Cultural Sociology and Communication",
+      "fr": "Sociologie culturelle et communication"
+    },
+    "سوسيولوجيا التنمية والمسائل": {
+      "en": "Sociology of Development and Issues",
+      "fr": "Sociologie du développement et des problématiques"
+    },
+    "الاجتماعية": {
+      "en": "Social",
+      "fr": "Social"
+    },
+    "سوسيولوجيا الأجيال والإشراك": {
+      "en": "Sociology of Generations and Participation",
+      "fr": "Sociologie des générations et de la participation"
+    },
+    "سوسيولوجيا الوساطة والتدخل": {
+      "en": "Sociology of Mediation and Intervention",
+      "fr": "Sociologie de la médiation et de l'intervention"
+    },
+    "سياسات عمومية وعلوم السكان": {
+      "en": "Public Policies and Population Studies",
+      "fr": "Politiques publiques et sciences de la population"
+    },
+    "الوساطة و الإتصال و التدخل": {
+      "en": "Mediation, Communication, and Intervention",
+      "fr": "Médiation, communication et intervention"
+    },
+    "علم اجتماع السياحة البديلة والتنمية": {
+      "en": "Sociology of Alternative Tourism and Development",
+      "fr": "Sociologie du tourisme alternatif et du développement"
+    },
+    "المستدامة": {
+      "en": "Sustainable",
+      "fr": "Durable"
+    },
+    "الإجازة في علم النـفـــس\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Psychology 3 Years (Duration)",
+      "fr": "Licence de psychologie 3 ans (durée)"
+    },
+    "علم النفس": {
+      "en": "Psychology",
+      "fr": "Psychologie"
+    },
+    "علم النفس الحركي": {
+      "en": "Movement Psychology",
+      "fr": "Psychologie du mouvement"
+    },
+    "الإجازة في الفـلســفــة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Philosophy 3 Years (Duration)",
+      "fr": "Licence de philosophie 3 ans (durée)"
+    },
+    "الفـلــسـفـة": {
+      "en": "Philosophy",
+      "fr": "Philosophie"
+    },
+    "تاريخ الفلسفة والفلسفة العامة": {
+      "en": "History of Philosophy and General Philosophy",
+      "fr": "Histoire de la philosophie et philosophie générale"
+    },
+    "الاتيقا والإستطيقا والسياسة": {
+      "en": "Ethics, Aesthetics, and Politics",
+      "fr": "Éthique, esthétique et politique"
+    },
+    "Ethique, esthétique et": {
+      "en": "Ethique, esthétique et",
+      "fr": "Éthique, esthétique et"
+    },
+    "politique": {
+      "en": "Politics",
+      "fr": "Politique"
+    },
+    "الإجازة في التاريخ\n3سنوات(أمد)": {
+      "en": "Leave in History\\n3 years (duration)",
+      "fr": "Congé en Histoire\\n3 ans (durée)"
+    },
+    "التاريخ": {
+      "en": "History",
+      "fr": "Histoire"
+    },
+    "علم الآثار": {
+      "en": "Archaeology",
+      "fr": "Archéologie"
+    },
+    "التاريخ والعلوم الاجتماعية": {
+      "en": "History and Social Sciences",
+      "fr": "Histoire et sciences sociales"
+    },
+    "تاريخ وعلوم التراث": {
+      "en": "History and Heritage Sciences",
+      "fr": "Histoire et sciences du patrimoine"
+    },
+    "الآثار والتراث": {
+      "en": "Archaeology and Heritage",
+      "fr": "Archéologie et patrimoine"
+    },
+    "التدريس والبحث في التاريخ": {
+      "en": "Teaching and Research in History",
+      "fr": "Enseignement et recherche en histoire"
+    },
+    "علوم الآثار والتراث": {
+      "en": "Archaeology and Heritage Sciences",
+      "fr": "Sciences archéologiques et du patrimoine"
+    },
+    "الإجازة في الجغرافيا\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Geography\\n3 years (duration)",
+      "fr": "Licence de Géographie\\n3 ans (durée)"
+    },
+    "التنمية و البيئة": {
+      "en": "Development and Environment",
+      "fr": "Développement et environnement"
+    },
+    "تهيئة بيئة ومخاطر": {
+      "en": "Preparing the environment and risks",
+      "fr": "Préparation de l'environnement et des risques"
+    },
+    "التراب والمخاطر": {
+      "en": "Soil and Risks",
+      "fr": "Sol et risques"
+    },
+    "التنمية الترابية والجماعات المحلية": {
+      "en": "Territorial Development and Local Communities",
+      "fr": "Développement territorial et collectivités locales"
+    },
+    "المجال والتنمية والتهيئة": {
+      "en": "Field, Development, and Planning",
+      "fr": "Domaine, développement et aménagement"
+    },
+    "التهيئة والبيئة": {
+      "en": "Planning and Environment",
+      "fr": "Aménagement et environnement"
+    },
+    "الإجازة في الخرائطية ونظم المعلومات\nالجغرافية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Cartography and Geographic Information Systems 3 years (duration)",
+      "fr": "Licence en cartographie et systèmes d'information géographique 3 ans (durée)"
+    },
+    "الخرائطية ونظم المعلومات الجغرافية": {
+      "en": "Cartography and Geographic Information Systems",
+      "fr": "Cartographie et systèmes d'information géographique"
+    },
+    "الإجازة في صيانة التراث المادي\nوترميمه\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Conservation and Restoration of Material Heritage 3 years (duration)",
+      "fr": "Licence en conservation et restauration du patrimoine matériel 3 ans (durée)"
+    },
+    "صيانة التراث المادي وترميمه": {
+      "en": "Conservation and Restoration of Material Heritage",
+      "fr": "Conservation et restauration du patrimoine matériel"
+    },
+    "الإجازة في العلوم الإسلامية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Islamic Sciences 3 years (duration)",
+      "fr": "Licence en sciences islamiques 3 ans (durée)"
+    },
+    "المعهد العالي للحضارة الإسلامية\nبتونس )جامعة الزيتونة)": {
+      "en": "Higher Institute of Islamic Civilization in Tunis (Zaytuna University)",
+      "fr": "Institut supérieur de civilisation islamique à Tunis (Université Zaytuna)"
+    },
+    "الدراسات الإسلامية": {
+      "en": "Islamic Studies",
+      "fr": "Études islamiques"
+    },
+    "العقيدة و قضايا الفكر الإسلامي": {
+      "en": "Creed and Issues of Islamic Thought",
+      "fr": "Croyance et questions de la pensée islamique"
+    },
+    "الفقه و أصوله": {
+      "en": "Jurisprudence and its Principles",
+      "fr": "Fiqh et ses principes"
+    },
+    "علوم القرآن و الحديث": {
+      "en": "Sciences of the Qur'an and Hadith",
+      "fr": "Sciences du Coran et du Hadith"
+    },
+    "المعهد العالي للعلوم الإسلامية\nبالقيروان )جامعة الزيتونة)": {
+      "en": "Higher Institute of Islamic Sciences in Kairouan (Zaytuna University)",
+      "fr": "Institut supérieur des sciences islamiques à Kairouan (Université Zaytuna)"
+    },
+    "الأديان المقارنة وحوار الحضارات": {
+      "en": "Comparative Religions and Dialogue of Civilizations",
+      "fr": "Religions comparées et dialogue des civilisations"
+    },
+    "الفقه المقارن": {
+      "en": "Comparative Jurisprudence",
+      "fr": "Jurisprudence comparative"
+    },
+    "الكتاب والسنة": {
+      "en": "The Book and the Sunnah",
+      "fr": "Le Livre et la Sunna"
+    },
+    "الإجازة في العلوم الشرعية\n3سنوات(أمد)": {
+      "en": "Degree in Sharia Sciences",
+      "fr": "Diplôme en sciences islamiques"
+    },
+    "المعهد العالي لأصول الدين بتونس(\nجامعة الزيتونة)": {
+      "en": "Higher Institute of Usul ad-Din in Tunis (Zitouna University)",
+      "fr": "Institut supérieur des usul ad-din de Tunis (Université Zitouna)"
+    },
+    "أصول الدين": {
+      "en": "Usul ad-Din",
+      "fr": "Usul ad-Din"
+    },
+    "الحضارة الإسلامية": {
+      "en": "Islamic Civilization",
+      "fr": "Civilisation islamique"
+    },
+    "الشريعة الإسلامية": {
+      "en": "Islamic Law",
+      "fr": "Droit islamique"
+    },
+    "علوم القرآن و الحديث و السيرة": {
+      "en": "Sciences of the Qur'an, Hadith, and Biography",
+      "fr": "Sciences du Coran, du Hadith et de la Biographie"
+    },
+    "الإجازة في الجيوماتيك والبيئة\nوالتهيئة\n3سنوات(أمد)": {
+      "en": "Degree in Geomatics and Environment and Planning 3 Years (Full-time)",
+      "fr": "Diplôme en géomatique, environnement et planification 3 ans (temps plein)"
+    },
+    "جيوماتيك والبيئة وتهيئة": {
+      "en": "Geomatics, Environment, and Planning",
+      "fr": "Géomatique, environnement et planification"
+    },
+    "الاجازة في الجيوبوليتيك و العلاقات\nالدولية\n3سنوات(أمد)": {
+      "en": "Degree in Geopolitics and International Relations 3 Years (Full-time)",
+      "fr": "Diplôme en géopolitique et relations internationales 3 ans (temps plein)"
+    },
+    "جيوبوليتيك وعلاقات دولية": {
+      "en": "Geopolitics and International Relations",
+      "fr": "Géopolitique et relations internationales"
+    },
+    "الاجازة في الجيوماتيك\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Geomatics 3 years (duration)",
+      "fr": "Licence en géomatique 3 ans (durée)"
+    },
+    "الجيوماتيك والبيئة": {
+      "en": "Geomatics and Environment",
+      "fr": "Géomatique et environnement"
+    },
+    "الجيوماتيك والتهيئة": {
+      "en": "Geomatics and Planning",
+      "fr": "Géomatique et aménagement"
+    },
+    "الإجازة في الآثار وتاريخ الفن\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Archaeology and Art History 3 years (duration)",
+      "fr": "Licence en archéologie et histoire de l'art 3 ans (durée)"
+    },
+    "الاثار وتاريخ الفن": {
+      "en": "Archaeology and Art History",
+      "fr": "Archéologie et histoire de l'art"
+    },
+    "الإجازة في علم الآثار\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Archaeology 3 years (duration)",
+      "fr": "Licence en archéologie 3 ans (durée)"
+    },
+    "الإجازة في الخدمة الاجتماعية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Social Work 3 years (duration)",
+      "fr": "Licence en travail social 3 ans (durée)"
+    },
+    "المعهد الوطني للشغل والدراسات\nالإجتماعية بتونس(جامعة منوبة)": {
+      "en": "National Institute for Labor and Social Studies in Tunis (Manouba University)",
+      "fr": "Institut national du travail et des études sociales de Tunis (Université de Manouba)"
+    },
+    "الخدمة الاجتماعية": {
+      "en": "Social Work",
+      "fr": "Travail social"
+    },
+    "الإجازة في التصرف الإلكتروني في\nالمعلومات و الوثائق\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Electronic Information and Document Management 3 years (duration)",
+      "fr": "Licence en gestion électronique de l'information et des documents 3 ans (durée)"
+    },
+    "المعهد العالي للتوثيق بتونس(جامعة\nمنوبة)": {
+      "en": "High Institute of Documentation in Tunis (Manouba University)",
+      "fr": "Institut supérieur de documentation à Tunis (Université Manouba)"
+    },
+    "التصرف الإلكتروني في المعلومات": {
+      "en": "Electronic processing of information",
+      "fr": "Traitement électronique de l'information"
+    },
+    "والوثائق": {
+      "en": "and documents",
+      "fr": "et documents"
+    },
+    "الإجازة في التوثيق وعلوم المكتبات\nوالأرشيف\n3سنوات(أمد)": {
+      "en": "Bachelor's degree in Documentation, Library Science, and Archives, 3 years (duration)",
+      "fr": "Licence en documentation, sciences bibliothéconomiques et archives, 3 ans (durée)"
+    },
+    "التوثيق وعلوم المكتبات والأرشيف": {
+      "en": "Documentation, Library Science, and Archives",
+      "fr": "Documentation, sciences bibliothéconomiques et archives"
+    },
+    "الإجازة في علوم التربية\n3سنوات(أمد)\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's degree in Educational Sciences, 3 years (duration), specialization requiring an exam",
+      "fr": "Licence en sciences de l'éducation, 3 ans (durée), spécialité nécessitant un examen"
+    },
+    "المعهد العالي لإطارات الطفولة\nبقرطاج درمش(جامعة قرطاج)": {
+      "en": "High Institute for Childhood Staff in Carthage Dermech (University of Carthage)",
+      "fr": "Institut supérieur pour le personnel de l'enfance à Carthage Dermech (Université de Carthage)"
+    },
+    "التربية ما قبل المدرسة": {
+      "en": "Preschool education",
+      "fr": "Préscolaire"
+    },
+    "المرافقة التربوية": {
+      "en": "Educational support",
+      "fr": "Accompagnement pédagogique"
+    },
+    "الإجازة في التربية المختصة\n3سنوات(أمد)\nتربية بدنية إجبارية": {
+      "en": "Bachelor's degree in Specialized Education, 3 years (duration), mandatory physical education",
+      "fr": "Licence en éducation spécialisée, 3 ans (durée), éducation physique obligatoire"
+    },
+    "المعهد العالي للتربية\nالمختصة(جامعة منوبة)": {
+      "en": "Higher Institute for Specialized Education (Manouba University)",
+      "fr": "Institut supérieur de l'éducation spécialisée (Université de Manouba)"
+    },
+    "التربية المختصة": {
+      "en": "Specialized Education",
+      "fr": "Éducation spécialisée"
+    },
+    "الإجازة في التربية والتعليم\n3سنوات(أمد)\nالسن القصوى 21 سنة في غرة\nأكتوبر\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's Degree in Education and Teaching, 3 years (duration). Maximum age 21 years on October 1st. Requires an exam major.",
+      "fr": "Licence en éducation et enseignement, 3 ans (durée). Âge maximum 21 ans au 1er octobre. Filière nécessitant un examen."
+    },
+    "المعهد العالي للدراسات التطبيقية في\nالإنسانيات بزغوان(جامعة تونس)": {
+      "en": "Higher Institute for Applied Studies in Humanities, Zaghouan (University of Tunis)",
+      "fr": "Institut supérieur des études appliquées en sciences humaines, Zaghouan (Université de Tunis)"
+    },
+    "التربية والتعليم": {
+      "en": "Education and Teaching",
+      "fr": "Éducation et enseignement"
+    },
+    "المعهد العالي للدراسات التطبيقية في\nالانسانيات بالمهدية(جامعة\nالمنستير)": {
+      "en": "Higher Institute for Applied Studies in Humanities, Mahdia (University of Monastir)",
+      "fr": "Institut supérieur des études appliquées en sciences humaines, Mahdia (Université de Monastir)"
+    },
+    "المعهد العالي للعلوم الاجتماعية\nوالتربية بقفصة(جامعة قفصة)": {
+      "en": "Higher Institute for Social Sciences and Education, Gafsa (University of Gafsa)",
+      "fr": "Institut supérieur des sciences sociales et de l'éducation, Gafsa (Université de Gafsa)"
+    },
+    "الإجازة في التربية الدامجة\nوالبيداغوجيا الرقمية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Inclusive Education and Digital Pedagogy, 3 years (duration)",
+      "fr": "Licence en éducation inclusive et pédagogie numérique, 3 ans (durée)"
+    },
+    "التربية الدامجة و البيداغوجيا الرقمية": {
+      "en": "Inclusive Education and Digital Pedagogy",
+      "fr": "Éducation inclusive et pédagogie numérique"
+    },
+    "الإجازة في الهندسة البيداغوجية\nوالتقنيات المبتكرة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Pedagogical Engineering and Innovative Technologies, 3 years (duration)",
+      "fr": "Licence en ingénierie pédagogique et technologies innovantes, 3 ans (durée)"
+    },
+    "الهندسة البيداغوجية والتقنيات المبتكرة": {
+      "en": "Pedagogical Engineering and Innovative Techniques",
+      "fr": "Génie pédagogique et techniques innovantes"
+    },
+    "الإجازة في الصحافة\n3سنوات(أمد)\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's Degree in Journalism 3 years (duration) Stream requiring an exam",
+      "fr": "Licence en journalisme 3 ans (durée) Filière nécessitant un examen"
+    },
+    "معهد الصحافة وعلوم الإخبار(جامعة\nمنوبة)": {
+      "en": "Institute of Journalism and News Sciences (Manouba University)",
+      "fr": "Institut de journalisme et des sciences de l'information (Université de Manouba)"
+    },
+    "الصحافة": {
+      "en": "Journalism",
+      "fr": "Journalisme"
+    },
+    "الإجازة في الاتصال\n3سنوات(أمد)\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's Degree in Communication 3 years (duration) Stream requiring an exam",
+      "fr": "Licence en communication 3 ans (durée) Filière nécessitant un examen"
+    },
+    "الإتصال": {
+      "en": "Communication",
+      "fr": "Communication"
+    },
+    "الإجازة في الميديا والسرديات الرقمية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Media and Digital Narratives 3 years (duration)",
+      "fr": "Licence en médias et narrations numériques 3 ans (durée)"
+    },
+    "الميديا والسرديات الرقمية": {
+      "en": "Media and Digital Narratives",
+      "fr": "Médias et narrations numériques"
+    },
+    "السياحة والتنشيط والرياضة والتربية البدنية": {
+      "en": "Tourism, Animation, Sports, and Physical Education",
+      "fr": "Tourisme, animation, sport et éducation physique"
+    },
+    "الإجازة في التنشيط السياحي\n3سنوات(أمد)\nتربية بدنية إجبارية\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's Degree in Tourist Animation 3 years (duration) Mandatory Physical Education Stream requiring an exam",
+      "fr": "Licence en animation touristique 3 ans (durée) Éducation physique obligatoire Filière nécessitant un examen"
+    },
+    "المعهد العالي للتنشيط الشبابي\nوالثقافي ببئر الباي(جامعة تونس)": {
+      "en": "Higher Institute for Youth and Cultural Activation in Bir Bayou (University of Tunis)",
+      "fr": "Institut supérieur pour l'animation jeunesse et culturelle à Bir Bayou (Université de Tunis)"
+    },
+    "التنشيط السياحي": {
+      "en": "Tourism Animation",
+      "fr": "Animation touristique"
+    },
+    "الإجازة في التنشيط الشبابي\n3سنوات(أمد)\nتربية بدنية إجبارية\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's Degree in Youth Animation 3 years (duration) Mandatory Physical Education Branch requiring an exam",
+      "fr": "Licence en animation jeunesse 3 ans (durée) Éducation physique obligatoire Branche nécessitant un examen"
+    },
+    "التنشيط الشبابي": {
+      "en": "Youth Animation",
+      "fr": "Animation jeunesse"
+    },
+    "الإجازة في الوساطة والتنشيط الثقافي\n3سنوات(أمد)\nتربية بدنية إجبارية\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's Degree in Mediation and Cultural Animation 3 years (duration) Mandatory Physical Education Branch requiring an exam",
+      "fr": "Licence en médiation et animation culturelle 3 ans (durée) Éducation physique obligatoire Branche nécessitant un examen"
+    },
+    "الوساطة والتنشيط الثقافي": {
+      "en": "Mediation and Cultural Animation",
+      "fr": "Médiation et animation culturelle"
+    },
+    "الإجازة في علوم وتقنيات الأنشطة\nالبدنية والرياضة\n3سنوات(أمد)\nتربية بدنية إجبارية، وعدد مادة\nالتربية البدنية16<=\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's Degree in Activity Sciences and Techniques Physical Education and Sport 3 years (duration) Mandatory Physical Education, and number of physical education subjects 16<= Branch requiring an exam",
+      "fr": "Licence en sciences et techniques des activités physiques et sportives 3 ans (durée) Éducation physique obligatoire, et nombre de matières d'éducation physique 16<= Branche nécessitant un examen"
+    },
+    "المعهد العالي للرياضة و التربية\nالبدنية بقصر السعيد(جامعة منوبة)": {
+      "en": "Higher Institute for Sport and Physical Education in Kasr Saïd (University of Manouba)",
+      "fr": "Institut supérieur du sport et de l'éducation physique à Kasr Saïd (Université de Manouba)"
+    },
+    "التدريب الرياضي": {
+      "en": "Sports Training",
+      "fr": "Entraînement sportif"
+    },
+    "التربية والحركية": {
+      "en": "Education and Movement",
+      "fr": "Éducation et mouvement"
+    },
+    "المعهد العالي للرياضة و التربية\nالبدنية بصفاقس(جامعة صفاقس)": {
+      "en": "Higher Institute of Sport and Physical Education in Sfax (Sfax University)",
+      "fr": "Institut supérieur de sport et d'éducation physique à Sfax (Université de Sfax)"
+    },
+    "الأنشطة البدنية الملائمة والصحة": {
+      "en": "Appropriate physical activities and health",
+      "fr": "Activités physiques adaptées et santé"
+    },
+    "المعهد العالي للرياضة و التربية\nالبدنية بقفصة(جامعة قفصة)": {
+      "en": "Higher Institute of Sport and Physical Education in Gafsa (Gafsa University)",
+      "fr": "Institut supérieur de sport et d'éducation physique à Gabès (Université de Gabès)"
+    },
+    "الأنشطة البدنية الملائمة": {
+      "en": "Appropriate physical activities",
+      "fr": "Activités physiques adaptées"
+    },
+    "المعهد العالي للرياضة والتربية\nالبدنية بالكاف(جامعة جندوبة)": {
+      "en": "Higher Institute of Sport and Physical Education in Kairouan (Jendouba University)",
+      "fr": "Institut supérieur de sport et d'éducation physique à Kairouan (Université de Jendouba)"
+    },
+    "التسيير والتسويق الرياضي": {
+      "en": "Sports Management and Marketing",
+      "fr": "Gestion et marketing sportif"
+    },
+    "تقنيات الأنشطة البدنية والرياضية": {
+      "en": "Techniques of Physical and Sports Activities",
+      "fr": "Techniques d'activités physiques et sportives"
+    },
+    "الاجازة في السياحة\n3سنوات(أمد)\nشعبة تتطلب اختبار": {
+      "en": "Diploma in Tourism, 3 years (duration), Department requiring an exam",
+      "fr": "Diplôme en tourisme, 3 ans (durée), Filière nécessitant un examen"
+    },
+    "المعهد العالي للدراسات السياحية\nوالفندقية بسيدي الظريف(جامعة\nقرطاج)": {
+      "en": "Higher Institute of Tourism and Hotel Studies in Sidi Zahra (University of Carthage)",
+      "fr": "Institut supérieur d'études touristiques et hôtelières à Sidi Zahra (Université de Carthage)"
+    },
+    "دليل سياحي": {
+      "en": "Tourist guide",
+      "fr": "Guide touristique"
+    },
+    "إدارة المنتجات والخدمات السياحية": {
+      "en": "Management of Tourist Products and Services",
+      "fr": "Gestion des produits et services touristiques"
+    },
+    "الإجازة في الفندقة\n3سنوات(أمد)\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's Degree in Hotel Management 3 years (duration) Major requiring an exam",
+      "fr": "Licence en hôtellerie 3 ans (durée) Filière nécessitant un examen"
+    },
+    "إدارة فن الطهي والمطاعم": {
+      "en": "Management of Culinary Arts and Restaurants",
+      "fr": "Gestion des arts culinaires et des restaurants"
+    },
+    "إدارة الضيافة والاستدامة": {
+      "en": "Management of Hospitality and Sustainability",
+      "fr": "Gestion de l'hôtellerie et du développement durable"
+    },
+    "الثقافة والفنون الجميلة والفنون والحرف": {
+      "en": "Culture, Fine Arts, Arts, and Crafts",
+      "fr": "Culture, beaux-arts, arts et artisanat"
+    },
+    "الإجازة في المحافظة على الممتلكات\nالثقافية و ترميمها\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Preservation and Restoration of Cultural Property 3 years (duration)",
+      "fr": "Licence en conservation et restauration du patrimoine culturel 3 ans (durée)"
+    },
+    "المعهد العالى لمهن التراث\nبتونس(جامعة تونس)": {
+      "en": "Higher Institute for Heritage Professions in Tunis (University of Tunis)",
+      "fr": "Institut supérieur des métiers du patrimoine à Tunis (Université de Tunis)"
+    },
+    "ترميم الحجارة ومشتقاتها": {
+      "en": "Restoration of Stones and their Derivatives",
+      "fr": "Restauration des pierres et de leurs dérivés"
+    },
+    "ترميم الخشب واللوحات الفنية": {
+      "en": "Restoration of Wood and Artistic Paintings",
+      "fr": "Restauration du bois et des peintures artistiques"
+    },
+    "المعهد العالى للفنون الجميلة\nبسوسة(جامعة سوسة)": {
+      "en": "Higher Institute of Fine Arts in Sousse (University of Sousse)",
+      "fr": "Institut supérieur des beaux-arts à Sousse (Université de Sousse)"
+    },
+    "الفسيفساء والاسطح المزخرفة": {
+      "en": "Mosaic and Decorated Surfaces",
+      "fr": "Mosaïque et surfaces décorées"
+    },
+    "المعهد العالي للفنون و الحرف\nبقابس(جامعة قابس)": {
+      "en": "Higher Institute of Arts and Crafts\\nGabes (University of Gabes)",
+      "fr": "Institut supérieur des arts et métiers\\nGabès (Université de Gabès)"
+    },
+    "الحجارة ومشتقاتها : الأسطح المزخرفة": {
+      "en": "Stones and their Derivatives: Decorated Surfaces",
+      "fr": "Pierres et leurs dérivés : Surfaces décorées"
+    },
+    "الإجازة في علم المتاحف و الوسائطية\nوالتصرف في التراث\n3سنوات(أمد)": {
+      "en": "License in Museum Studies and Media\\nand Heritage Management\\n3 years (duration)",
+      "fr": "Licence en études muséales et médiatiques\\nainsi qu'en gestion du patrimoine\\n3 ans (durée)"
+    },
+    "علم المتاحف والوسائطية والتصرف في": {
+      "en": "Museum Studies, Media, and Heritage Management",
+      "fr": "Études muséales, médiatiques et gestion du patrimoine"
+    },
+    "التراث": {
+      "en": "Heritage",
+      "fr": "Patrimoine"
+    },
+    "الإجازة في تسويق التراث\n3سنوات(أمد)": {
+      "en": "License in Heritage Marketing\\n3 years (duration)",
+      "fr": "Licence en marketing du patrimoine\\n3 ans (durée)"
+    },
+    "تسويق التراث": {
+      "en": "Heritage Marketing",
+      "fr": "Marketing du patrimoine"
+    },
+    "الإجازة في المسرح و فنون العرض\n3سنوات(أمد)\nشعبة تتطلب اختبار": {
+      "en": "License in Theatre and Performing Arts\\n3 years (duration)\\nRequires an exam",
+      "fr": "Licence en théâtre et arts du spectacle\\n3 ans (durée)\\nNécessite un examen"
+    },
+    "المعهدالعالي للفن المسرحي\nبتونس(جامعة تونس)": {
+      "en": "Higher Institute of Dramatic Art\\nTunis (University of Tunis)",
+      "fr": "Institut supérieur d'art dramatique\\nTounes (Université de Tunis)"
+    },
+    "فنون مسرح العرائس": {
+      "en": "Puppet Arts",
+      "fr": "Arts du théâtre de marionnettes"
+    },
+    "فن الممثل": {
+      "en": "Acting Art",
+      "fr": "Art de l'acteur"
+    },
+    "مسرح الناشئة والوساطة المسرحية": {
+      "en": "Youth Theatre and Dramatic Mediation",
+      "fr": "Théâtre des jeunes et médiation dramatique"
+    },
+    "المعهد العالي للموسيقى و المسرح\nبالكاف(جامعة جندوبة)": {
+      "en": "Higher Institute of Music and Theater in Kairouan (University of Jendouba)",
+      "fr": "Institut supérieur de musique et de théâtre à Kairouan (Université de Jendouba)"
+    },
+    "مسرح وفنون العرض": {
+      "en": "Theater and Performing Arts",
+      "fr": "Théâtre et arts du spectacle"
+    },
+    "الإجازة في الموسيقى و العلوم\nالموسيقية\n3سنوات(أمد)\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's Degree in Music and Musical Sciences 3 Years (Duration) Branch requiring an exam",
+      "fr": "Licence en musique et sciences musicales 3 ans (durée) Filière nécessitant un examen"
+    },
+    "المعهد العالي للموسيقى\nبتونس(جامعة تونس)": {
+      "en": "Higher Institute of Music in Tunis (University of Tunis)",
+      "fr": "Institut supérieur de musique à Tunis (Université de Tunis)"
+    },
+    "الموسيقى و العلوم الموسيقية": {
+      "en": "Music and Musical Sciences",
+      "fr": "Musique et sciences musicales"
+    },
+    "المعهد العالي للموسيقى\nبسوسة(جامعة سوسة)": {
+      "en": "Higher Institute of Music in Sousse (University of Sousse)",
+      "fr": "Institut supérieur de musique à Sousse (Université de Sousse)"
+    },
+    "الموسيقى والأداء": {
+      "en": "Music and Performance",
+      "fr": "Musique et performance"
+    },
+    "المعهد العالي للموسيقى\nبصفاقس(جامعة صفاقس)": {
+      "en": "Higher Institute of Music in Sfax (Sfax University)",
+      "fr": "Institut supérieur de musique à Sfax (Université de Sfax)"
+    },
+    "المعهد العالي للفنون و الحرف\nبقفصة(جامعة قفصة)": {
+      "en": "Higher Institute of Arts and Crafts in Gafsa (Gafsa University)",
+      "fr": "Institut supérieur des arts et métiers à Gafsa (Université de Gafsa)"
+    },
+    "الإجازة في الفنون التشكيلية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Fine Arts 3 years (Duration)",
+      "fr": "Licence en arts plastiques 3 ans (Durée)"
+    },
+    "المعهد العالى للفنون الجميلة\nبتونس(جامعة تونس)": {
+      "en": "Higher Institute of Fine Arts in Tunis (Tunis University)",
+      "fr": "Institut supérieur des beaux-arts à Tunis (Université de Tunis)"
+    },
+    "حفر": {
+      "en": "Carving",
+      "fr": "Sculpture"
+    },
+    "خزف": {
+      "en": "Ceramics",
+      "fr": "Céramique"
+    },
+    "رسم": {
+      "en": "Drawing",
+      "fr": "Dessin"
+    },
+    "فوتوغرافيا": {
+      "en": "Photography",
+      "fr": "Photographie"
+    },
+    "نحت": {
+      "en": "Sculpture",
+      "fr": "Sculpture"
+    },
+    "المعهد العالى للفنون الجميلة\nبنابل(جامعة قرطاج)": {
+      "en": "Higher Institute of Fine Arts in Nabeul (Carthage University)",
+      "fr": "Institut supérieur des beaux-arts à Nabeul (Université de Carthage)"
+    },
+    "فنون وسائطية": {
+      "en": "Media Arts",
+      "fr": "Arts multimédias"
+    },
+    "المعهد العالى للفنون و الحرف\nبصفاقس(جامعة صفاقس)": {
+      "en": "Higher Institute of Arts and Crafts in Sfax (Sfax University)",
+      "fr": "Institut supérieur des arts et métiers de Sfax (Université de Sfax)"
+    },
+    "فسيفساء": {
+      "en": "Mosaic",
+      "fr": "Mosaïque"
+    },
+    "نسيج": {
+      "en": "Textile",
+      "fr": "Textile"
+    },
+    "صورة وتقنيات السمعي البصري": {
+      "en": "Photography and Audiovisual Techniques",
+      "fr": "Photographie et techniques audiovisuelles"
+    },
+    "المعهد العالي للفنون والحرف\nبالقيروان(جامعة القيروان)": {
+      "en": "Higher Institute of Arts and Crafts in Kairouan (Kairouan University)",
+      "fr": "Institut supérieur des arts et métiers de Kairouan (Université de Kairouan)"
+    },
+    "فتوغرافيا": {
+      "en": "Photography",
+      "fr": "Photographie"
+    },
+    "المعهد العالي للفنون و الحرف\nبالقصرين(جامعة القيروان)": {
+      "en": "Higher Institute of Arts and Crafts in Kasserine (Kairouan University)",
+      "fr": "Institut supérieur des arts et métiers de Kasserine (Université de Kairouan)"
+    },
+    "المعهد العالي للفنون و الحرف\nبسليانة(جامعة جندوبة)": {
+      "en": "Higher Institute of Arts and Crafts in Siliana (Jendouba University)",
+      "fr": "Institut supérieur des arts et métiers de Siliana (Université de Jendouba)"
+    },
+    "الإجازة في تصميم الفضاء\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Space Design 3 Years (Duration)",
+      "fr": "Licence en design d'espace 3 ans (Durée)"
+    },
+    "سينوغرافيا": {
+      "en": "Scenography",
+      "fr": "Scénographie"
+    },
+    "هندسة داخلية": {
+      "en": "Interior Design",
+      "fr": "Décoration intérieure"
+    },
+    "المدرسة العليا لعلوم و تكنولوجيات\nالتصميم(جامعة منوبة)": {
+      "en": "Higher School of Science and Technologies of Design (Manouba University)",
+      "fr": "École supérieure des sciences et technologies du design (Université de Manouba)"
+    },
+    "المعهد العالي للفنون و الحرف\nبالمهدية(جامعة المنستير)": {
+      "en": "Higher Institute of Arts and Crafts (Mahdia University)",
+      "fr": "Institut supérieur d'arts et métiers (Université de Monastir)"
+    },
+    "المعهد العالي للفنون والحرف\nبسيدي بوزيد(جامعة القيروان)": {
+      "en": "Higher Institute of Arts and Crafts (Sidi Bouzid University)",
+      "fr": "Institut supérieur d'arts et métiers (Université de Kairouan)"
+    },
+    "الهندسة الداخلية": {
+      "en": "Interior Design",
+      "fr": "Décoration intérieure"
+    },
+    "الاجازة في تصميم المنتوج\n3سنوات(أمد)": {
+      "en": "Bachelor in Product Design 3 years (Amad)",
+      "fr": "Licence en design de produits 3 ans (Amad)"
+    },
+    "إبتكار صناعي": {
+      "en": "Industrial Innovation",
+      "fr": "Innovation industrielle"
+    },
+    "تصميم المنتوج": {
+      "en": "Product Design",
+      "fr": "Design de produits"
+    },
+    "التعليب": {
+      "en": "Packaging",
+      "fr": "Emballage"
+    },
+    "تصميم الاثاث": {
+      "en": "Furniture Design",
+      "fr": "Design de meubles"
+    },
+    "المعهد العالي للموضة\nبالمنستير(جامعة المنستير)": {
+      "en": "Higher Institute of Fashion in Monastir (University of Monastir)",
+      "fr": "Institut supérieur de mode à Monastir (Université de Monastir)"
+    },
+    "التصميم على الاقمشة": {
+      "en": "Fabric Design",
+      "fr": "Design sur tissus"
+    },
+    "تصميم الازياء": {
+      "en": "Fashion Design",
+      "fr": "Design de mode"
+    },
+    "تصميم الإكسسوارات": {
+      "en": "Accessory Design",
+      "fr": "Design d'accessoires"
+    },
+    "تصميم المصوغ والمجوهرات": {
+      "en": "Jewelry and Goldsmithing Design",
+      "fr": "Design de bijouterie et d'orfèvrerie"
+    },
+    "تصميم صناعي": {
+      "en": "Industrial Design",
+      "fr": "Design industriel"
+    },
+    "إكساء": {
+      "en": "Dressing/Apparel",
+      "fr": "Habillement"
+    },
+    "ابتكار حرفي": {
+      "en": "Craft Innovation",
+      "fr": "Innovation artisanale"
+    },
+    "ابتكارمصوغ": {
+      "en": "Jewelry Innovation",
+      "fr": "Innovation en bijouterie"
+    },
+    "الاجازة في تصميم الصورة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Image Design, 3 years (duration)",
+      "fr": "Licence en conception d'images, 3 ans (durée)"
+    },
+    "إشهار خطي": {
+      "en": "Graphic Advertising",
+      "fr": "Publicité graphique"
+    },
+    "فن تحريك الصورة": {
+      "en": "Image Animation Art",
+      "fr": "Art de l'animation d'images"
+    },
+    "إشهار سمعي بصري": {
+      "en": "Audiovisual Advertising",
+      "fr": "Publicité audiovisuelle"
+    },
+    "التصميم الخطي": {
+      "en": "Graphic Design",
+      "fr": "Conception graphique"
+    },
+    "الاجازة في هندسة وتقنيات الصوت\n3سنوات(أمد)\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's Degree in Sound Engineering and Technologies, 3 years (duration), Branch requiring an exam",
+      "fr": "Licence en ingénierie et technologies du son, 3 ans (durée), Filière nécessitant un examen"
+    },
+    "هندسة وتقنيات الصوت": {
+      "en": "Sound Engineering and Technologies",
+      "fr": "Ingénierie et technologies du son"
+    },
+    "الإجازة في هندسة الصوت\nوالتكنولوجيات الحديثة": {
+      "en": "Bachelor's Degree in Sound Engineering and Modern Technologies",
+      "fr": "Licence en ingénierie du son et technologies modernes"
+    },
+    "هندسة الصوت والتكنولوجيات الحديثة": {
+      "en": "Sound Engineering and Modern Technologies",
+      "fr": "Ingénierie du son et technologies modernes"
+    },
+    "الإجازة في فنون وتقنيات التراث\nالإسلامي\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Islamic Arts and Heritage Technologies, 3 years (duration)",
+      "fr": "Licence en arts et technologies du patrimoine islamique, 3 ans (durée)"
+    },
+    "فنون وتقنيات التراث الاسلامي": {
+      "en": "Islamic Heritage Arts and Techniques",
+      "fr": "Arts et techniques du patrimoine islamique"
+    },
+    "الإجازة في السينما والسمعي البصري\n3سنوات(أمد)\nشعبة تتطلب اختبار": {
+      "en": "Diploma in Cinema and Audiovisual 3 years (duration) Major requiring an exam",
+      "fr": "Diplôme en cinéma et audiovisuel 3 ans (durée) Filière nécessitant un examen"
+    },
+    "المعهد العالي لفنون الملتميديا\nبمنوبة(جامعة منوبة)": {
+      "en": "Higher Institute of Multimedia Arts in Manouba (Manouba University)",
+      "fr": "Institut supérieur des arts multimédias de Manouba (Université de Manouba)"
+    },
+    "الإخراج والإنتاج": {
+      "en": "Directing and Production",
+      "fr": "Réalisation et production"
+    },
+    "التركيب": {
+      "en": "Composition",
+      "fr": "Composition"
+    },
+    "التصوير و الإضاءة": {
+      "en": "Photography and Lighting",
+      "fr": "Photographie et éclairage"
+    },
+    "الصوت": {
+      "en": "Sound",
+      "fr": "Son"
+    },
+    "الإجازة في الفنون و الوسائط\n3سنوات(أمد)": {
+      "en": "Diploma in Arts and Media 3 years (duration)",
+      "fr": "Diplôme en arts et médias 3 ans (durée)"
+    },
+    "التواصل متعدد الوسائط": {
+      "en": "Multimedia Communication",
+      "fr": "Communication multimédia"
+    },
+    "المعهد العالي للإعلامية و الملتيميديا\nبقابس(جامعة قابس)": {
+      "en": "Higher Institute of Information Technology and Multimedia in Gabes (Gabes University)",
+      "fr": "Institut supérieur d'informatique et de multimédia de Gabès (Université de Gabès)"
+    },
+    "تصميم و وسائط رقمية": {
+      "en": "Design and Digital Media",
+      "fr": "Design et médias numériques"
+    },
+    "العلوم القانونية والعلوم السياسية": {
+      "en": "Legal Sciences and Political Science",
+      "fr": "Sciences juridiques et sciences politiques"
+    },
+    "الإجازة في القانون\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Law 3 years (duration)",
+      "fr": "Licence en droit 3 ans (durée)"
+    },
+    "كلية الحقوق والعلوم السياسية\nبتونس(جامعة تونس المنار)": {
+      "en": "Faculty of Law and Political Science in Tunis (University of Tunis El Manar)",
+      "fr": "Faculté de droit et des sciences politiques à Tunis (Université de Tunis El Manar)"
+    },
+    "القانون الخاص": {
+      "en": "Private Law",
+      "fr": "Droit privé"
+    },
+    "القانون العام": {
+      "en": "Public Law",
+      "fr": "Droit public"
+    },
+    "كلية العلوم القانونية والسياسية\nوالإجتماعية بتونس(جامعة قرطاج)": {
+      "en": "Faculty of Legal and Political Sciences and Social Sciences in Tunis (University of Carthage)",
+      "fr": "Faculté des sciences juridiques et politiques et des sciences sociales à Tunis (Université de Carthage)"
+    },
+    "كلية الحقوق والعلوم السياسية\nبسوسة(جامعة سوسة)": {
+      "en": "Faculty of Law and Political Science in Sousse (Sousse University)",
+      "fr": "Faculté de droit et des sciences politiques à Sousse (Université de Sousse)"
+    },
+    "كلية الحقوق بصفاقس(جامعة\nصفاقس)": {
+      "en": "Faculty of Law in Sfax (Sfax University)",
+      "fr": "Faculté de droit à Sfax (Université de Sfax)"
+    },
+    "القانون العدلي الخاص": {
+      "en": "Private Judicial Law",
+      "fr": "Droit judiciaire privé"
+    },
+    "المعهد العالي للدراسات القانونية\nبقابس(جامعة قابس)": {
+      "en": "Higher Institute for Legal Studies in Gabes (Gabes University)",
+      "fr": "Institut supérieur des études juridiques à Gabès (Université de Gabès)"
+    },
+    "المعهد العالي للدراسات القانونية\nوالسياسية بالقيروان(جامعة\nالقيروان)": {
+      "en": "Higher Institute for Legal and Political Studies in Kairouan (Kairouan University)",
+      "fr": "Institut supérieur des études juridiques et politiques à Kairouan (Université de Kairouan)"
+    },
+    "كلية العلوم القانونية والإقتصادية\nوالتصرف بجندوبة(جامعة جندوبة)": {
+      "en": "Faculty of Legal, Economic and Management Sciences in Jendouba (Jendouba University)",
+      "fr": "Faculté des sciences juridiques, économiques et de gestion à Jendouba (Université de Jendouba)"
+    },
+    "الإجازة في القانون الاجتماعي\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Social Law, 3 years (Duration)",
+      "fr": "Licence en droit social, 3 ans (Durée)"
+    },
+    "القانون الإجتماعي": {
+      "en": "Social Law",
+      "fr": "Droit social"
+    },
+    "العلوم الإقتصادية وعلوم التصرف": {
+      "en": "Economic Sciences and Management Sciences",
+      "fr": "Sciences économiques et sciences de gestion"
+    },
+    "الاجازة في العلوم الاقتصادية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Economic Sciences, 3 years (Duration)",
+      "fr": "Licence en sciences économiques, 3 ans (Durée)"
+    },
+    "المعهد العالي للتصرف\nبتونس(جامعة تونس)": {
+      "en": "Higher Institute of Management in Tunis (University of Tunis)",
+      "fr": "Institut supérieur de gestion à Tunis (Université de Tunis)"
+    },
+    "علم البيانات للاقتصاد والمالية": {
+      "en": "Data Science for Economics and Finance",
+      "fr": "Science des données pour l'économie et la finance"
+    },
+    "المدرسة العليا للعلوم الإقتصادية\nوالتجارية بتونس(جامعة تونس)": {
+      "en": "Higher School of Economic and Commercial Sciences in Tunis (University of Tunis)",
+      "fr": "École supérieure des sciences économiques et commerciales à Tunis (Université de Tunis)"
+    },
+    "اقتصاد الأعمال": {
+      "en": "Business Economics",
+      "fr": "Économie des affaires"
+    },
+    "الاقتصاد البيئي و التنمية المستدامة": {
+      "en": "Environmental Economics and Sustainable Development",
+      "fr": "Économie environnementale et développement durable"
+    },
+    "النقد والمالية والبنك والتأمين": {
+      "en": "Credit, Finance, Banking, and Insurance",
+      "fr": "Crédit, finance, banque et assurance"
+    },
+    "المدرسة العليا للتجارة بمنوبة(جامعة\nمنوبة)": {
+      "en": "Higher School of Commerce in Manouba (Manouba University)",
+      "fr": "École supérieure de commerce de Manouba (Université de Manouba)"
+    },
+    "اقتصاد النقل واللوجستيك": {
+      "en": "Economics of Transport and Logistics",
+      "fr": "Économie des transports et de la logistique"
+    },
+    "التجارة والتمويل الدولي": {
+      "en": "International Trade and Finance",
+      "fr": "Commerce et finance internationaux"
+    },
+    "كلية العلوم الإقتصادية والتصرف\nبتونس(جامعة تونس المنار)": {
+      "en": "Faculty of Economic Sciences and Management in Tunis (Manar University)",
+      "fr": "Faculté des sciences économiques et de gestion de Tunis (Université Manar)"
+    },
+    "التجارة والمالية الدولية": {
+      "en": "International Trade and Finance",
+      "fr": "Commerce et finance internationaux"
+    },
+    "الذكاء والتقييم الاقتصادي": {
+      "en": "Intelligence and Economic Evaluation",
+      "fr": "Intelligence et évaluation économique"
+    },
+    "المعهد العالي للمحاسبة و إدارة\nالمؤسـسات بمنوبة(جامعة منوبة)": {
+      "en": "Higher Institute of Accounting and Management of Institutions in Manouba (Manouba University)",
+      "fr": "Institut supérieur de comptabilité et de gestion des institutions de Manouba (Université de Manouba)"
+    },
+    "المعهد العالي للتصرف\nببنزرت(جامعة قرطاج)": {
+      "en": "High Institute of Management in Bizerte (University of Carthage)",
+      "fr": "Institut Supérieur de Gestion à Bizerte (Université de Carthage)"
+    },
+    "كلية العلوم الإقتصادية والتصرف\nبنابل(جامعة قرطاج)": {
+      "en": "Faculty of Economic and Management Sciences in Nabeul (University of Carthage)",
+      "fr": "Faculté des Sciences Économiques et de Gestion à Nabeul (Université de Carthage)"
+    },
+    "المعهد العالى للتصرف\nبسوسة(جامعة سوسة)": {
+      "en": "High Institute of Management in Sousse (University of Sousse)",
+      "fr": "Institut Supérieur de Gestion à Sousse (Université de Sousse)"
+    },
+    "اقتصاد الأعمال واستراتيجيات الابتكار": {
+      "en": "Business Economics and Innovation Strategies",
+      "fr": "Économie des affaires et stratégies d'innovation"
+    },
+    "الصناعي": {
+      "en": "Industrial",
+      "fr": "Industriel"
+    },
+    "علم البيانات في الاقتصاد والتمويل": {
+      "en": "Data Science in Economics and Finance",
+      "fr": "Science des données en économie et finance"
+    },
+    "(الطرق الكمية)": {
+      "en": "(Quantitative Methods)",
+      "fr": "(Méthodes quantitatives)"
+    },
+    "معهد الدراسات التجارية العليا\nبسوسة(جامعة سوسة)": {
+      "en": "Higher Institute of Commercial Studies in Sousse (University of Sousse)",
+      "fr": "Institut Supérieur des Études Commerciales à Sousse (Université de Sousse)"
+    },
+    "إقتصاد الأعمال": {
+      "en": "Business Economics",
+      "fr": "Économie des affaires"
+    },
+    "المعهد العالي للمالية و الجباية\nبسوسة(جامعة سوسة)": {
+      "en": "High Institute of Finance and Taxation in Sousse (University of Sousse)",
+      "fr": "Institut Supérieur de Finance et de Fiscalité à Sousse (Université de Sousse)"
+    },
+    "التجارة الدولية والتقنيات الجمركية": {
+      "en": "International Trade and Customs Technologies",
+      "fr": "Commerce international et technologies douanières"
+    },
+    "والجبائية": {
+      "en": "and Taxation",
+      "fr": "et fiscalité"
+    },
+    "كلية العلوم الإقتصادية والتصرف\nبسوسة(جامعة سوسة)": {
+      "en": "Faculty of Economic Sciences and Management, Sousse (Sousse University)",
+      "fr": "Faculté des sciences économiques et de gestion, Sousse (Université de Sousse)"
+    },
+    "اقتصاد البيئة والتنمية المستدامة": {
+      "en": "Environmental Economics and Sustainable Development",
+      "fr": "Économie de l'environnement et développement durable"
+    },
+    "كلية العلوم الإقتصادية والتصرف\nبالمهدية(جامعة المنستير)": {
+      "en": "Faculty of Economic Sciences and Management, Mahdia (Monastir University)",
+      "fr": "Faculté des sciences économiques et de gestion, Mahdia (Université de Monastir)"
+    },
+    "كلية العلوم الإقتصادية والتصرف\nبصفاقس(جامعة صفاقس)": {
+      "en": "Faculty of Economic Sciences and Management, Sfax (Sfax University)",
+      "fr": "Faculté des sciences économiques et de gestion, Sfax (Université de Sfax)"
+    },
+    "المدرسة العليا للتجارة\nبصفاقس(جامعة صفاقس)": {
+      "en": "Higher School of Commerce, Sfax (Sfax University)",
+      "fr": "École supérieure de commerce, Sfax (Université de Sfax)"
+    },
+    "المعهد العالي لادارة الاعمال\nبصفاقس(جامعة صفاقس)": {
+      "en": "Higher Institute of Business Administration, Sfax (Sfax University)",
+      "fr": "Institut supérieur d'administration des affaires, Sfax (Université de Sfax)"
+    },
+    "معهد الدراسات العليا التجارية\nبصفاقس(جامعة صفاقس)": {
+      "en": "Institute of Higher Commercial Studies, Sfax (Sfax University)",
+      "fr": "Institut des études supérieures commerciales, Sfax (Université de Sfax)"
+    },
+    "المعهد العالي للتصرف بقابس(جامعة\nقابس)": {
+      "en": "Higher Institute of Management in Gabes (Gabes University)",
+      "fr": "Institut supérieur de gestion à Gabès (Université de Gabès)"
+    },
+    "اقتصاد الأعمال :التكنولوجيا والتحليلات": {
+      "en": "Business Economics: Technology and Analytics",
+      "fr": "Économie des affaires : Technologie et analytique"
+    },
+    "الإجازة في المالية الإسلامية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Islamic Finance 3 years (Duration)",
+      "fr": "Licence en finance islamique 3 ans (Durée)"
+    },
+    "المالية الإسلامية": {
+      "en": "Islamic Finance",
+      "fr": "Finance islamique"
+    },
+    "جازة في تحليلات الأعمال والاقتصاد\n3سنوات(أمد)\nلغة التدريس:الإنقليزية، وعدد مادة\nالإنقليزية14<=": {
+      "en": "Bachelor's Degree in Business Analytics and Economics 3 years (Duration) Language of Instruction: English, number of English courses 14<=",
+      "fr": "Licence en analyse des affaires et économie 3 ans (Durée) Langue d'enseignement : Anglais, nombre de cours d'anglais 14<="
+    },
+    "تحليلات الأعمال والاقتصاد": {
+      "en": "Business Analytics and Economics",
+      "fr": "Analyse des affaires et économie"
+    },
+    "الإجازة في علوم التصرف\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Management Sciences 3 years (Duration)",
+      "fr": "Licence en sciences de gestion 3 ans (Durée)"
+    },
+    "التصرف في الموارد البشرية": {
+      "en": "Human Resources Management",
+      "fr": "Gestion des ressources humaines"
+    },
+    "إدارة الأعمال": {
+      "en": "Business Administration",
+      "fr": "Administration des affaires"
+    },
+    "التسويق": {
+      "en": "Marketing",
+      "fr": "Marketing"
+    },
+    "المالية": {
+      "en": "Finance",
+      "fr": "Finance"
+    },
+    "المحاسبة": {
+      "en": "Accounting",
+      "fr": "Comptabilité"
+    },
+    "الدراسات التجارية العليا": {
+      "en": "Higher Commercial Studies",
+      "fr": "Études commerciales supérieures"
+    },
+    "التصرف الصناعي": {
+      "en": "Industrial Management",
+      "fr": "Gestion industrielle"
+    },
+    "النقل والخدمات اللوجستية": {
+      "en": "Transport and Logistics Services",
+      "fr": "Transport et services logistiques"
+    },
+    "إدارة السلسلة اللوجستية": {
+      "en": "Logistics Chain Management",
+      "fr": "Gestion de la chaîne logistique"
+    },
+    "التسويق والابتكار الرقمي": {
+      "en": "Digital Marketing and Innovation",
+      "fr": "Marketing et innovation numérique"
+    },
+    "تقنيات التجارة الدولية": {
+      "en": "International Trade Technologies",
+      "fr": "Technologies du commerce international"
+    },
+    "تقنيات التجارة والتوزيع": {
+      "en": "Trade and Distribution Technologies",
+      "fr": "Technologies du commerce et de la distribution"
+    },
+    "محاسبة ومالية": {
+      "en": "Accounting and Finance",
+      "fr": "Comptabilité et finance"
+    },
+    "التصرف اللوجستي والانتاج": {
+      "en": "Logistics and Production Management",
+      "fr": "Gestion logistique et production"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nببنزرت(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Bizerte (General Directorate of Technological Studies)",
+      "fr": "Institut supérieur des études technologiques de Bizerte (Direction générale des études technologiques)"
+    },
+    "التسويق الرقمي": {
+      "en": "Digital Marketing",
+      "fr": "Marketing numérique"
+    },
+    "التقنيات المالية": {
+      "en": "Financial Technologies",
+      "fr": "Technologies financières"
+    },
+    "اللوجستية والنقل": {
+      "en": "Logistics and Transport",
+      "fr": "Logistique et transport"
+    },
+    "تقنيات البيع والعلاقة مع الحرفاء": {
+      "en": "Sales and Customer Relationship Technologies",
+      "fr": "Technologies de vente et de relation client"
+    },
+    "تقنيات المحاسبة والمراقبة والتدقيق": {
+      "en": "Accounting, Control, and Auditing Techniques",
+      "fr": "Techniques de comptabilité, de contrôle et d'audit"
+    },
+    "المعهد العالى للدراسات التكنولوجية\nبزغوان(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies\\nBezguiwen (General Directorate of Technological Studies)",
+      "fr": "Institut supérieur des études technologiques\\nBezguiven (Direction générale des études technologiques)"
+    },
+    "التصرف في الجودة والصحة والسلامة": {
+      "en": "Quality, Health, and Safety Management",
+      "fr": "Gestion de la qualité, de la santé et de la sécurité"
+    },
+    "والبيئة": {
+      "en": "and Environment",
+      "fr": "et environnement"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبنابل(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies\\nBenebled (General Directorate of Technological Studies)",
+      "fr": "Institut supérieur des études technologiques\\nBenebled (Direction générale des études technologiques)"
+    },
+    "إدارة الجودة والسلامة والبيئة": {
+      "en": "Quality, Safety, and Environmental Management",
+      "fr": "Gestion de la qualité, de la sécurité et de l'environnement"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبسوسة(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies\\nSousse (General Directorate of Technological Studies)",
+      "fr": "Institut supérieur des études technologiques\\nSousse (Direction générale des études technologiques)"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبالمهدية(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies\\nMahdia (General Directorate of Technological Studies)",
+      "fr": "Institut supérieur des études technologiques\\nMahdia (Direction générale des études technologiques)"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nقصر هلال(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies\\nKsar Hellal (General Directorate of Technological Studies)",
+      "fr": "Institut supérieur des études technologiques\\nKsar Hellal (Direction générale des études technologiques)"
+    },
+    "تحليل الأعمال": {
+      "en": "Business Analysis",
+      "fr": "Analyse d'affaires"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبصفاقس(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Sfax (General Directorate of Technological Studies)",
+      "fr": "Institut Supérieur des Études Technologiques de Sfax (Direction Générale des Études Technologiques)"
+    },
+    "اللوجستية و الانتاج": {
+      "en": "Logistics and Production",
+      "fr": "Logistique et Production"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبقابس(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Gabes (General Directorate of Technological Studies)",
+      "fr": "Institut Supérieur des Études Technologiques de Gabès (Direction Générale des Études Technologiques)"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبجربة(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Djerba (General Directorate of Technological Studies)",
+      "fr": "Institut Supérieur des Études Technologiques de Djerba (Direction Générale des Études Technologiques)"
+    },
+    "محلل أعمال": {
+      "en": "Business Analyst",
+      "fr": "Analyste d'affaires"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبمدنين(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Médenine (General Directorate of Technological Studies)",
+      "fr": "Institut Supérieur des Études Technologiques de Médenine (Direction Générale des Études Technologiques)"
+    },
+    "المعهد العالى للدراسات التكنولوجية\nبقبلي(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Qebli (General Directorate of Technological Studies)",
+      "fr": "Institut Supérieur des Études Technologiques de Qebli (Direction Générale des Études Technologiques)"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبتطاوين(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Tataouine (General Directorate of Technological Studies)",
+      "fr": "Institut Supérieur des Études Technologiques de Tataouine (Direction Générale des Études Technologiques)"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبقفصة(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Gafsa (General Directorate of Technological Studies)",
+      "fr": "Institut Supérieur des Études Technologiques de Gafsa (Direction Générale des Études Technologiques)"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبتوزر(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Tozeur (General Directorate of Technological Studies)",
+      "fr": "Institut Supérieur des Études Technologiques de Tozeur (Direction Générale des Études Technologiques)"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبالقيروان(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Kairouan (General Directorate of Technological Studies)",
+      "fr": "Institut supérieur des études technologiques de Kairouan (Direction générale des études technologiques)"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبالقصرين(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Kasserine (General Directorate of Technological Studies)",
+      "fr": "Institut supérieur des études technologiques de Kasserine (Direction générale des études technologiques)"
+    },
+    "المعهد العالى للدراسات التكنولوجية\nبجندوبة(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Jendouba (General Directorate of Technological Studies)",
+      "fr": "Institut supérieur des études technologiques de Jendouba (Direction générale des études technologiques)"
+    },
+    "المعهد العالى للدراسات التكنولوجية\nبالكاف(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Kélibia (General Directorate of Technological Studies)",
+      "fr": "Institut supérieur des études technologiques de Kélibia (Direction générale des études technologiques)"
+    },
+    "المعهد العالى للدراسات التكنولوجية\nبسليانة(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Siliana (General Directorate of Technological Studies)",
+      "fr": "Institut supérieur des études technologiques de Siliana (Direction générale des études technologiques)"
+    },
+    "الاجازة في علوم الشغل\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Occupational Sciences 3 years (Duration)",
+      "fr": "Licence en sciences du travail 3 ans (Durée)"
+    },
+    "علوم الشغل": {
+      "en": "Occupational Sciences",
+      "fr": "Sciences du travail"
+    },
+    "البكالوريوس في إدارة الأعمال\n4سنوات\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's Degree in Business Administration 4 years Requires an exam",
+      "fr": "Licence en administration des affaires 4 ans Exige un examen"
+    },
+    "المعهد العالي للأعمال بتونس(جامعة\nتونس)\nتدرس باللغة الانقليزية": {
+      "en": "Higher Institute of Business in Tunis (University of Tunis) Taught in English",
+      "fr": "Institut supérieur de commerce de Tunis (Université de Tunis) Enseigné en anglais"
+    },
+    "الاقتصاد الدولي": {
+      "en": "International Economics",
+      "fr": "Économie internationale"
+    },
+    "تكنولوجيا المعلومات": {
+      "en": "Information Technology",
+      "fr": "Technologies de l'information"
+    },
+    "العلوم الصحيحة والتكنولوجيا": {
+      "en": "Health Sciences and Technology",
+      "fr": "Sciences de la santé et technologie"
+    },
+    "الاجازة في علوم الجيوماتيك التطبيقية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Applied Geomatics 3 Years (Duration)",
+      "fr": "Licence en géomatique appliquée 3 ans (Durée)"
+    },
+    "كلية العلوم بتونس(جامعة تونس\nالمنار)": {
+      "en": "Faculty of Science in Tunis (University of Tunis El Manar)",
+      "fr": "Faculté des sciences de Tunis (Université de Tunis El Manar)"
+    },
+    "الجيوماتيك التطبيقية في علوم الأرض": {
+      "en": "Applied Geomatics in Earth Sciences",
+      "fr": "Géomatique appliquée en sciences de la terre"
+    },
+    "الجيوماتيك التطبيقية في التعمير وتهيئة": {
+      "en": "Applied Geomatics in Urban Planning and Development",
+      "fr": "Géomatique appliquée en urbanisme et aménagement"
+    },
+    "المجال الترابي": {
+      "en": "Territorial Domain",
+      "fr": "Domaine territorial"
+    },
+    "كلية العلوم بصفاقس(جامعة\nصفاقس)": {
+      "en": "Faculty of Science in Sfax (University of Sfax)",
+      "fr": "Faculté des sciences de Sfax (Université de Sfax)"
+    },
+    "الجيوماتيك المطبقة على الطبوغرافيا": {
+      "en": "Geomatics Applied to Topography",
+      "fr": "Géomatique appliquée à la topographie"
+    },
+    "كلية العلوم بقفصة(جامعة قفصة)": {
+      "en": "Faculty of Science in Gafsa (University of Gafsa)",
+      "fr": "Faculté des sciences de Gabès (Université de Gabès)"
+    },
+    "علوم الجغرفة الرقمية المطبقة للموارد": {
+      "en": "Applied Digital Geoscience for Resources",
+      "fr": "Géosciences numériques appliquées pour les ressources"
+    },
+    "الطبيعية": {
+      "en": "Natural",
+      "fr": "Naturelles"
+    },
+    "الإجازة في إعلامية التـصـرف\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Information Technology 3 Years (Duration)",
+      "fr": "Licence en informatique de gestion 3 ans (Durée)"
+    },
+    "ذكاء الأعمال": {
+      "en": "Business Intelligence",
+      "fr": "Intelligence d'affaires"
+    },
+    "نظم معلومات الأعمال": {
+      "en": "Business Information Systems",
+      "fr": "Systèmes d'information des affaires"
+    },
+    "الأعمال الإلكترونية": {
+      "en": "E-business",
+      "fr": "E-commerce"
+    },
+    "المدرسة العليا للإقتصاد الرقمي\nبمنوبة(جامعة منوبة)": {
+      "en": "Higher School of Digital Economics Ben Arous (Manouba University)",
+      "fr": "École supérieure d'économie numérique Ben Arous (Université de Manouba)"
+    },
+    "تحليل بيانات الأعمال": {
+      "en": "Business Data Analysis",
+      "fr": "Analyse des données d'affaires"
+    },
+    "تحليلات بيانات الأعمال": {
+      "en": "Business Data Analytics",
+      "fr": "Analytique des données d'affaires"
+    },
+    "المعهد العالي للإعلامية\nبالمهدية(جامعة المنستير)": {
+      "en": "Higher Institute of Information Technology Mahdia (Monastir University)",
+      "fr": "Institut supérieur d'informatique Mahdia (Université de Monastir)"
+    },
+    "المعهد العالي للتصرف الصناعي\nبصفاقس(جامعة صفاقس)": {
+      "en": "Higher Institute of Industrial Management in Sfax (Sfax University)",
+      "fr": "Institut supérieur de gestion industrielle à Sfax (Université de Sfax)"
+    },
+    "الإجازة في التصرف في تكنولوجيات\nالمعلومات والاتصال": {
+      "en": "Bachelor's Degree in Information and Communication Technologies Management",
+      "fr": "Licence en gestion des technologies de l'information et de la communication"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nفي المواصلات بتونس(الإدارة العامة": {
+      "en": "Higher Institute of Technological Studies in Transport in Tunis (General Directorate",
+      "fr": "Institut supérieur d'études technologiques en transport à Tunis (Direction générale"
+    },
+    "التصرف في تكنولوجيات المعلومات": {
+      "en": "Information Technologies Management",
+      "fr": "Gestion des technologies de l'information"
+    },
+    "والإتصالات": {
+      "en": "and Communications",
+      "fr": "et des communications"
+    },
+    "الإجازة في الكيمياء\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Chemistry 3 years (duration)",
+      "fr": "Licence en chimie 3 ans (durée)"
+    },
+    "الكيمياء الدقيقة": {
+      "en": "Analytical Chemistry",
+      "fr": "Chimie analytique"
+    },
+    "التحاليل الفيزياء-كيميائية ومراقبة": {
+      "en": "Physico-chemical Analysis and Control",
+      "fr": "Analyse physico-chimique et contrôle"
+    },
+    "الجودة": {
+      "en": "Quality",
+      "fr": "Qualité"
+    },
+    "العلوم الكيميائية والابتكارات": {
+      "en": "Chemical Sciences and Innovations",
+      "fr": "Sciences chimiques et innovations"
+    },
+    "كيمياء المواد": {
+      "en": "Materials Chemistry",
+      "fr": "Chimie des matériaux"
+    },
+    "المعهد العالي لعلوم و تكنولوجيات\nالبيئة ببرج السدرية(جامعة قرطاج)": {
+      "en": "Higher Institute for Environmental Sciences and Technologies in Burj Sderia (University of Carthage)",
+      "fr": "Institut supérieur des sciences et technologies environnementales à Burj Sderia (Université de Carthage)"
+    },
+    "كيمياء البيئة و التكنولوجيات الخضراء": {
+      "en": "Environmental Chemistry and Green Technologies",
+      "fr": "Chimie environnementale et technologies vertes"
+    },
+    "كلية العلوم ببنزرت(جامعة قرطاج)": {
+      "en": "Faculty of Science in Bizerte (University of Carthage)",
+      "fr": "Faculté des sciences de Bizerte (Université de Carthage)"
+    },
+    "الكيمياء الصناعية": {
+      "en": "Industrial Chemistry",
+      "fr": "Chimie industrielle"
+    },
+    "الكيمياء-بحث": {
+      "en": "Chemistry-Research",
+      "fr": "Chimie-Recherche"
+    },
+    "المدرسة العليا للعلوم والتكنولوجيا\nبحمام سوسة(جامعة سوسة)": {
+      "en": "Higher School of Science and Technology in Hammam Sousse (University of Sousse)",
+      "fr": "École supérieure des sciences et technologies de Hammam Sousse (Université de Sousse)"
+    },
+    "الكيمياء الطبية و المواد الطبيعية": {
+      "en": "Medical Chemistry and Natural Materials",
+      "fr": "Chimie médicale et matériaux naturels"
+    },
+    "كلية العلوم بالمنستير(جامعة\nالمنستير)": {
+      "en": "Faculty of Science in Monastir (University of Monastir)",
+      "fr": "Faculté des sciences de Monastir (Université de Monastir)"
+    },
+    "كيمياء البحث": {
+      "en": "Research Chemistry",
+      "fr": "Chimie de recherche"
+    },
+    "تكنولوجيات المياه والمراقبة البيئية": {
+      "en": "Water Technologies and Environmental Monitoring",
+      "fr": "Technologies de l'eau et de la surveillance environnementale"
+    },
+    "الكيمياء": {
+      "en": "Chemistry",
+      "fr": "Chimie"
+    },
+    "تصميم التغليف والتعبئة": {
+      "en": "Packaging and Filling Design",
+      "fr": "Conception d'emballage et de remplissage"
+    },
+    "مواد التجميل والروائح والعطورات": {
+      "en": "Cosmetic, Fragrance, and Perfume Materials",
+      "fr": "Matériaux cosmétiques, de parfumerie et de parfum"
+    },
+    "كلية العلوم بقابس(جامعة قابس)": {
+      "en": "Faculty of Science in Gabes (Gabes University)",
+      "fr": "Faculté des sciences de Gabès (Université de Gabès)"
+    },
+    "الكيمياء التطبيقية والبيئة": {
+      "en": "Applied Chemistry and Environment",
+      "fr": "Chimie appliquée et environnement"
+    },
+    "الإجازة في الفيزياء و الكيمياء\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Physics and Chemistry 3 Years (Duration)",
+      "fr": "Licence en physique et chimie 3 ans (durée)"
+    },
+    "الفيزياء والكيمياء": {
+      "en": "Physics and Chemistry",
+      "fr": "Physique et chimie"
+    },
+    "الإجازة في الفيزياء\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Physics 3 Years (Duration)",
+      "fr": "Licence en physique 3 ans (durée)"
+    },
+    "الفيزياء الحديثة والكمية": {
+      "en": "Modern and Quantum Physics",
+      "fr": "Physique moderne et quantique"
+    },
+    "الفيزياء الرقمية والنمذجة": {
+      "en": "Digital Physics and Modeling",
+      "fr": "Physique numérique et modélisation"
+    },
+    "إلكترونيك والأدواتية البيئية": {
+      "en": "Electronics and Environmental Instrumentation",
+      "fr": "Électronique et instrumentation environnementale"
+    },
+    "الفيزياء الرقمية": {
+      "en": "Digital Physics",
+      "fr": "Physique numérique"
+    },
+    "فيزياء المواد والنانو تكنولوجيا": {
+      "en": "Materials Physics and Nanotechnology",
+      "fr": "Physique des matériaux et nanotechnologie"
+    },
+    "الفيزياء": {
+      "en": "Physics",
+      "fr": "Physique"
+    },
+    "علوم النانو والتكنولوجيات المتقدمة": {
+      "en": "Nano Sciences and Advanced Technologies",
+      "fr": "Sciences des nano et technologies avancées"
+    },
+    "علوم المواد الذكية والذكاء الاصطناعي": {
+      "en": "Smart Materials Science and Artificial Intelligence",
+      "fr": "Science des matériaux intelligents et intelligence artificielle"
+    },
+    "التطبيقي": {
+      "en": "Applied",
+      "fr": "Appliqué"
+    },
+    "الإجازة في الفيزياء و الطاقة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Physics and Energy 3 Years (Duration)",
+      "fr": "Licence en physique et énergie 3 ans (durée)"
+    },
+    "فيزياء الطاقة والمواد": {
+      "en": "Physics of Energy and Materials",
+      "fr": "Physique de l'énergie et des matériaux"
+    },
+    "الفيزياء والطاقة": {
+      "en": "Physics and Energy",
+      "fr": "Physique et énergie"
+    },
+    "الهندسة الفيزيائية": {
+      "en": "Physical Engineering",
+      "fr": "Génie physique"
+    },
+    "فيزياء و نظم طاقية متقدمة": {
+      "en": "Physics and Advanced Energy Systems",
+      "fr": "Physique et systèmes énergétiques avancés"
+    },
+    "النجاعة الطاقية وإزالة الكربون": {
+      "en": "Energy Efficiency and Decarbonization",
+      "fr": "Efficacité énergétique et décarbonation"
+    },
+    "الاجازة في الرياضيات التطبيقية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Applied Mathematics 3 Years (Duration)",
+      "fr": "Licence en mathématiques appliquées 3 ans (durée)"
+    },
+    "الرياضيات والإعلامية": {
+      "en": "Mathematics and Informatics",
+      "fr": "Mathématiques et informatique"
+    },
+    "الرياضيات وعلوم البيانات": {
+      "en": "Mathematics and Data Science",
+      "fr": "Mathématiques et science des données"
+    },
+    "احصاء ونمذجة للبيئة": {
+      "en": "Statistics and Environmental Modeling",
+      "fr": "Statistiques et modélisation environnementale"
+    },
+    "الرياضيات - االذكاء الإصطناعي": {
+      "en": "Mathematics - Artificial Intelligence",
+      "fr": "Mathématiques - Intelligence artificielle"
+    },
+    "الرياضيات وعلوم الحاسوب": {
+      "en": "Mathematics and Computer Science",
+      "fr": "Mathématiques et informatique"
+    },
+    "المساعدة قي إتخاذ القرار": {
+      "en": "Decision Support",
+      "fr": "Support à la décision"
+    },
+    "علم البيانات": {
+      "en": "Data Science",
+      "fr": "Science des données"
+    },
+    "المعهد العالي للإعلامية و الرياضيات\nبالمنستير(جامعة المنستير)": {
+      "en": "Higher Institute of Informatics and Mathematics in Monastir (University of Monastir)",
+      "fr": "Institut supérieur d'informatique et de mathématiques de Monastir (Université de Monastir)"
+    },
+    "رياضيات الذكاء الاصطناعي والبيانات": {
+      "en": "Artificial Intelligence and Data Mathematics",
+      "fr": "Mathématiques de l'intelligence artificielle et des données"
+    },
+    "الإجازة في علوم المواد\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Materials Science 3 Years (Full-time)",
+      "fr": "Licence en sciences des matériaux 3 ans (temps plein)"
+    },
+    "كلية العلوم و التقنيات بسيدي\nبوزيد(جامعة القيروان)": {
+      "en": "Faculty of Science and Technology in Sidi Bouzid (University of Kairouan)",
+      "fr": "Faculté des sciences et technologies de Sidi Bouzid (Université de Kairouan)"
+    },
+    "المواد والطاقات المتجددة": {
+      "en": "Renewable Materials and Energies",
+      "fr": "Matériaux et énergies renouvelables"
+    },
+    "الإجازة في الرياضيات\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Mathematics 3 Years (Full-time)",
+      "fr": "Licence en mathématiques 3 ans (temps plein)"
+    },
+    "علوم الرياضيات": {
+      "en": "Mathematics Sciences",
+      "fr": "Sciences mathématiques"
+    },
+    "الرياضيات الأساسية": {
+      "en": "Fundamental Mathematics",
+      "fr": "Mathématiques fondamentales"
+    },
+    "الرياضيات - الاعلامية": {
+      "en": "Mathematics - Informatics",
+      "fr": "Mathématiques - Informatique"
+    },
+    "الرياضيات": {
+      "en": "Mathematics",
+      "fr": "Mathématiques"
+    },
+    "الرياضيات الاكتوارية والتأمين": {
+      "en": "Actuarial Science and Insurance",
+      "fr": "Sciences actuarielles et assurance"
+    },
+    "المعهد العالي للرياضيات التطبيقية\nوالإعلامية بالقيروان(جامعة\nالقيروان)": {
+      "en": "Higher Institute of Applied Mathematics and Informatics in Kairouan (University of Kairouan)",
+      "fr": "Institut supérieur de mathématiques appliquées et d'informatique de Kairouan (Université de Kairouan)"
+    },
+    "الإجازة في الكيمياء-بيولوجيا\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Chemistry-Biology 3 years (Duration)",
+      "fr": "Licence en chimie-biologie 3 ans (Durée)"
+    },
+    "الكيمياء والبيولوجيا": {
+      "en": "Chemistry and Biology",
+      "fr": "Chimie et biologie"
+    },
+    "الإجازة في علوم الأحياء\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Biological Sciences 3 years (Duration)",
+      "fr": "Licence en sciences biologiques 3 ans (Durée)"
+    },
+    "المعهد العالي للبيوتكنولوجيا بسيدي\nثابت(جامعة منوبة)": {
+      "en": "Higher Institute of Biotechnology in Sidi Thabet (Manouba University)",
+      "fr": "Institut supérieur de biotechnologie de Sidi Thabet (Université de Manouba)"
+    },
+    "البيولوجيا الجزيئية المطبقة في مجال": {
+      "en": "Applied Molecular Biology in the Field of",
+      "fr": "Biologie moléculaire appliquée dans le domaine de"
+    },
+    "الصحة": {
+      "en": "Health",
+      "fr": "Santé"
+    },
+    "البيولوجيا الجزئية والخلوية": {
+      "en": "Molecular and Cellular Biology",
+      "fr": "Biologie moléculaire et cellulaire"
+    },
+    "المعهد العالي للبيوتكنولوجيا\nبالمنستير(جامعة المنستير)": {
+      "en": "Higher Institute of Biotechnology\\nManistique (Manistique University)",
+      "fr": "Institut supérieur de biotechnologie\\nMonastir (Université de Monastir)"
+    },
+    "المعهد العالي للبيولوجيا التطبيقية\nبمدنين(جامعة قابس)": {
+      "en": "Higher Institute of Applied Biology\\nMahdouna (Gabes University)",
+      "fr": "Institut supérieur de biologie appliquée\\nMahdouna (Université de Gabès)"
+    },
+    "المعهد العالي للبيوتكنولوجيا\nبباجة(جامعة جندوبة)": {
+      "en": "Higher Institute of Biotechnology\\nBajaâ (Jendouba University)",
+      "fr": "Institut supérieur de biotechnologie\\nBajaâ (Université de Jendouba)"
+    },
+    "الإجازة في علوم الأرض\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Earth Sciences\\n3 years (Duration)",
+      "fr": "Licence en sciences de la Terre\\n3 ans (Durée)"
+    },
+    "الجيوتقنيات وإدارة المياه": {
+      "en": "Geotechnics and Water Management",
+      "fr": "Géotechnique et gestion de l'eau"
+    },
+    "الموارد المعدنية والبيئة": {
+      "en": "Mineral Resources and Environment",
+      "fr": "Ressources minérales et environnement"
+    },
+    "الموارد الجيولوجية الطاقية": {
+      "en": "Energy Geological Resources",
+      "fr": "Ressources géologiques énergétiques"
+    },
+    "علوم المياه الجوفية والتكيف المناخي": {
+      "en": "Groundwater Sciences and Climate Adaptation",
+      "fr": "Sciences des eaux souterraines et adaptation climatique"
+    },
+    "البيئة والتنمية المستدامة": {
+      "en": "Environment and Sustainable Development",
+      "fr": "Environnement et développement durable"
+    },
+    "الموارد الجيولوجية": {
+      "en": "Geological Resources",
+      "fr": "Ressources géologiques"
+    },
+    "البيئة والتكيف مع المناخ والاقتصاد": {
+      "en": "Environment, Adaptation to Climate, and Economy",
+      "fr": "Environnement, adaptation au climat et économie"
+    },
+    "الدائري": {
+      "en": "Circular",
+      "fr": "Circulaire"
+    },
+    "علوم المياه و هندسة المياه": {
+      "en": "Water Science and Water Engineering",
+      "fr": "Sciences de l'eau et génie de l'eau"
+    },
+    "المواد الجيولوجية والاستدامة": {
+      "en": "Geological Materials and Sustainability",
+      "fr": "Matériaux géologiques et durabilité"
+    },
+    "علوم الأرض الرقمية": {
+      "en": "Digital Earth Sciences",
+      "fr": "Sciences numériques de la Terre"
+    },
+    "الموارد الجيولوجية والمناجم والمقاطع": {
+      "en": "Geological Resources, Mines, and Sections",
+      "fr": "Ressources géologiques, mines et sections"
+    },
+    "الإجازة في المعلوماتية الحيوية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Bioinformatics, 3 years (duration)",
+      "fr": "Licence en bio-informatique, 3 ans (durée)"
+    },
+    "المعلوماتية الحيوية": {
+      "en": "Bioinformatics",
+      "fr": "Bio-informatique"
+    },
+    "المعهد العالي للعلوم البيولوجية\nالتطبيقية بتونس(جامعة تونس\nالمنار)": {
+      "en": "Higher Institute of Applied Biological Sciences in Tunis (University of Tunis El Manar)",
+      "fr": "Institut supérieur des sciences biologiques appliquées de Tunis (Université de Tunis El Manar)"
+    },
+    "المعلوماتية الحيوية وإستكشاف البيانات": {
+      "en": "Bioinformatics and Data Mining",
+      "fr": "Bioinformatique et exploration des données"
+    },
+    "البيولوجية": {
+      "en": "Biology",
+      "fr": "Biologie"
+    },
+    "الإجازة في علوم الأحياء والبيئة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Biology and Environment 3 years (duration)",
+      "fr": "Licence en sciences biologiques et environnement 3 ans (durée)"
+    },
+    "التصرف والعلوم البيئية": {
+      "en": "Behavior and Environmental Sciences",
+      "fr": "Comportement et sciences de l'environnement"
+    },
+    "المراقبة البيولوجية للبيئة": {
+      "en": "Biological Monitoring of the Environment",
+      "fr": "Surveillance biologique de l'environnement"
+    },
+    "العلوم البحرية والاقتصاد الأزرق": {
+      "en": "Marine Science and Blue Economy",
+      "fr": "Sciences marines et économie bleue"
+    },
+    "المعهد العالي للعلوم التطبيقية و\nالتكنولوجيا بالمهدية(جامعة\nالمنستير)": {
+      "en": "Higher Institute of Applied Sciences and Technology in Mahdia (Manistique University)",
+      "fr": "Institut supérieur des sciences appliquées et de la technologie à Mahdia (Université de Monastir)"
+    },
+    "تكنولوجيات البيئة وتثمين النفايات": {
+      "en": "Environmental Technologies and Waste Valorization",
+      "fr": "Technologies environnementales et valorisation des déchets"
+    },
+    "البيولوجيا البحرية و تربية الأحياء": {
+      "en": "Marine Biology and Aquaculture",
+      "fr": "Biologie marine et aquaculture"
+    },
+    "المائية": {
+      "en": "Aquatic",
+      "fr": "Aquatique"
+    },
+    "التصرف في الموارد البيولوجية": {
+      "en": "Management of biological resources",
+      "fr": "Gestion des ressources biologiques"
+    },
+    "وتثمينها في المدينة الذكية": {
+      "en": "And their valorization in the smart city",
+      "fr": "Et leur valorisation dans la ville intelligente"
+    },
+    "علوم الاحياء والبيئة": {
+      "en": "Biology and Environment Sciences",
+      "fr": "Sciences de la biologie et de l'environnement"
+    },
+    "المعهد العالي للبيوتكنولوجيا\nبصفاقس(جامعة صفاقس)": {
+      "en": "Higher Institute of Biotechnology\\nSfax (Sfax University)",
+      "fr": "Institut supérieur de biotechnologie\\nSfax (Université de Sfax)"
+    },
+    "علوم البيئة و الحلول الذكية المستدامة": {
+      "en": "Environmental Sciences and Sustainable Smart Solutions",
+      "fr": "Sciences de l'environnement et solutions intelligentes durables"
+    },
+    "الزراعة الذكية": {
+      "en": "Smart Agriculture",
+      "fr": "Agriculture intelligente"
+    },
+    "إيكولوجيا-التنوع البيولوجي- البيئة": {
+      "en": "Ecology-Biodiversity-Environment",
+      "fr": "Écologie-Biodiversité-Environnement"
+    },
+    "الموارد الحيوية والتنمية المستدامة": {
+      "en": "Biological Resources and Sustainable Development",
+      "fr": "Ressources biologiques et développement durable"
+    },
+    "الإجازة في علوم الحياة و الأرض\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Life and Earth Sciences\\n3 years (duration)",
+      "fr": "Licence en sciences de la vie et de la terre\\n3 ans (durée)"
+    },
+    "علوم الحياة والأرض": {
+      "en": "Life and Earth Sciences",
+      "fr": "Sciences de la vie et de la terre"
+    },
+    "الإجازة في الكيمياء - علم الأحياء\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Chemistry - Biology 3 Years (Duration)",
+      "fr": "Licence en Chimie - Biologie 3 Ans (Durée)"
+    },
+    "كيمياء وعلوم الأحياء": {
+      "en": "Chemistry and Biological Sciences",
+      "fr": "Chimie et Sciences Biologiques"
+    },
+    "الإجازة في علوم الإعلامية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Information Science 3 Years (Duration)",
+      "fr": "Licence en Sciences de l'Information 3 Ans (Durée)"
+    },
+    "الإعلامية والوسائط المتعددة": {
+      "en": "Information and Multimedia",
+      "fr": "Information et Multimédia"
+    },
+    "البيانات الضخمة وتحليل البيانات": {
+      "en": "Big Data and Data Analysis",
+      "fr": "Big Data et Analyse des Données"
+    },
+    "أنترنات الأشياء والنظم الذكية التفاعلية": {
+      "en": "Internet of Things and Interactive Smart Systems",
+      "fr": "Internet des Objets et Systèmes Intelligents Interactifs"
+    },
+    "المعهد العالي للاعلامية(جامعة\nتونس المنار)": {
+      "en": "Higher Institute of Information Technology (University of Tunis El Manar)",
+      "fr": "Institut Supérieur de l'Informatique (Université de Tunis El Manar)"
+    },
+    "هندسة البرمجيات والأنظمة الذكية": {
+      "en": "Software Engineering and Smart Systems",
+      "fr": "Génie Logiciel et Systèmes Intelligents"
+    },
+    "هندسة البرمجيات ونظم المعلومات": {
+      "en": "Software Engineering and Information Systems",
+      "fr": "Génie Logiciel et Systèmes d'Information"
+    },
+    "المعهد العالي لتكنولوجيا المعلومات\nوالإتصال ببرج السدرية(جامعة\nقرطاج)": {
+      "en": "Higher Institute of Information Technology and Communication in Burj Sderia (University of Carthage)",
+      "fr": "Institut Supérieur de l'Informatique et de la Communication à Burj Sderia (Université de Carthage)"
+    },
+    "المعهد العالي للعلوم التطبيقية و\nالتكنولوجيا بماطر(جامعة قرطاج)": {
+      "en": "Higher Institute of Applied Sciences and Technology in Kénitra (University of Carthage)",
+      "fr": "Institut supérieur des sciences appliquées et de la technologie de Kénitra (Université de Carthage)"
+    },
+    "المعهد العالي للاعلامية و\nتكنولوجيات الاتصال بسوسة(جامعة\nسوسة)": {
+      "en": "Higher Institute of Multimedia and Communication Technologies in Sousse (University of Sousse)",
+      "fr": "Institut supérieur de multimédia et des technologies de communication de Sousse (Université de Sousse)"
+    },
+    "المعهد العالي للعلوم التطبيقية و\nالتكنولوجيا بسوسة(جامعة سوسة)": {
+      "en": "Higher Institute of Applied Sciences and Technology in Sousse (University of Sousse)",
+      "fr": "Institut supérieur des sciences appliquées et de la technologie de Sousse (Université de Sousse)"
+    },
+    "المعهد العالي للاعلامية و الملتميديا\nبصفاقس(جامعة صفاقس)": {
+      "en": "Higher Institute of Multimedia and Multimedia in Sfax (University of Sfax)",
+      "fr": "Institut supérieur de multimédia et de multimédia de Sfax (Université de Sfax)"
+    },
+    "هندسة البرمجيات والأنظمة التفاعلية": {
+      "en": "Software and Interactive Systems Engineering",
+      "fr": "Génie logiciel et systèmes interactifs"
+    },
+    "علوم و تحليل البيانات الضخمة": {
+      "en": "Big Data Science and Analysis",
+      "fr": "Science et analyse des mégadonnées"
+    },
+    "المعهد العالي للإعلامية\nبمدنين(جامعة قابس)": {
+      "en": "Higher Institute of Multimedia in Mahdia (University of Gabès)",
+      "fr": "Institut supérieur de multimédia de Mahdia (Université de Gabès)"
+    },
+    "المعهد العالي للعلوم التطبيقية و\nالتكنولوجيا بالقيروان(جامعة\nالقيروان)": {
+      "en": "Higher Institute of Applied Sciences and Technology in Kairouan (University of Kairouan)",
+      "fr": "Institut supérieur des sciences appliquées et de la technologie de Kairouan (Université de Kairouan)"
+    },
+    "المعهد العالي للعلوم التطبيقية و\nالتكنولوجيا بالقصرين(جامعة\nالقيروان)": {
+      "en": "Higher Institute of Applied Sciences and Technology in Kasserine (University of Kairouan)",
+      "fr": "Institut supérieur des sciences appliquées et de la technologie de Kasserine (Université de Kairouan)"
+    },
+    "المعهد العالي للإعلامية\nبالكاف(جامعة جندوبة)": {
+      "en": "Higher Institute of Multimedia in Kélibia (University of Jendouba)",
+      "fr": "Institut supérieur de multimédia de Kélibia (Université de Jendouba)"
+    },
+    "الإجازة في هندسة نظم الإعلامية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Information Systems Engineering 3 years (full-time)",
+      "fr": "Licence en génie des systèmes d'information 3 ans (temps plein)"
+    },
+    "النظم المحمولة وانترنات الأشياء": {
+      "en": "Mobile Systems and Internet of Things",
+      "fr": "Systèmes mobiles et Internet des objets"
+    },
+    "الشبكات والأمن السيبراني": {
+      "en": "Networks and Cybersecurity",
+      "fr": "Réseaux et cybersécurité"
+    },
+    "النظم المحمولة المتصلة والذكية": {
+      "en": "Connected and Smart Mobile Systems",
+      "fr": "Systèmes mobiles connectés et intelligents"
+    },
+    "هندسة الشبكات والنظم": {
+      "en": "Network and Systems Engineering",
+      "fr": "Génie des réseaux et des systèmes"
+    },
+    "المعهد العالي للعلوم التطبيقية و\nالتكنولوجيا بقفصة(جامعة قفصة)": {
+      "en": "Higher Institute of Applied Sciences and Technology in Gafsa (Sfax University)",
+      "fr": "Institut supérieur des sciences appliquées et de la technologie de Gabès (Université de Gabès)"
+    },
+    "النظم المحمولة و إنترنات الأشياء": {
+      "en": "Mobile Systems and Internet of Things",
+      "fr": "Systèmes mobiles et Internet des objets"
+    },
+    "الإجازة في البيولوجيا -فيزياء\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Biology - Physics 3 years (full-time)",
+      "fr": "Licence en biologie - physique 3 ans (temps plein)"
+    },
+    "الفيزياء الحيوية": {
+      "en": "Biophysics",
+      "fr": "Biophysique"
+    },
+    "الإجازة في البيئة وتكنولوجيات\nالمستدامة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Environment and Sustainable Technologies 3 years (full-time)",
+      "fr": "Licence en environnement et technologies durables 3 ans (temps plein)"
+    },
+    "علوم وتكنولوجيات البيئة المستدامة": {
+      "en": "Sustainable Environmental Sciences and Technologies",
+      "fr": "Sciences et technologies environnementales durables"
+    },
+    "إدارة الجودة و الصحة والسلامة والبيئة": {
+      "en": "Quality Management, Health, Safety, and Environment",
+      "fr": "Gestion de la qualité, de la santé, de la sécurité et de l'environnement"
+    },
+    "الإجازة في إدارة الأنظمة البيولوجية\nوالتنمية المستدامة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Biological Systems Management and Sustainable Development 3 years (duration)",
+      "fr": "Licence en gestion des systèmes biologiques et développement durable 3 ans (durée)"
+    },
+    "إدارة الأنظمة البيولوجية والتنمية": {
+      "en": "Biological Systems Management and Development",
+      "fr": "Gestion des systèmes biologiques et développement"
+    },
+    "الإجازة في التكنولوجيات الحديثة في\nعلوم الحياة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Modern Technologies in Life Sciences 3 years (duration)",
+      "fr": "Licence en technologies modernes en sciences de la vie 3 ans (durée)"
+    },
+    "التكنولوجيات البيئية والتنمية المستدامة": {
+      "en": "Environmental Technologies and Sustainable Development",
+      "fr": "Technologies environnementales et développement durable"
+    },
+    "الإجازة في التصوير والضوئيات\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Photography and Optics 3 years (duration)",
+      "fr": "Licence en photographie et optique 3 ans (durée)"
+    },
+    "الألياف البصرية و تكنولوجيا الليزر": {
+      "en": "Optical Fibers and Laser Technology",
+      "fr": "Fibres optiques et technologie laser"
+    },
+    "التصوير و الأجهزة البصرية": {
+      "en": "Imaging and Optical Devices",
+      "fr": "Imagerie et dispositifs optiques"
+    },
+    "الإجازة في البيولوجيا التحليلية\nوالتجريبية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Analytical and Experimental Biology 3 years (duration)",
+      "fr": "Licence en biologie analytique et expérimentale 3 ans (durée)"
+    },
+    "بيولوجيا تحليلية وتجريبية": {
+      "en": "Analytical and Experimental Biology",
+      "fr": "Biologie analytique et expérimentale"
+    },
+    "الإجازة في التكنولوجيا الحيوية\nوتثمين الموارد البيولوجية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Biotechnology and Valorization of Biological Resources 3 years (duration)",
+      "fr": "Licence en biotechnologie et valorisation des ressources biologiques 3 ans (durée)"
+    },
+    "التكنولوجيا الحيوية وتثمين الموارد": {
+      "en": "Biotechnology and Resource Valorization",
+      "fr": "Biotechnologie et valorisation des ressources"
+    },
+    "الإجازة في العلوم الأجهزة والقياس\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Instrumentation and Measurement Sciences 3 years (duration)",
+      "fr": "Licence en sciences des instruments et de la mesure 3 ans (durée)"
+    },
+    "علوم الأجهزة والقياس": {
+      "en": "Instrumentation and Measurement Sciences",
+      "fr": "Sciences des instruments et de la mesure"
+    },
+    "الإجازة في تكنولوجيات الإعلامية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Information Technologies 3 years (duration)",
+      "fr": "Licence en technologies de l'information 3 ans (durée)"
+    },
+    "تطوير البرمجيات لأنترنت الأشياء": {
+      "en": "Software Development for Internet of Things",
+      "fr": "Développement de logiciels pour l'Internet des objets"
+    },
+    "تطوير البرمجيات": {
+      "en": "Software Development",
+      "fr": "Développement de logiciels"
+    },
+    "البيانات الذكية": {
+      "en": "Smart Data",
+      "fr": "Données intelligentes"
+    },
+    "الشبكات والحوسبة السحابية": {
+      "en": "Networks and Cloud Computing",
+      "fr": "Réseaux et informatique en nuage"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبقليبية(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "High Institute for Technological Studies in Kélibia (General Directorate of Technological Studies)",
+      "fr": "Institut Supérieur des Études Technologiques de Kélibia (Direction Générale des Études Technologiques)"
+    },
+    "المعهد العالى للدراسات التكنولوجية\nبسيدي بوزيد(الإدارة العامة\nللدراسات التكنولوجية)": {
+      "en": "High Institute for Technological Studies in Sidi Bouzid (General Directorate of Technological Studies)",
+      "fr": "Institut Supérieur des Études Technologiques de Sidi Bouzid (Direction Générale des Études Technologiques)"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nبباجة(الإدارة العامة للدراسات\nالتكنولوجية)": {
+      "en": "High Institute for Technological Studies in Béja (General Directorate of Technological Studies)",
+      "fr": "Institut Supérieur des Études Technologiques de Béja (Direction Générale des Études Technologiques)"
+    },
+    "الإجازة في الهندسـة المدنية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Civil Engineering, 3 years (Duration)",
+      "fr": "Licence en Génie Civil, 3 ans (Durée)"
+    },
+    "المعهد العالي لتكنولوجيات البيئة\nوالعمران والبنيان(جامعة قرطاج)": {
+      "en": "High Institute for Environmental, Urban and Building Technologies (University of Carthage)",
+      "fr": "Institut Supérieur des Technologies Environnementales, Urbaines et du Bâtiment (Université de Carthage)"
+    },
+    "البناء": {
+      "en": "Construction",
+      "fr": "Construction"
+    },
+    "البناء المعدني": {
+      "en": "Metal Construction",
+      "fr": "Construction métallique"
+    },
+    "البنى التحتية": {
+      "en": "Infrastructure",
+      "fr": "Infrastructures"
+    },
+    "القيادة و التصرف في الأشغال": {
+      "en": "Management and Execution of Works",
+      "fr": "Gestion et exécution des travaux"
+    },
+    "الهيدروليكية": {
+      "en": "Hydraulics",
+      "fr": "Hydraulique"
+    },
+    "أشغال عمومية": {
+      "en": "Public Works",
+      "fr": "Travaux publics"
+    },
+    "قيادة الحضائر": {
+      "en": "Civil Engineering",
+      "fr": "Génie civil"
+    },
+    "قيس الأراضي و الجغرفة الرقمية": {
+      "en": "Land Surveying and Digital Topography",
+      "fr": "Topographie et arpentage numérique"
+    },
+    "هندسة مدنية": {
+      "en": "Civil Engineering",
+      "fr": "Génie civil"
+    },
+    "الجسور والطرقات": {
+      "en": "Bridges and Roads",
+      "fr": "Ponts et routes"
+    },
+    "المعهد العالي للعلوم التطبيقية و\nالتكنولوجيا بقابس(جامعة قابس)": {
+      "en": "Higher Institute of Applied Sciences and Technology in Gabes (Gabes University)",
+      "fr": "Institut supérieur des sciences appliquées et de la technologie de Gabès (Université de Gabès)"
+    },
+    "الإجازة في الهندسـة الميكانـيـكـيـة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Mechanical Engineering 3 years (Duration)",
+      "fr": "Licence en génie mécanique 3 ans (Durée)"
+    },
+    "الطاقية": {
+      "en": "Energy",
+      "fr": "Énergie"
+    },
+    "الميكاترونيك و الصناعة الذكية": {
+      "en": "Mechatronics and Smart Industry",
+      "fr": "Mécatronique et industrie intelligente"
+    },
+    "الهندسة المتقدمة في الصناعات": {
+      "en": "Advanced Engineering in Industries",
+      "fr": "Génie avancé dans les industries"
+    },
+    "البلاستيكية": {
+      "en": "Plastic",
+      "fr": "Plastique"
+    },
+    "الصيانة الصناعية": {
+      "en": "Industrial Maintenance",
+      "fr": "Maintenance industrielle"
+    },
+    "التصميم والتصنيع الميكانيكي": {
+      "en": "Mechanical Design and Manufacturing",
+      "fr": "Conception et fabrication mécanique"
+    },
+    "صيانة وتشخيص المركبات والآليات": {
+      "en": "Maintenance and Diagnosis of Vehicles and Machinery",
+      "fr": "Maintenance et diagnostic des véhicules et machines"
+    },
+    "الإنتاج الصناعي": {
+      "en": "Industrial Production",
+      "fr": "Production industrielle"
+    },
+    "التصميم والتصنيع في بناء السفن": {
+      "en": "Design and Manufacturing in Shipbuilding",
+      "fr": "Conception et fabrication dans la construction navale"
+    },
+    "الهندسـة الميكانـيـكـيـة": {
+      "en": "Mechanical Engineering",
+      "fr": "Génie mécanique"
+    },
+    "صيانة معدات النسيج": {
+      "en": "Textile Equipment Maintenance",
+      "fr": "Maintenance des équipements textiles"
+    },
+    "الانتاجية": {
+      "en": "Productivity",
+      "fr": "Productivité"
+    },
+    "المعهد العالي للمنظومات الصناعية\nبقابس(جامعة قابس)": {
+      "en": "Higher Institute of Industrial Systems\\n(Gabes University)",
+      "fr": "Institut supérieur des systèmes industriels\\n(Université de Gabès)"
+    },
+    "الطاقة الصناعية": {
+      "en": "Industrial Energy",
+      "fr": "Énergie industrielle"
+    },
+    "الميكاترونيك": {
+      "en": "Mechatronics",
+      "fr": "Mécatronique"
+    },
+    "صيانة المركبات والآليات": {
+      "en": "Maintenance of Vehicles and Machinery",
+      "fr": "Maintenance des véhicules et des machines"
+    },
+    "التصميم والإنتاج المندمج": {
+      "en": "Integrated Design and Production",
+      "fr": "Conception et production intégrées"
+    },
+    "صيانة الاليات الثقيلة": {
+      "en": "Heavy Machinery Maintenance",
+      "fr": "Maintenance de machinerie lourde"
+    },
+    "صيانة السيارات": {
+      "en": "Automobile Maintenance",
+      "fr": "Maintenance automobile"
+    },
+    "التصميم والتصنيع المندمج": {
+      "en": "Integrated Design and Manufacturing",
+      "fr": "Conception et fabrication intégrées"
+    },
+    "الإنشاءات الميكانيكية والتصنيع": {
+      "en": "Mechanical Structures and Manufacturing",
+      "fr": "Structures mécaniques et fabrication"
+    },
+    "التصميم والصناعة بالخشب و مشتقاته": {
+      "en": "Design and Manufacturing with Wood and its Derivatives",
+      "fr": "Conception et fabrication en bois et ses dérivés"
+    },
+    "صيانة وتشخيص المركبات والمعدات": {
+      "en": "Maintenance and Diagnosis of Vehicles and Equipment",
+      "fr": "Maintenance et diagnostic des véhicules et équipements"
+    },
+    "الثقيلة": {
+      "en": "Heavy",
+      "fr": "Lourd"
+    },
+    "الهندسة الصناعية": {
+      "en": "Industrial Engineering",
+      "fr": "Génie industriel"
+    },
+    "المدرسة العليا للمهندسين بمجاز\nالباب(جامعة جندوبة)": {
+      "en": "Higher School of Engineers in Maghreb\\nBab (Jendouba University)",
+      "fr": "École supérieure des ingénieurs du Maghreb Bab (Université de Jendouba)"
+    },
+    "الميكانيك والمعدات الفلاحية": {
+      "en": "Mechanics and Agricultural Equipment",
+      "fr": "Mécanique et équipements agricoles"
+    },
+    "الهيدروميكانيك": {
+      "en": "Hydromechanics",
+      "fr": "Hydromécanique"
+    },
+    "الإجازة في الهندسـة الكهـربـائـيــة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Electrical Engineering\\n3 years (period)",
+      "fr": "Licence en génie électrique 3 ans (période)"
+    },
+    "الأتمتة والإعلامية الصناعية": {
+      "en": "Automation and Industrial Informatics",
+      "fr": "Automatisation et informatique industrielle"
+    },
+    "السلامة والمراقبة الصناعية": {
+      "en": "Safety and Industrial Control",
+      "fr": "Sécurité et contrôle industriel"
+    },
+    "صيانة الأنظمة الكهربائية": {
+      "en": "Electrical Systems Maintenance",
+      "fr": "Maintenance des systèmes électriques"
+    },
+    "كهرباء صناعية": {
+      "en": "Industrial Electricity",
+      "fr": "Électricité industrielle"
+    },
+    "التكنولوجيا الخضراء والمراقبة الذكية": {
+      "en": "Green Technology and Smart Monitoring",
+      "fr": "Technologie verte et surveillance intelligente"
+    },
+    "للبيئة": {
+      "en": "For the Environment",
+      "fr": "Pour l'environnement"
+    },
+    "الإلكترونيك والنظم المحمولة": {
+      "en": "Electronics and Mobile Systems",
+      "fr": "Électronique et systèmes mobiles"
+    },
+    "الكهرباء والطاقات المتجددة": {
+      "en": "Electricity and Renewable Energies",
+      "fr": "Électricité et énergies renouvelables"
+    },
+    "كهرباء وطاقات متجددة": {
+      "en": "Electricity and Renewable Energies",
+      "fr": "Électricité et énergies renouvelables"
+    },
+    "كهرباء صناعية وطاقات متجددة": {
+      "en": "Industrial Electricity and Renewable Energies",
+      "fr": "Électricité industrielle et énergies renouvelables"
+    },
+    "الإجازة في علوم المعلومات\nوالاتصالات\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Information Science and Communications 3 years (Duration)",
+      "fr": "Licence en sciences de l'information et des communications 3 ans (Durée)"
+    },
+    "المعهد العالي للدراسات التكنولوجية\nفي المواصلات بتونس(الإدارة العامة\nللدراسات التكنولوجية)": {
+      "en": "Higher Institute of Technological Studies in Transport in Tunis (General Directorate of Technological Studies)",
+      "fr": "Institut supérieur des études technologiques en transport à Tunis (Direction générale des études technologiques)"
+    },
+    "سلامة الشبكات": {
+      "en": "Network Security",
+      "fr": "Sécurité des réseaux"
+    },
+    "شبكات وأنظمة الاتصالات": {
+      "en": "Communication Networks and Systems",
+      "fr": "Réseaux et systèmes de communication"
+    },
+    "الإجازة في تكنولوجيات المعلومات\nوالاتصالات\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Information Technology and Communications 3 Years (Duration)",
+      "fr": "Licence en technologies de l'information et des communications 3 ans (Durée)"
+    },
+    "أنظمة الاتصالات والشبكات الذكية": {
+      "en": "Communication and Smart Networks Systems",
+      "fr": "Systèmes de communication et réseaux intelligents"
+    },
+    "الإتصالات": {
+      "en": "Communications",
+      "fr": "Communications"
+    },
+    "الاتصالات والنظم المحمولة": {
+      "en": "Telecommunications and Mobile Systems",
+      "fr": "Télécommunications et systèmes mobiles"
+    },
+    "الشبكات و أنترنات الأشياء": {
+      "en": "Networks and Internet of Things",
+      "fr": "Réseaux et Internet des objets"
+    },
+    "الأنظمة الذكية، الاتصالات والأمن": {
+      "en": "Smart Systems, Communications and Security",
+      "fr": "Systèmes intelligents, communications et sécurité"
+    },
+    "السيبراني": {
+      "en": "Cybersecurity",
+      "fr": "Cybersécurité"
+    },
+    "المدرسة الوطنية للإلكترونيك\nوالإتصالات بصفاقس(جامعة\nصفاقس)": {
+      "en": "National School of Electronics and Communications in Sfax (Sfax University)",
+      "fr": "École nationale d'électronique et de télécommunications de Sfax (Université de Sfax)"
+    },
+    "الأمن السيبراني": {
+      "en": "Cybersecurity",
+      "fr": "Cybersécurité"
+    },
+    "أنظمة إنترنت الأشياء": {
+      "en": "Internet of Things Systems",
+      "fr": "Systèmes de l'Internet des objets"
+    },
+    "المعلومات والتكنولوجيات الكمية": {
+      "en": "Quantitative Information and Technologies",
+      "fr": "Informations et technologies quantitatives"
+    },
+    "الإلكترونيك والتكنولوجيات الذكية": {
+      "en": "Electronics and Smart Technologies",
+      "fr": "Électronique et technologies intelligentes"
+    },
+    "الشبكات والاتصالات": {
+      "en": "Networks and Communications",
+      "fr": "Réseaux et communications"
+    },
+    "الذكاء الإصطناعي": {
+      "en": "Artificial Intelligence",
+      "fr": "Intelligence artificielle"
+    },
+    "تكنولوجيا المعلومات والاتصالات": {
+      "en": "Information and Communication Technology",
+      "fr": "Technologies de l'information et de la communication"
+    },
+    "الإجازة في هندسة النسيج\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Textile Engineering 3 Years (Duration)",
+      "fr": "Licence en génie textile 3 ans (durée)"
+    },
+    "علوم وتقنيات النسيج": {
+      "en": "Textile Science and Technologies",
+      "fr": "Sciences et technologies textiles"
+    },
+    "كيمياء النسيج والتنمية المستدامة": {
+      "en": "Textile Chemistry and Sustainable Development",
+      "fr": "Chimie textile et développement durable"
+    },
+    "صناعة الملابس": {
+      "en": "Apparel Industry",
+      "fr": "Industrie de l'habillement"
+    },
+    "الإجازة في الإدارة الصناعية\nلمؤسسات النسيج والملابس\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Industrial Management for Textile and Apparel Institutions 3 Years (Duration)",
+      "fr": "Licence en gestion industrielle pour les institutions textiles et de l'habillement 3 ans (durée)"
+    },
+    "إدارة الجودة والمطابقة في صناعة": {
+      "en": "Quality and Conformity Management in the Industry",
+      "fr": "Gestion de la qualité et de la conformité dans l'industrie"
+    },
+    "النسيج والملابس": {
+      "en": "Textile and Clothing",
+      "fr": "Textile et vêtements"
+    },
+    "التصنيع والإنتاج في قطاع الملابس": {
+      "en": "Manufacturing and Production in the Clothing Sector",
+      "fr": "Fabrication et production dans le secteur du vêtement"
+    },
+    "تكنولوجيا الموضة": {
+      "en": "Fashion Technology",
+      "fr": "Technologie de la mode"
+    },
+    "الاجازة في الهندسة الصناعية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Industrial Engineering 3 Years (Duration)",
+      "fr": "Licence en génie industriel 3 ans (durée)"
+    },
+    "إدارة الأنظمة الصناعية": {
+      "en": "Industrial Systems Management",
+      "fr": "Gestion des systèmes industriels"
+    },
+    "الصناعة الرقمية": {
+      "en": "Digital Industry",
+      "fr": "Industrie numérique"
+    },
+    "الإجازة في تكنولوجيا وهندسة النقل\nواللوجستية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Transport and Logistics Technology and Engineering 3 Years (Duration)",
+      "fr": "Licence en technologie et ingénierie du transport et de la logistique 3 ans (durée)"
+    },
+    "المعهد العالي للنقل واللوجستية\nبسوسة(جامعة سوسة)": {
+      "en": "Higher Institute of Transport and Logistics Souss-Massa (Sousse University)",
+      "fr": "Institut supérieur de transport et de logistique Souss-Massa (Université de Sousse)"
+    },
+    "النقل البحري": {
+      "en": "Maritime Transport",
+      "fr": "Transport maritime"
+    },
+    "النقل البري": {
+      "en": "Land transport",
+      "fr": "Transport terrestre"
+    },
+    "تشخيص وصيانة أنظمة النقل": {
+      "en": "Diagnosis and maintenance of transport systems",
+      "fr": "Diagnostic et maintenance des systèmes de transport"
+    },
+    "الإجازة في علوم الإعلامية :البيانات\nالضخمة وتحليل البيانات\n3سنوات(أمد)\nلغة التدريس:الإنقليزية، وعدد مادة\nالإنقليزية14<=": {
+      "en": "Bachelor's Degree in Informatics Sciences: Big Data and Data Analysis 3 years (duration) Language of instruction: English, number of English courses 14<=",
+      "fr": "Licence en sciences informatiques : Big Data et analyse de données 3 ans (durée) Langue d'enseignement : Anglais, nombre de cours d'anglais 14<="
+    },
+    "الإجازة في هندسة الأساليب\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Methods of Engineering 3 years (duration)",
+      "fr": "Licence en génie des méthodes 3 ans (durée)"
+    },
+    "الأساليب الصيدلانية": {
+      "en": "Pharmaceutical Methods",
+      "fr": "Méthodes pharmaceutiques"
+    },
+    "الأساليب الكيميائية": {
+      "en": "Chemical Methods",
+      "fr": "Méthodes chimiques"
+    },
+    "الأساليب الغذائية": {
+      "en": "Food Methods",
+      "fr": "Méthodes alimentaires"
+    },
+    "أساليب غذائية": {
+      "en": "Food Methods",
+      "fr": "Méthodes alimentaires"
+    },
+    "أساليب كيميائية": {
+      "en": "Chemical Methods",
+      "fr": "Méthodes chimiques"
+    },
+    "الاساليب الصناعية الكيميائية": {
+      "en": "Industrial Chemical Methods",
+      "fr": "Méthodes chimiques industrielles"
+    },
+    "الأساليب البيوتكنولوجية": {
+      "en": "Biotechnological Methods",
+      "fr": "Méthodes biotechnologiques"
+    },
+    "الأساليب الصناعية الذكية والمستدامة": {
+      "en": "Smart and Sustainable Industrial Methods",
+      "fr": "Méthodes industrielles intelligentes et durables"
+    },
+    "الجودة، حفظ الصحة، السلامة والبيئة": {
+      "en": "Quality, Health Preservation, Safety, and Environment",
+      "fr": "Qualité, préservation de la santé, sécurité et environnement"
+    },
+    "الإجازة في الطاقة والسلامة والبيئة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Energy, Safety, and Environment 3 Years (Duration)",
+      "fr": "Licence en énergie, sécurité et environnement 3 ans (durée)"
+    },
+    "الطاقة والبيئة": {
+      "en": "Energy and Environment",
+      "fr": "Énergie et environnement"
+    },
+    "التقنيات البيئية والسلامة الصناعية": {
+      "en": "Environmental Technologies and Industrial Safety",
+      "fr": "Technologies environnementales et sécurité industrielle"
+    },
+    "الإجازة في الهندسة الطاقية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Energy Engineering 3 Years (Duration)",
+      "fr": "Licence en génie énergétique 3 ans (durée)"
+    },
+    "الهندسة الطاقية المتقدمة": {
+      "en": "Advanced Energy Engineering",
+      "fr": "Génie énergétique avancé"
+    },
+    "الهندسة الطاقية": {
+      "en": "Energy Engineering",
+      "fr": "Génie énergétique"
+    },
+    "التبريد والتكييف": {
+      "en": "Cooling and Air Conditioning",
+      "fr": "Refroidissement et climatisation"
+    },
+    "الهندسة الطاقية والبيئية": {
+      "en": "Energy and Environmental Engineering",
+      "fr": "Génie énergétique et environnemental"
+    },
+    "الطاقات المتجددة": {
+      "en": "Renewable Energies",
+      "fr": "Énergies renouvelables"
+    },
+    "الطاقية والبيئة": {
+      "en": "Energy and Environment",
+      "fr": "Énergie et environnement"
+    },
+    "الإنتقال الذكي للطاقة": {
+      "en": "Smart Energy Transition",
+      "fr": "Transition énergétique intelligente"
+    },
+    "البترول،الغاز والتحول الطاقي": {
+      "en": "Oil, Gas and Energy Transition",
+      "fr": "Pétrole, gaz et transition énergétique"
+    },
+    "الطاقات الجديدة والمتجددة": {
+      "en": "New and Renewable Energies",
+      "fr": "Nouvelles énergies et énergies renouvelables"
+    },
+    "الإجازة في الهندسة الحرارية\nوالطاقات المتجددة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Thermal Engineering and Renewable Energies 3 years (Duration)",
+      "fr": "Licence en génie thermique et énergies renouvelables 3 ans (Durée)"
+    },
+    "النجاعة الطاقية للبناءات و الصناعة": {
+      "en": "Energy Efficiency of Buildings and Industry",
+      "fr": "Efficacité énergétique des bâtiments et de l'industrie"
+    },
+    "الإجازة في الهندسة المائية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Hydraulic Engineering 3 years (Duration)",
+      "fr": "Licence en génie hydraulique 3 ans (Durée)"
+    },
+    "المعهد العالي لعلوم و تقنيات المياه\nبقابس(جامعة قابس)": {
+      "en": "Higher Institute of Water Sciences and Technologies in Gabes (Gabes University)",
+      "fr": "Institut supérieur des sciences et technologies de l'eau à Gabès (Université de Gabès)"
+    },
+    "التنقيب والتجهيزات المائية": {
+      "en": "Mining and Water Facilities",
+      "fr": "Exploration et installations hydrauliques"
+    },
+    "تهيئة وإدارة الموارد المائية": {
+      "en": "Preparation and Management of Water Resources",
+      "fr": "Préparation et gestion des ressources en eau"
+    },
+    "الإجازة في الهندسة المائية والبيئة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Hydraulic Engineering and Environment 3 years (Duration)",
+      "fr": "Licence en génie hydraulique et environnement 3 ans (Durée)"
+    },
+    "الهندسة المائية والبيئة": {
+      "en": "Hydraulic Engineering and Environment",
+      "fr": "Génie hydraulique et environnement"
+    },
+    "الإجازة في الإلكترونيك والكهروتقنية\nوالآلية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Electronics and Electrotechnics and Mechanics 3 years (Duration)",
+      "fr": "Licence en électronique, électrotechnique et mécanique 3 ans (Durée)"
+    },
+    "الإلكترونيك و الكهروتقنية و الآلية": {
+      "en": "Electronics, Electrotechnics, and Mechanics",
+      "fr": "Électronique, électrotechnique et mécanique"
+    },
+    "الآلية والإعلامية الصناعية": {
+      "en": "Mechanics and Industrial Informatics",
+      "fr": "Mécanique et informatique industrielle"
+    },
+    "الأنظمة الصناعية والطاقات المتجددة": {
+      "en": "Industrial Systems and Renewable Energies",
+      "fr": "Systèmes industriels et énergies renouvelables"
+    },
+    "النظم المحمولة": {
+      "en": "Mobile Systems",
+      "fr": "Systèmes mobiles"
+    },
+    "الكترونيك السيارات": {
+      "en": "Automotive Electronics",
+      "fr": "Électronique automobile"
+    },
+    "التحكم المدمج للأنظمة الصناعية": {
+      "en": "Embedded Control for Industrial Systems",
+      "fr": "Contrôle embarqué pour les systèmes industriels"
+    },
+    "النظم الصناعية و الطاقات المتجددة": {
+      "en": "Industrial Systems and Renewable Energies",
+      "fr": "Systèmes industriels et énergies renouvelables"
+    },
+    "الالكترونيك الصناعي": {
+      "en": "Industrial Electronics",
+      "fr": "Électronique industrielle"
+    },
+    "القياسات والأدواتية": {
+      "en": "Measurements and Instrumentation",
+      "fr": "Mesures et instrumentation"
+    },
+    "النظم المحمولة والآلية الذكية": {
+      "en": "Mobile and Smart Automated Systems",
+      "fr": "Systèmes mobiles et automatisés intelligents"
+    },
+    "الآلية والإشراف والإعلامية الصناعية": {
+      "en": "Automation, Supervision, and Industrial Informatics",
+      "fr": "Automatisation, supervision et informatique industrielle"
+    },
+    "الأنظمة الكهربائية": {
+      "en": "Electrical Systems",
+      "fr": "Systèmes électriques"
+    },
+    "النظم المحمولة والتقنيات المتقدمة": {
+      "en": "Mobile Systems and Advanced Technologies",
+      "fr": "Systèmes mobiles et technologies avancées"
+    },
+    "الإلكترونيك والإعلامية الصناعية": {
+      "en": "Industrial Electronics and Informatics",
+      "fr": "Électronique et informatique industrielles"
+    },
+    "الذكاء الصناعي و الانظمة الصناعية": {
+      "en": "Artificial Intelligence and Industrial Systems",
+      "fr": "Intelligence artificielle et systèmes industriels"
+    },
+    "الطاقات الكهربائية المتجددة": {
+      "en": "Renewable electrical energies",
+      "fr": "Énergies électriques renouvelables"
+    },
+    "إنترنت الأشياء والأنظمة الصناعية": {
+      "en": "Internet of Things and Industrial Systems",
+      "fr": "Internet des objets et systèmes industriels"
+    },
+    "أنظمة التحكم الآلي والشبكات الصناعية": {
+      "en": "Automatic Control Systems and Industrial Networks",
+      "fr": "Systèmes de contrôle automatique et réseaux industriels"
+    },
+    "الإلكترونيك والتكنولوجيات المحمولة": {
+      "en": "Electronics and Mobile Technologies",
+      "fr": "Électronique et technologies mobiles"
+    },
+    "الإلكترونيات والأنظمة المدمجة": {
+      "en": "Electronics and Embedded Systems",
+      "fr": "Électronique et systèmes embarqués"
+    },
+    "أنظمة كهربائية و طاقات متجددة": {
+      "en": "Electrical Systems and Renewable Energies",
+      "fr": "Systèmes électriques et énergies renouvelables"
+    },
+    "انظمة كهربائية": {
+      "en": "Electrical Systems",
+      "fr": "Systèmes électriques"
+    },
+    "الالية و الأنظمة الصناعية": {
+      "en": "Automation and Industrial Systems",
+      "fr": "Automatisation et systèmes industriels"
+    },
+    "الطاقات المتجددة والنجاعة الطاقية.": {
+      "en": "Renewable Energies and Energy Efficiency.",
+      "fr": "Énergies renouvelables et efficacité énergétique."
+    },
+    "المعهد الوطني للتكنولوجيا والعلوم\nبالكاف(جامعة جندوبة)": {
+      "en": "National Institute of Technology and Science\\nKaf (Jendouba University)",
+      "fr": "Institut national de technologie et des sciences\\nKaf (Université de Jendouba)"
+    },
+    "الإعلامية الصناعية": {
+      "en": "Industrial Informatics",
+      "fr": "Informatique industrielle"
+    },
+    "الإجازة في الإلكتروميكانيك\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Electromechanics 3 years (full-time)",
+      "fr": "Licence en électromécanique 3 ans (temps plein)"
+    },
+    "الميكاترونيك الصناعي": {
+      "en": "Industrial Mechatronics",
+      "fr": "Mécatronique industrielle"
+    },
+    "ميكاترونيك السيارات": {
+      "en": "Automotive Mechatronics",
+      "fr": "Mécatronique automobile"
+    },
+    "الإجازة في الهندسة اللوجستية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Logistics Engineering 3 years (full-time)",
+      "fr": "Licence en génie logistique 3 ans (temps plein)"
+    },
+    "التوزيع وإدارة سلسلة الإمداد": {
+      "en": "Distribution and Supply Chain Management",
+      "fr": "Distribution et gestion de la chaîne d'approvisionnement"
+    },
+    "اللوجستية الصناعية": {
+      "en": "Industrial Logistics",
+      "fr": "Logistique industrielle"
+    },
+    "لوجستية العمليات الدولية": {
+      "en": "International Operations Logistics",
+      "fr": "Logistique des opérations internationales"
+    },
+    "اللوجستيك الصناعي": {
+      "en": "Industrial Logistics",
+      "fr": "Logistique industrielle"
+    },
+    "الاجازة في علوم النقل\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Transport Sciences 3 years (full-time)",
+      "fr": "Licence en sciences du transport 3 ans (temps plein)"
+    },
+    "الشؤون البحرية والمواني": {
+      "en": "Maritime Affairs and Ports",
+      "fr": "Affaires maritimes et ports"
+    },
+    "النقل متعدد الوسائط واللوجستية": {
+      "en": "Multimodal Transport and Logistics",
+      "fr": "Transport multimodal et logistique"
+    },
+    "الشاملة": {
+      "en": "Comprehensive",
+      "fr": "Global/Comprehensive"
+    },
+    "النقل والتخطيط الحضري": {
+      "en": "Transport and Urban Planning",
+      "fr": "Transport et urbanisme"
+    },
+    "هندسة وإدارة النقل": {
+      "en": "Transportation Engineering and Management",
+      "fr": "Génie et gestion des transports"
+    },
+    "الإجازة في الميكاترونيك\n3سنوات(أمد)": {
+      "en": "Diploma in Mechatronics 3 years (duration)",
+      "fr": "Diplôme en mécatronique 3 ans (durée)"
+    },
+    "الصيانة الصناعية والذكاء الاصطناعي": {
+      "en": "Industrial Maintenance and Artificial Intelligence",
+      "fr": "Maintenance industrielle et intelligence artificielle"
+    },
+    "التنقل الذكي": {
+      "en": "Smart Mobility",
+      "fr": "Mobilité intelligente"
+    },
+    "الميكاترونيك المتقدم": {
+      "en": "Advanced Mechatronics",
+      "fr": "Mécatronique avancée"
+    },
+    "الهندسة المعمارية والمراحل التحضيرية العلمية": {
+      "en": "Architecture and Scientific Preparatory Stages",
+      "fr": "Architecture et étapes préparatoires scientifiques"
+    },
+    "الهندسة المعمارية\n6سنوات": {
+      "en": "Architecture 6 years",
+      "fr": "Architecture 6 ans"
+    },
+    "المدرسة الوطنية للهندسة المعمارية\nو التعمير بتونس(جامعة قرطاج)": {
+      "en": "National School of Architecture and Urban Planning in Tunis (University of Carthage)",
+      "fr": "École nationale d'architecture et d'urbanisme de Tunis (Université de Carthage)"
+    },
+    "الهندسة المعمارية": {
+      "en": "Architecture",
+      "fr": "Architecture"
+    },
+    "الإجازة في التعمير و التهيئة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Urban Planning and Development 3 years (period)",
+      "fr": "Licence en urbanisme et aménagement 3 ans (période)"
+    },
+    "التعمير والتهيئة": {
+      "en": "Urban Planning and Development",
+      "fr": "Urbanisme et aménagement"
+    },
+    "المرحلة التحضيرية العلمية:رياضيات\n-فيزياء\nسنتان": {
+      "en": "Scientific Preparatory Stage: Mathematics Physics 2 years",
+      "fr": "Cycle préparatoire scientifique : Mathématiques Physique 2 ans"
+    },
+    "رياضيات فيزياء": {
+      "en": "Mathematics Physics",
+      "fr": "Mathématiques Physique"
+    },
+    "المرحلة التحضيرية العلمية :فيزياء-\nكيمياء\nسنتان": {
+      "en": "Scientific Preparatory Stage: Physics-Chemistry 2 years",
+      "fr": "Cycle préparatoire scientifique : Physique-Chimie 2 ans"
+    },
+    "فيزياء كيمياء": {
+      "en": "Physics Chemistry",
+      "fr": "Physique Chimie"
+    },
+    "مرحلة تحضيرية مندمجة في الهندسة\nالبيولوجية والبيوطبية\nسنتان 3 +سنوات": {
+      "en": "Integrated preparatory stage in Biological and Biomedical Engineering 2 years 3 + years",
+      "fr": "Cycle préparatoire intégré en génie biologique et biomédical 2 ans 3 + ans"
+    },
+    "هندسة بيولوجية وبيوطبية": {
+      "en": "Biological and Biomedical Engineering",
+      "fr": "Génie biologique et biomédical"
+    },
+    "مرحلة تحضيرية مندمجة في الهندسة\nالبيوطبية\nسنتان 3 +سنوات": {
+      "en": "Integrated preparatory cycle in Biomedical Engineering, Two years 3 + years",
+      "fr": "Cycle préparatoire intégré en Génie biomédical, Deux ans 3 + années"
+    },
+    "المعهد العالي للتكنولوجيات الطبية\nبتونس(جامعة تونس المنار)": {
+      "en": "Higher Institute of Medical Technologies in Tunis (University of Tunis El Manar)",
+      "fr": "Institut supérieur des technologies médicales à Tunis (Université de Tunis El Manar)"
+    },
+    "الهندسة البيوطبية": {
+      "en": "Biomedical Engineering",
+      "fr": "Génie biomédical"
+    },
+    "مرحلة تحضيرية مندمجة في هندسة\nبيوتكنولوجيات الصحة\nسنتان 3 +سنوات": {
+      "en": "Integrated preparatory cycle in Health Biotechnology Engineering, Two years 3 + years",
+      "fr": "Cycle préparatoire intégré en Génie de biotechnologies de la santé, Deux ans 3 + années"
+    },
+    "هندسة بيوتكنولوجيات الصحة": {
+      "en": "Health Biotechnology Engineering",
+      "fr": "Génie des biotechnologies de la santé"
+    },
+    "مرحلة تحضيرية مندمجة\nسنتان 3 +سنوات": {
+      "en": "Integrated preparatory cycle, Two years 3 + years",
+      "fr": "Cycle préparatoire intégré, Deux ans 3 + années"
+    },
+    "رياضيات - فيزياء - إعلامـيـة": {
+      "en": "Mathematics - Physics - Informatics",
+      "fr": "Mathématiques - Physique - Informatique"
+    },
+    "المعهد العالي للهندسة الرقمية\nبتونس(جامعة تونس)\nتدرس باللغة الانقليزية": {
+      "en": "Higher Institute of Digital Engineering in Tunis (University of Tunis), Taught in English",
+      "fr": "Institut supérieur d'ingénierie numérique à Tunis (Université de Tunis), Enseigné en anglais"
+    },
+    "مرحلة تحضيرية مندمجة": {
+      "en": "Integrated preparatory cycle",
+      "fr": "Cycle préparatoire intégré"
+    },
+    "مرحلة تحضيرية مندمجة في الرياضيات": {
+      "en": "Integrated preparatory year in Mathematics",
+      "fr": "Année préparatoire intégrée en Mathématiques"
+    },
+    "–الفيزياء – الإعلامية(MPI).": {
+      "en": "Physics - Informatics (MPI)",
+      "fr": "Physique - Informatique (MPI)"
+    },
+    "مرحلة تحضيرية مندمجة في الاعلامية": {
+      "en": "Integrated preparatory year in Informatics",
+      "fr": "Année préparatoire intégrée en Informatique"
+    },
+    "الإعلامية": {
+      "en": "Informatics",
+      "fr": "Informatique"
+    },
+    "مرحلة تحضيرية مندمجة في الإعلامية": {
+      "en": "Integrated preparatory year in Informatics",
+      "fr": "Année préparatoire intégrée en Informatique"
+    },
+    "(PII)": {
+      "en": "(PII)",
+      "fr": "(PII)"
+    },
+    "مرحلة تحضيرية مندمجة-علمية\nسنتان 3 +سنوات": {
+      "en": "Integrated preparatory year - Scientific\\nTwo years 3 +years",
+      "fr": "Année préparatoire intégrée - Scientifique\\nDeux ans 3 +années"
+    },
+    "مرحلة تحضيرية مندمجة) علمية)": {
+      "en": "Integrated preparatory year) Scientific)",
+      "fr": "(Année préparatoire intégrée) Scientifique)"
+    },
+    "مرحلة تحضيرية مندمجة :رياضيات-\nفيزياء و إعلامـيـة\nسنتان 3 +سنوات": {
+      "en": "Integrated preparatory year: Mathematics - Physics and Informatics\\nTwo years 3 +years",
+      "fr": "Année préparatoire intégrée : Mathématiques - Physique et Informatique\\nDeux ans 3 +années"
+    },
+    "المعهد الوطني للعلوم التطبيقية\nوالتكنولوجيا بتونس(جامعة قرطاج)": {
+      "en": "National Institute of Applied Sciences and Technology in Tunis (University of Carthage)",
+      "fr": "Institut National des Sciences Appliquées et de Technologie à Tunis (Université de Carthage)"
+    },
+    "مرحلة تحضيرية مندمجة :كـيـمـيـاء-\nبـيـولوجيا تطبيقية\nسنتان 3 +سنوات": {
+      "en": "Integrated Preparatory Stage: Chemistry - Applied Biology Years 3 + Years",
+      "fr": "Stade préparatoire intégré : Chimie - Biologie appliquée Années 3 + Années"
+    },
+    "كـيـمـيـاء - بـيـولوجيا تطبيقية": {
+      "en": "Chemistry - Applied Biology",
+      "fr": "Chimie - Biologie appliquée"
+    },
+    "مرحلة تحضيرية علمية\nسنتان": {
+      "en": "Scientific Preparatory Stage Years 2",
+      "fr": "Stade préparatoire scientifique Années 2"
+    },
+    "المعهد التحضيري للدراسات\nالهندسية بتونس(جامعة تونس)": {
+      "en": "The Institute of Preparatory Studies for Engineering in Tunis (University of Tunis)",
+      "fr": "L'Institut préparatoire des études d'ingénieurs à Tunis (Université de Tunis)"
+    },
+    "رياضيات - فيزياء/فيزياء - كيمياء": {
+      "en": "Mathematics - Physics/Physics - Chemistry",
+      "fr": "Mathématiques - Physique/Physique - Chimie"
+    },
+    "المعهد التحضيري للدراسات\nالهندسية بالمنار(جامعة تونس\nالمنار)": {
+      "en": "The Institute of Preparatory Studies for Engineering in Manar (University of Tunis El Manar)",
+      "fr": "L'Institut préparatoire des études d'ingénieurs à Manar (Université de Tunis El Manar)"
+    },
+    "المعهد التحضيري للدراسات\nالهندسية ببنزرت(جامعة قرطاج)": {
+      "en": "The Institute of Preparatory Studies for Engineering in Benghazi (University of Carthage)",
+      "fr": "L'Institut préparatoire des études d'ingénieurs à Benghazi (Université de Carthage)"
+    },
+    "المعهد التحضيري للدراسات\nالهندسية بنابل(جامعة قرطاج)": {
+      "en": "The Institute of Preparatory Studies for Engineering in Nabeul (University of Carthage)",
+      "fr": "L'Institut préparatoire des études d'ingénieurs à Nabeul (Université de Carthage)"
+    },
+    "المعهد التحضيري للدراسات\nالهندسية بالمنستير(جامعة المنستير)": {
+      "en": "The Institute of Preparatory Studies for Engineering in Monastir (University of Monastir)",
+      "fr": "L'Institut préparatoire des études d'ingénieurs à Monastir (Université de Monastir)"
+    },
+    "المعهد التحضيري للدراسات\nالهندسية بصفاقس(جامعة صفاقس)": {
+      "en": "The Institute of Preparatory Studies for Engineering in Sfax (University of Sfax)",
+      "fr": "L'Institut préparatoire des études d'ingénieurs à Sfax (Université de Sfax)"
+    },
+    "المعهد التحضيري للدراسات\nالهندسية بقابس(جامعة قابس)": {
+      "en": "Preparatory Institute for Engineering Studies in Gabes (Gabes University)",
+      "fr": "Institut préparatoire des études d'ingénieurs à Gabès (Université de Gabès)"
+    },
+    "المعهد التحضيري للدراسات\nالهندسية بقفصة(جامعة قفصة)": {
+      "en": "Preparatory Institute for Engineering Studies in Gafsa (Gafsa University)",
+      "fr": "Institut préparatoire des études d'ingénieurs à Gafsa (Université de Gafsa)"
+    },
+    "المعهد التحضيري للدراسات\nالهندسية بالقيروان(جامعة القيروان)": {
+      "en": "Preparatory Institute for Engineering Studies in Kairouan (Kairouan University)",
+      "fr": "Institut préparatoire des études d'ingénieurs à Kairouan (Université de Kairouan)"
+    },
+    "مرحلة تحضيرية مندمجة :رياضيات-\nفيزياء -كيمياء\nسنتان 3 +سنوات": {
+      "en": "Integrated preparatory stage: Mathematics-Physics-Chemistry Two years 3 + years",
+      "fr": "Cycle préparatoire intégré : Mathématiques-Physique-Chimie Deux ans 3 + années"
+    },
+    "المدرسة الوطنية للمهندسين\nبمنوبة(جامعة منوبة)\nتدرس باللغة الانقليزية": {
+      "en": "National School of Engineers in Manouba (Manouba University) Taught in English",
+      "fr": "École nationale d'ingénieurs de Manouba (Université de Manouba) Enseigné en anglais"
+    },
+    "هندسة إيكولوجية": {
+      "en": "Ecological Engineering",
+      "fr": "Génie écologique"
+    },
+    "الجيوماتيك": {
+      "en": "Geomatics",
+      "fr": "Géomatique"
+    },
+    "مرحلة تحضيرية - تكنولوجيا\nسنتان": {
+      "en": "Preparatory stage - Technology Two years",
+      "fr": "Cycle préparatoire - Technologie Deux ans"
+    },
+    "تكنولوجيا": {
+      "en": "Technology",
+      "fr": "Technologie"
+    },
+    "مرحلة تحضيرية :بيولوجيا-\nجيولوجيا\nسنتان": {
+      "en": "Preparatory stage: Biology-Geology Two years",
+      "fr": "Cycle préparatoire : Biologie-Géologie Deux ans"
+    },
+    "بيولوجيا - جيولوجيا": {
+      "en": "Biology - Geology",
+      "fr": "Biologie - Géologie"
+    },
+    "المعهد العالى للدراسات التحضيرية\nفي البيولوجيا و الجولوجيا\nبسكرة(جامعة قرطاج)": {
+      "en": "Higher Institute for Preparatory Studies in Biology and Geology Sfax (University of Carthage)",
+      "fr": "Institut supérieur des études préparatoires en biologie et géologie Sfax (Université de Carthage)"
+    },
+    "علوم الصحة والطب وطب الأسنان والصيدلة": {
+      "en": "Health Sciences, Medicine, Dentistry, and Pharmacy",
+      "fr": "Sciences de la santé, médecine, dentisterie et pharmacie"
+    },
+    "الإجازة في البيوتكنولوجيا الطبية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Medical Biotechnology 3 Years (Full-time)",
+      "fr": "Licence en biotechnologie médicale 3 ans (temps plein)"
+    },
+    "الإنتاج الحيوي والجودة": {
+      "en": "Bioproduction and Quality",
+      "fr": "Bioproduction et qualité"
+    },
+    "التشخيص الطبي الحيوي": {
+      "en": "Biological Medical Diagnosis",
+      "fr": "Diagnostic médical biologique"
+    },
+    "الإجازة في الصحة والسلامة المهنية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Occupational Health and Safety 3 Years (Full-time)",
+      "fr": "Licence en santé et sécurité au travail 3 ans (temps plein)"
+    },
+    "الصحة والسلامة المهنية": {
+      "en": "Occupational Health and Safety",
+      "fr": "Santé et sécurité au travail"
+    },
+    "الإجازة في القياس و صيانة الأجهزة\nالطبية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Measurement and Maintenance of Medical Devices 3 Years (Full-time)",
+      "fr": "Licence en mesure et maintenance des dispositifs médicaux 3 ans (temps plein)"
+    },
+    "القياس و صيانة الأجهزة الطبية": {
+      "en": "Measurement and Maintenance of Medical Devices",
+      "fr": "Mesure et maintenance des dispositifs médicaux"
+    },
+    "الـطــب\n9سنوات\nعلوم الحياة والأرض إجبارية(+)": {
+      "en": "Medicine 9 years Life and Earth Sciences mandatory(+)",
+      "fr": "Médecine 9 ans Sciences de la vie et de la Terre obligatoire(+)"
+    },
+    "كلية الطب بتونس(جامعة تونس\nالمنار)": {
+      "en": "Faculty of Medicine in Tunis (University of Tunis El Manar)",
+      "fr": "Faculté de médecine à Tunis (Université de Tunis El Manar)"
+    },
+    "الـطــب": {
+      "en": "Medicine",
+      "fr": "Médecine"
+    },
+    "آداب(+)": {
+      "en": "Arts(+)",
+      "fr": "Lettres/Arts(+)"
+    },
+    "كلية الطب بسوسة(جامعة سوسة)": {
+      "en": "Faculty of Medicine in Sousse (University of Sousse)",
+      "fr": "Faculté de médecine à Sousse (Université de Sousse)"
+    },
+    "كلية الطب بالمنستير(جامعة\nالمنستير)": {
+      "en": "Faculty of Medicine in Monastir (University of Monastir)",
+      "fr": "Faculté de médecine à Monastir (Université de Monastir)"
+    },
+    "كلية الطب بصفاقس(جامعة صفاقس)": {
+      "en": "Faculty of Medicine in Sfax (University of Sfax)",
+      "fr": "Faculté de médecine à Sfax (Université de Sfax)"
+    },
+    "الـصـيــــدلــــة\n6سنوات\nعلوم الحياة والأرض إجبارية(+)": {
+      "en": "Pharmacy 6 years Life and Earth Sciences mandatory(+)",
+      "fr": "Pharmacie 6 ans Sciences de la vie et de la Terre obligatoire(+)"
+    },
+    "كلية الصيدلة بالمنستير(جامعة\nالمنستير)": {
+      "en": "Faculty of Pharmacy in Monastir (University of Monastir)",
+      "fr": "Faculté de pharmacie à Monastir (Université de Monastir)"
+    },
+    "الـصـيــــدلــــة": {
+      "en": "Pharmacy",
+      "fr": "Pharmacie"
+    },
+    "طـــب الأسـنـــان\n6سنوات\nعلوم الحياة والأرض إجبارية(+)": {
+      "en": "Dentistry 6 years Life and Earth Sciences mandatory(+)",
+      "fr": "Médecine dentaire 6 ans Sciences de la vie et de la Terre obligatoire(+)"
+    },
+    "كلية طب الأسنان بالمنستير(جامعة\nالمنستير)": {
+      "en": "Faculty of Dentistry in Monastir (University of Monastir)",
+      "fr": "Faculté de médecine dentaire de Monastir (Université de Monastir)"
+    },
+    "طـــب الأسـنـــان": {
+      "en": "Dentistry",
+      "fr": "Médecine dentaire"
+    },
+    "الإجازة في مبحث وتدريم القدم\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Orthopedics and Podiatry 3 years (period)",
+      "fr": "Licence en orthopédie et podiatrie 3 ans (période)"
+    },
+    "المدرسة العليا لعلوم و تقنيات\nالصحة بسوسة(جامعة سوسة)": {
+      "en": "Higher School of Health Sciences and Technologies in Sousse (University of Sousse)",
+      "fr": "École supérieure des sciences et technologies de la santé de Sousse (Université de Sousse)"
+    },
+    "مبحث وتدريم القدم": {
+      "en": "Orthopedics and Podiatry",
+      "fr": "Orthopédie et podiatrie"
+    },
+    "الإجازة في الـتـبـنـيـج والإنعاش\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Tetanus and Resuscitation 3 years (period)",
+      "fr": "Licence en tétanisation et réanimation 3 ans (période)"
+    },
+    "المدرسة العليا لعلوم وتقنيات الصحة\nبتونس(جامعة تونس المنار)": {
+      "en": "Higher School of Health Sciences and Technologies in Tunis (University of Tunis El Manar)",
+      "fr": "École supérieure des sciences et technologies de la santé de Tunis (Université de Tunis El Manar)"
+    },
+    "التبنيج والإنعاش": {
+      "en": "Tetanus and Resuscitation",
+      "fr": "Tétanisation et réanimation"
+    },
+    "المدرسة العليا لعلوم وتقنيات الصحة\nبالمنستير(جامعة المنستير)": {
+      "en": "Higher School of Health Sciences and Technologies in Monastir (University of Monastir)",
+      "fr": "École supérieure des sciences et technologies de la santé de Monastir (Université de Monastir)"
+    },
+    "المدرسة العليا لعلوم وتقنيات الصحة\nبصفاقس(جامعة صفاقس)": {
+      "en": "Higher School of Health Sciences and Technologies in Sfax (Sfax University)",
+      "fr": "École supérieure des sciences et technologies de la santé à Sfax (Université de Sfax)"
+    },
+    "المدرسة العليا لعلوم و تقنيات\nالصحة بقفصة(جامعة قفصة)": {
+      "en": "Higher School of Sciences and Technologies of Health in Gafsa (Gafsa University)",
+      "fr": "École supérieure des sciences et technologies de la santé à Gafsa (Université de Gafsa)"
+    },
+    "الإجازة في التصوير الطبي والعلاج\nبالأشعة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Medical Imaging and Radiotherapy 3 years (Duration)",
+      "fr": "Licence en imagerie médicale et radiothérapie 3 ans (Durée)"
+    },
+    "التصوير الطبي والمداواة بالأشعة": {
+      "en": "Medical Imaging and Radiotherapy",
+      "fr": "Imagerie médicale et radiothérapie"
+    },
+    "الإجازة في حفظ الصحة والسلامة\nوالبيئة\n3سنوات(أمد)\nعلوم الحياة والأرض إجبارية(+)": {
+      "en": "Bachelor's Degree in Health, Safety and Environment 3 years (Duration) Life and Earth Sciences mandatory (+)",
+      "fr": "Licence en santé, sécurité et environnement 3 ans (Durée) Sciences de la vie et de la Terre obligatoire (+)"
+    },
+    "حفظ الصحة والسلامة والبيئة": {
+      "en": "Health, Safety and Environment",
+      "fr": "Santé, sécurité et environnement"
+    },
+    "الإجازة في البيولوجيا الطبية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Medical Biology 3 years (Duration)",
+      "fr": "Licence en biologie médicale 3 ans (Durée)"
+    },
+    "البيولوجيا الطبية": {
+      "en": "Medical Biology",
+      "fr": "Biologie médicale"
+    },
+    "الإجازة في العلاج الطبيعي\n3سنوات(أمد)\nعلوم الحياة والأرض إجبارية(+)\nتربية بدنية إجبارية لكل الشعب": {
+      "en": "Bachelor's Degree in Physical Therapy 3 years (Duration) Life and Earth Sciences mandatory (+) Mandatory Physical Education for all majors",
+      "fr": "Licence en kinésithérapie 3 ans (Durée) Sciences de la vie et de la Terre obligatoire (+) Éducation physique obligatoire pour toutes les filières"
+    },
+    "العلاج الطبيعي": {
+      "en": "Physical Therapy",
+      "fr": "Kinésithérapie"
+    },
+    "المدرسة العليا لعلوم وتقنيات الصحة\nبتونس(جامعة تونس المنار)\nشعبة مخصصة للناجحين من\nمعاهد المكفوفين وشعبة ذات\nاختبار وغير معنية بالتنفيل\nالجغرافي": {
+      "en": "Higher School of Health Sciences and Technologies in Tunis (University of Tunis El Manar) - A specialized department for successful graduates from Institutes for the Blind and a department with an exam and not concerned with geographical profiling.",
+      "fr": "École supérieure des sciences et technologies de la santé à Tunis (Université de Tunis El Manar) - Une filière spécialisée pour les diplômés des instituts pour aveugles et une filière avec un examen et non concernée par le profilage géographique."
+    },
+    "الإجازة في تقويـم النطـق والكلام\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Speech and Language Therapy - 3 years (duration)",
+      "fr": "Licence en orthophonie et langage - 3 ans (durée)"
+    },
+    "تقويم النطق والكلام": {
+      "en": "Speech and Language Therapy",
+      "fr": "Orthophonie et langage"
+    },
+    "لاجازة في الآلات المقومة للأعضاء\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Prosthetic Devices - 3 years (duration)",
+      "fr": "Licence en dispositifs prothétiques - 3 ans (durée)"
+    },
+    "الآلات المقومة للأعضاء": {
+      "en": "Prosthetic Devices",
+      "fr": "Dispositifs prothétiques"
+    },
+    "الإجازة في التغذية البشرية\n3سنوات(أمد)\nعلوم الحياة والأرض إجبارية(+)": {
+      "en": "Bachelor's Degree in Human Nutrition - 3 years (duration) - Life and Earth Sciences mandatory(+)",
+      "fr": "Licence en nutrition humaine - 3 ans (durée) - Sciences de la vie et de la Terre obligatoire (+)"
+    },
+    "التغذية البشرية": {
+      "en": "Human Nutrition",
+      "fr": "Nutrition humaine"
+    },
+    "الاجازة في العلاج الوظيفي\n3سنوات(أمد)\nعلوم الحياة والأرض إجبارية(+)": {
+      "en": "Bachelor's Degree in Occupational Therapy - 3 years (duration) - Life and Earth Sciences mandatory(+)",
+      "fr": "Licence en ergothérapie - 3 ans (durée) - Sciences de la vie et de la Terre obligatoire (+)"
+    },
+    "العلاج الوظيفي": {
+      "en": "Occupational Therapy",
+      "fr": "Ergothérapie"
+    },
+    "الإجازة في علوم البصر\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Vision Sciences - 3 years (duration)",
+      "fr": "Licence en sciences de la vision - 3 ans (durée)"
+    },
+    "علوم البصر": {
+      "en": "Ophthalmology",
+      "fr": "Ophtalmologie"
+    },
+    "الإجازة في أدواتية قاعة العمليات\nالجراحية\n3سنوات(أمد)": {
+      "en": "Degree in Surgical Operating Room Instrumentation 3 years (duration)",
+      "fr": "Diplôme en instrumentation de salle d'opération chirurgicale 3 ans (durée)"
+    },
+    "أدواتية قاعة العمليات الجراحية": {
+      "en": "Surgical Operating Room Instrumentation",
+      "fr": "Instrumentation de salle d'opération chirurgicale"
+    },
+    "الإجازة في بدائل الأسـنـان\n3سنوات(أمد)\nعلوم الحياة والأرض إجبارية(+)": {
+      "en": "Degree in Dental Implants 3 years (duration) Life and Earth Sciences mandatory(+)",
+      "fr": "Diplôme en implants dentaires 3 ans (durée) Sciences de la vie et de la Terre obligatoire(+)"
+    },
+    "بدائل الأسـنـان": {
+      "en": "Dental Implants",
+      "fr": "Implants dentaires"
+    },
+    "الإجازة في تركيب و إستعمال آلة سمع\n3سنوات(أمد)": {
+      "en": "Degree in Hearing Aid Fitting and Use 3 years (duration)",
+      "fr": "Diplôme en pose et utilisation d'appareils auditifs 3 ans (durée)"
+    },
+    "تركيب و إستعمال آلة سمع": {
+      "en": "Hearing Aid Fitting and Use",
+      "fr": "Pose et utilisation d'appareils auditifs"
+    },
+    "الإجازة في الرعـايـة الصحية للطفل\n3سنوات(أمد)\nعلوم الحياة والأرض إجبارية(+)": {
+      "en": "Degree in Child Health Care 3 years (duration) Life and Earth Sciences mandatory(+)",
+      "fr": "Diplôme en soins de santé infantile 3 ans (durée) Sciences de la vie et de la Terre obligatoire(+)"
+    },
+    "الرعـايـة الصحية للطفل": {
+      "en": "Child Health Care",
+      "fr": "Soins de santé infantile"
+    },
+    "الإجازة في الهندسة البيوطبية\n3سنوات(أمد)": {
+      "en": "Degree in Biomedical Engineering 3 years (duration)",
+      "fr": "Diplôme en ingénierie biomédicale 3 ans (durée)"
+    },
+    "الإعلامية الطبية": {
+      "en": "Medical Informatics",
+      "fr": "Informatique médicale"
+    },
+    "الأنظمة الالكترونية المحمولة": {
+      "en": "Mobile Electronic Systems",
+      "fr": "Systèmes électroniques mobiles"
+    },
+    "تكنولوجيات الأجهزة الطبية": {
+      "en": "Medical Device Technologies",
+      "fr": "Technologies des dispositifs médicaux"
+    },
+    "تكنولوجيات التصوير الطبي": {
+      "en": "Medical Imaging Technologies",
+      "fr": "Technologies d'imagerie médicale"
+    },
+    "الصحة الرقمية و المعلوماتية الطبية": {
+      "en": "Digital Health and Medical Informatics",
+      "fr": "Santé numérique et informatique médicale"
+    },
+    "المعدات الطبية و الأنظمة الذكية": {
+      "en": "Medical Equipment and Smart Systems",
+      "fr": "Équipement médical et systèmes intelligents"
+    },
+    "هندسة معدات التصوير الطبي": {
+      "en": "Engineering of Medical Imaging Equipment",
+      "fr": "Génie des équipements d'imagerie médicale"
+    },
+    "الإجازة في الرعاية الصحية\nالإستعجالية والانعاش\n3سنوات(أمد)\nعلوم الحياة والأرض إجبارية(+)": {
+      "en": "Bachelor's Degree in Healthcare, Emergency and Resuscitation, 3 Years (Duration), Mandatory Life and Earth Sciences (+)",
+      "fr": "Licence en soins de santé, urgences et réanimation, 3 ans (durée), Sciences de la vie et de la Terre obligatoire (+)"
+    },
+    "الرعاية الصحية والاستعجالية والإنعاش": {
+      "en": "Healthcare, Emergency and Resuscitation",
+      "fr": "Soins de santé, urgences et réanimation"
+    },
+    "الإجازة في علوم التغذية التطبيقية في\nالأداء الرياضي\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Applied Nutrition in Sports Performance, 3 Years (Duration)",
+      "fr": "Licence en nutrition appliquée en performance sportive, 3 ans (durée)"
+    },
+    "علوم التغذية التطبيقية في الأداء": {
+      "en": "Applied Nutritional Sciences in Performance",
+      "fr": "Sciences nutritionnelles appliquées en performance"
+    },
+    "الرياضي": {
+      "en": "Sports",
+      "fr": "Sportif"
+    },
+    "الإجازة في علوم التمريض\n3سنوات(أمد)\nعلوم الحياة والأرض إجبارية(+)\nتربية بدنية إجبارية لكل الشعب\nشعبة تتطلب اختبار": {
+      "en": "Bachelor's Degree in Nursing Sciences\\n3 years (duration)\\nLife and Earth Sciences mandatory (+)\\nPhysical Education mandatory for all majors\\nMajor requiring an exam",
+      "fr": "Licence en sciences infirmières\\n3 ans (durée)\\nSciences de la vie et de la terre obligatoire (+)\\nÉducation physique obligatoire pour toutes les filières\\nFilière nécessitant un examen"
+    },
+    "المعهد العالي لعلوم التمريض\nبتونس(جامعة تونس المنار)": {
+      "en": "Higher Institute of Nursing Sciences\\nin Tunis (University of Tunis El Manar)",
+      "fr": "Institut supérieur des sciences infirmières\\nà Tunis (Université de Tunis El Manar)"
+    },
+    "علوم التمريض": {
+      "en": "Nursing Sciences",
+      "fr": "Sciences infirmières"
+    },
+    "المعهد العالي لعلوم التمريض\nبسوسة(جامعة سوسة)": {
+      "en": "Higher Institute of Nursing Sciences\\nin Sousse (Sousse University)",
+      "fr": "Institut supérieur des sciences infirmières\\nà Sousse (Université de Sousse)"
+    },
+    "المعهد العالي لعلوم التمريض\nبصفاقس(جامعة صفاقس)": {
+      "en": "Higher Institute of Nursing Sciences\\nin Sfax (Sfax University)",
+      "fr": "Institut supérieur des sciences infirmières\\nà Sfax (Université de Sfax)"
+    },
+    "المعهد العالي لعلوم التمريض\nبقابس(جامعة قابس)": {
+      "en": "Higher Institute of Nursing Sciences\\nin Gabes (Gabes University)",
+      "fr": "Institut supérieur des sciences infirmières\\nà Gabès (Université de Gabès)"
+    },
+    "المعهد العالي لعلوم التمريض\nبالكاف(جامعة جندوبة)": {
+      "en": "Higher Institute of Nursing Sciences\\nin Kairouan (Jendouba University)",
+      "fr": "Institut supérieur des sciences infirmières\\nà Kairouan (Université de Jendouba)"
+    },
+    "الإجازة في علوم الـتــولـيـــد - قابلة\n3سنوات(أمد)\nعلوم الحياة والأرض إجبارية(+)": {
+      "en": "Bachelor's Degree in Midwifery Sciences - Midwife\\n3 years (duration)\\nLife and Earth Sciences mandatory (+)",
+      "fr": "Licence en sciences de la maternité - Sage\\n3 ans (durée)\\nSciences de la vie et de la terre obligatoire (+)"
+    },
+    "علوم الـتــولـيـــد - قابلة": {
+      "en": "Generation Sciences - Available",
+      "fr": "Sciences de génération - Disponible"
+    },
+    "العلوم الفلاحية والبيوتكنولوجيا والبيئة": {
+      "en": "Agricultural Sciences, Biotechnology and Environment",
+      "fr": "Sciences agricoles, biotechnologie et environnement"
+    },
+    "الإجازة في البيوتكنولوجيا\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Biotechnology\\n3 years (duration)",
+      "fr": "Licence en biotechnologie\\n3 ans (durée)"
+    },
+    "البيولوجيا التحليلية و التجريبية": {
+      "en": "Analytical and Experimental Biology",
+      "fr": "Biologie analytique et expérimentale"
+    },
+    "المكملات الغذائية و المغذيات العلاجية": {
+      "en": "Dietary Supplements and Therapeutic Nutrients",
+      "fr": "Compléments alimentaires et nutriments thérapeutiques"
+    },
+    "بيوتكنولوجيا و صناعات صيدلية": {
+      "en": "Biotechnology and Pharmaceutical Industries",
+      "fr": "Biotechnologie et industries pharmaceutiques"
+    },
+    "إدارة الأساليب والجودة في الصناعات": {
+      "en": "Management of Methods and Quality in Industries",
+      "fr": "Gestion des méthodes et de la qualité dans les industries"
+    },
+    "الغذائية": {
+      "en": "Food",
+      "fr": "Alimentaire"
+    },
+    "علم الأحياء الدقيقة التطبيقي والمراقبة": {
+      "en": "Applied Microbiology and Monitoring",
+      "fr": "Microbiologie appliquée et contrôle"
+    },
+    "الميكروبيولوجية": {
+      "en": "Microbiology",
+      "fr": "Microbiologie"
+    },
+    "مراقبة جودة الأغذية وحفظ الصحة": {
+      "en": "Food Quality Control and Health Preservation",
+      "fr": "Contrôle de la qualité des aliments et préservation de la santé"
+    },
+    "تحاليل وتجارب بيولوجية": {
+      "en": "Biological Analyses and Experiments",
+      "fr": "Analyses et expériences biologiques"
+    },
+    "البيوتكنوجيا الجرثومية": {
+      "en": "Microbial Biotechnology",
+      "fr": "Biotechnologie microbienne"
+    },
+    "التحاليل والتجارب البيولوجية": {
+      "en": "Biological Analyses and Experiments",
+      "fr": "Analyses et expériences biologiques"
+    },
+    "الجودة وحفظ الصحة والسلامة الصحية": {
+      "en": "Quality, Health Preservation, and Food Safety",
+      "fr": "Qualité, préservation de la santé et sécurité alimentaire"
+    },
+    "الصناعات الحيوية والبيوتكنولوجيا": {
+      "en": "Biindustries and Biotechnology",
+      "fr": "Industries bio et biotechnologie"
+    },
+    "الجرثومية": {
+      "en": "Microbial",
+      "fr": "Microbien"
+    },
+    "الصناعات الصيدلانية وشبه الصيدلانية": {
+      "en": "Pharmaceutical and Semi-pharmaceutical Industries",
+      "fr": "Industries pharmaceutiques et semi-pharmaceutiques"
+    },
+    "أنظمة الجودة في الصناعات الغذائية": {
+      "en": "Quality Systems in the Food Industry",
+      "fr": "Systèmes de qualité dans l'industrie alimentaire"
+    },
+    "التحاليل البيولوجية والعلوم الزراعية": {
+      "en": "Biological Analyses and Agricultural Sciences",
+      "fr": "Analyses biologiques et sciences agricoles"
+    },
+    "التحاليل البيولوجية والتكنولوجيا": {
+      "en": "Biological Analyses and Technology",
+      "fr": "Analyses biologiques et technologie"
+    },
+    "الحيوية": {
+      "en": "Biology",
+      "fr": "Biologie"
+    },
+    "الإجازة في علوم وتقنيات الأغذية\n3سنوات(أمد)": {
+      "en": "Degree in Food Science and Technologies 3 years (duration)",
+      "fr": "Diplôme en sciences et technologies alimentaires 3 ans (durée)"
+    },
+    "المدرسة العليا للصناعات الغذائية\nبتونس(جامعة قرطاج)": {
+      "en": "Higher School of Food Industries Tunis (University of Carthage)",
+      "fr": "École supérieure des industries alimentaires Tunis (Université de Carthage)"
+    },
+    "الصناعات والاساليب الغذائية المستدامة": {
+      "en": "Sustainable Food Industries and Methods",
+      "fr": "Industries et méthodes alimentaires durables"
+    },
+    "هندسة الأساليب الغذائية": {
+      "en": "Food Technologies Engineering",
+      "fr": "Génie des technologies alimentaires"
+    },
+    "التغذية والصحة الذكية": {
+      "en": "Nutrition and Smart Health",
+      "fr": "Nutrition et santé intelligente"
+    },
+    "الجودة والسلامة والتحكم في المنتجات": {
+      "en": "Quality, Safety, and Product Control",
+      "fr": "Qualité, sécurité et contrôle des produits"
+    },
+    "الصناعات الغذائية و البيوصناعة": {
+      "en": "Food Industries and Bioprocessing",
+      "fr": "Industries alimentaires et bioprocédés"
+    },
+    "الصناعات والأساليب الغذائية": {
+      "en": "Food Industries and Methods",
+      "fr": "Industries et méthodes alimentaires"
+    },
+    "مراقبة جودة الأغذية": {
+      "en": "Food Quality Control",
+      "fr": "Contrôle de la qualité des aliments"
+    },
+    "لاجازة في تقنيات الأغذية والحوكمة\nالبيئية\n3سنوات(أمد)": {
+      "en": "Degree in Food Technologies and Environmental Governance 3 years (duration)",
+      "fr": "Diplôme en technologies alimentaires et gouvernance environnementale 3 ans (durée)"
+    },
+    "تقنيات الأغذية والحوكمة البيئية": {
+      "en": "Food Technologies and Environmental Governance",
+      "fr": "Technologies alimentaires et gouvernance environnementale"
+    },
+    "الإجازة في العلوم الفلاحية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Agricultural Sciences 3 years (duration)",
+      "fr": "Licence en sciences agricoles 3 ans (durée)"
+    },
+    "المدرسة العليا للفلاحة بمقرن(جامعة\nقرطاج)": {
+      "en": "Higher School of Agriculture in Maghrab (University of Carthage)",
+      "fr": "École supérieure d'agriculture à Maghrab (Université de Carthage)"
+    },
+    "إدارة وبعث المؤسسات الفلاحية": {
+      "en": "Management and Development of Agricultural Institutions",
+      "fr": "Gestion et développement des institutions agricoles"
+    },
+    "المدرسة العليا للفلاحة بماطر(جامعة\nقرطاج)": {
+      "en": "Higher School of Agriculture in Matar (University of Carthage)",
+      "fr": "École supérieure d'agriculture à Matar (Université de Carthage)"
+    },
+    "الإنتاج الحيواني و الموارد العلفية": {
+      "en": "Animal Production and Forage Resources",
+      "fr": "Production animale et ressources fourragères"
+    },
+    "معهد الغابات والمراعي\nبطبرقة(جامعة جندوبة)": {
+      "en": "Forestry and Pasture Institute in Tabarka (University of Jendouba)",
+      "fr": "Institut forestier et des pâturages à Tabarka (Université de Jendouba)"
+    },
+    "علـوم وتقنيـات الغابـــات": {
+      "en": "Forestry Sciences and Technologies",
+      "fr": "Sciences et technologies forestières"
+    },
+    "المدرسة العليا للفلاحة بالكاف(جامعة\nجندوبة)": {
+      "en": "Higher School of Agriculture in Kaf (University of Jendouba)",
+      "fr": "École supérieure d'agriculture de Kaf (Université de Jendouba)"
+    },
+    "الإجازة في العلوم والتقنيات الزراعية": {
+      "en": "Bachelor's Degree in Agricultural Sciences and Technologies",
+      "fr": "Licence en sciences et technologies agricoles"
+    },
+    "المستدامة والمبتكرة": {
+      "en": "Sustainable and Innovative",
+      "fr": "Durable et innovante"
+    },
+    "الإجازة في هندسة تكنولوجيات\nالصناعات الغذائية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Food Industries Technologies Engineering 3 years (duration)",
+      "fr": "Licence en génie des technologies des industries alimentaires 3 ans (durée)"
+    },
+    "هندسة تكنولوجيات الصناعات الغذائية": {
+      "en": "Food Industries Technologies Engineering",
+      "fr": "Génie des technologies des industries alimentaires"
+    },
+    "الإجازة في علوم البحار\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Marine Sciences 3 years (duration)",
+      "fr": "Licence en sciences marines 3 ans (durée)"
+    },
+    "المعهد العالي لعلوم البحار\nببنزرت(جامعة قرطاج)": {
+      "en": "Higher Institute of Marine Sciences in Bizerte (University of Carthage)",
+      "fr": "Institut supérieur des sciences marines à Bizerte (Université de Carthage)"
+    },
+    "علوم البحار :التكنولوجيا والحوكمة": {
+      "en": "Marine Sciences: Technology and Governance",
+      "fr": "Sciences marines : Technologie et gouvernance"
+    },
+    "الإجازة في التهيئة والتصرف المستدام\nفي المساحات الخضراء\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Sustainable Planning and Management of Green Spaces 3 years (duration)",
+      "fr": "Licence en aménagement et gestion durable des espaces verts 3 ans (durée)"
+    },
+    "المعهد العالي للعلوم الفلاحية بشط\nمريم(جامعة سوسة)": {
+      "en": "Higher Institute of Agricultural Sciences in Cheb Miriam (University of Sousse)",
+      "fr": "Institut supérieur des sciences agricoles à Cheb Miriam (Université de Sousse)"
+    },
+    "التهيئة والتصرف المستدام في": {
+      "en": "Sustainable Development and Management in",
+      "fr": "Développement et gestion durable dans"
+    },
+    "المساحات الخضراء": {
+      "en": "Green Spaces",
+      "fr": "Espaces verts"
+    },
+    "الإجازة في البستنة المندمجة\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Integrated Horticulture 3 Years (Duration)",
+      "fr": "Licence en horticulture intégrée 3 ans (durée)"
+    },
+    "البستنة المندمجة": {
+      "en": "Integrated Horticulture",
+      "fr": "Horticulture intégrée"
+    },
+    "الإجازة في التكنولوجيات والإبتكارات\nفي العلوم الفلاحية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Technologies and Innovations in Agricultural Sciences 3 Years (Duration)",
+      "fr": "Licence en technologies et innovations en sciences agricoles 3 ans (durée)"
+    },
+    "التكنولوجيات والإبتكارات في العلوم": {
+      "en": "Technologies and Innovations in Science",
+      "fr": "Technologies et innovations en science"
+    },
+    "الفلاحية": {
+      "en": "Agricultural",
+      "fr": "Agricole"
+    },
+    "الاجازة في الطبوغرافيا والتهيئة\nالترابية\n3سنوات(أمد)": {
+      "en": "Bachelor's Degree in Topography and Territorial Planning 3 Years (Duration)",
+      "fr": "Licence en topographie et aménagement du territoire 3 ans (durée)"
+    },
+    "طبوغرافيا والتهيئة الترابية": {
+      "en": "Topography and Territorial Planning",
+      "fr": "Topographie et aménagement du territoire"
+    }
+  }
+}
